@@ -13,7 +13,7 @@ hide:
         <div class="mdx-hero__content">
             <h1>A sysop's guide for C*Base on C64 – to set up, manage, and master <div id="typewriter"></div></h1>
             <h2>Coming 2025. Loading...</h2>
-            <p>In collaboaration with <b>Triad</b>, <b>Raiders of the Lost Empire</b> and <b>Judas</b></p>
+            <p>In collaboration with <b>Triad</b>, <b>Raiders of the Lost Empire</b> and <b>Judas</b></p>
             
         </div>
       </div>
