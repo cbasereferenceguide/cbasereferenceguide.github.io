@@ -11,7 +11,7 @@ hide:
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__content">
-            <h1>An essential C*Base guide for sysops, from aspiring to expert – to configure, manage, and master <div id="typewriter"></div></h1>
+            <h1>An essential C*Base reference for sysop's, from aspiring to expert – to manage, and master <div id="typewriter"></div></h1>
             <h2>Coming 2025. Loading...</h2>
             <p>In collaboration with <b>Triad</b>, <b>Raiders of the Lost Empire</b> and <b>Judas</b></p>
             
