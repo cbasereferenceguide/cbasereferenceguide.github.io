@@ -1,0 +1,74 @@
+#typewriter {
+    display: inline;
+}
+
+.mdx-hero {
+    color: var(--hb-hero-color);
+    margin: 0 0.8rem;
+}
+
+.mdx-hero h1 {
+    color: currentcolor;
+    margin-bottom: 1rem;
+    font-size: 2.6rem;
+}
+
+@media screen and (max-width: 29.9375em) {
+    .mdx-hero h1 {
+        font-size: 1.4rem;
+    }
+}
+
+.mdx-hero__content {
+    /*padding-bottom: 6rem;*/
+}
+
+@media screen and (min-width: 60em) {
+    .mdx-hero {
+    /* align-items: stretch; */
+    /*display: flex; */
+    }
+    .mdx-hero__content {
+        margin-top: 3.5rem;
+        max-width: 38rem;
+        /*padding-bottom: 14vw;*/
+    }
+    .mdx-hero__image {
+        order: 1;
+        transform: translateX(4rem);
+        width: 38rem;
+    }
+}
+
+@media screen and (min-width: 76.25em) {
+    .mdx-hero__image {
+        transform: translateX(8rem);
+    }
+}
+
+.mdx-hero .md-button {
+    color: var(--hb-hero-color);
+    border-color: var(--hb-hero-color);
+}
+[data-md-color-scheme="slate"] .mdx-hero .md-button--primary {
+    color: var(--md-primary-fg-color);
+}
+
+.mdx-hero .md-button--primary {
+    color: var(--md-primary-fg-color);
+    background-color: var(--hb-hero-color);
+    border-color: transparent;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.md-main .md-button--primary {
+    color: var(--md-primary-fg-color);
+    background-color: var(--hb-hero-color);
+    border-color: transparent;
+}
+
+nav[class="md-tabs"] {
+    border-bottom: none;
+}

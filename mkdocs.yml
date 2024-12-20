@@ -1,0 +1,74 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+# Project info
+site_name: C*Base Reference Guide
+site_description: Reference guide and collection of all things related to C*Base for the Commodore 64
+site_author: C*Base Reference Guide Team
+site_url: https://cbasereferenceguide.github.io
+
+# Repository
+repo_name: 'cbasereferenceguide.github.io'
+repo_url: 'https://github.com/cbasereferenceguide/cbasereferenceguide.github.io'
+
+# Copyright
+copyright: Copyright &copy; 2024 C*Base Reference Guide
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+  - header.autohide
+  - navigation.tabs
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.tracking
+  - toc.follow
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to system preference
+  font:
+    text: Noto Sans
+    code: Roboto Mono
+  favicon: assets/favicon/favicon.png
+  icon:
+    logo: simple/commodore
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: On this page
+      permalink_title: Anchor link to this section for reference
+  - admonition
+  - footnotes
+  - pymdownx.keys
+  - pymdownx.details
+  - tables
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  homepage: https://cbasereferenceguide.github.io
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - assets/js/typewriter.js
+  - https://unpkg.com/typeit@8.7.1/dist/index.umd.js
+
+# Page tree
+nav:
+  - Home: index.md
