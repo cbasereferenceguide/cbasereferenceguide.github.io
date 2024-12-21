@@ -76,8 +76,12 @@ nav:
   - Home: index.md
   - Resources:
     - Resources: resources/index.md
+    - Hardware enhancements:
+      - JiffyDOS: resources/hardware-enhancements/jiffydos.md
     - Hardware peripherals:
       - Creative Micro Designs: resources/hardware-peripherals/creative-micro-designs.md
       - Disk drives: resources/hardware-peripherals/disk-drives.md
       - IDE64 Project: resources/hardware-peripherals/ide64.md
-    - JiffyDOS: resources/jiffydos/index.md
+    - PETSCII:
+      - Converters: resources/petscii/converters.md
+      - Editors: resources/petscii/editors.md
