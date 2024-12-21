@@ -80,7 +80,7 @@ nav:
       - JiffyDOS: resources/hardware-enhancements/jiffydos.md
     - Hardware peripherals:
       - Creative Micro Designs: resources/hardware-peripherals/creative-micro-designs.md
-      - Disk drives: resources/hardware-peripherals/floppy-disk-drives.md
+      - Floppy disk drives: resources/hardware-peripherals/floppy-disk-drives.md
       - IDE64 Project: resources/hardware-peripherals/ide64.md
     - PETSCII:
       - Converters: resources/petscii/converters.md
