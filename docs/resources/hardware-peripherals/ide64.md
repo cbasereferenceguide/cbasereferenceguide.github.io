@@ -7,5 +7,5 @@ The IDE cartridge contains a 512kiB ROM (EPROM or flash EPROM with IDE DOS, Mach
 Current version contains USB PCLink, fast full duplex virtual drive support.
 
 ## Manuals
-- Original [IDE64 User's Guide](ide64/IDE64-Users.Guide.pdf) (PDF)
-- Original [IDE64 Cheat Sheet](ide64/IDE64-Cheat.Sheet.pdf) (PDF)
+- Original [IDE64 User's Guide](IDE64_Users_Guide.pdf) (PDF)
+- Original [IDE64 Cheat Sheet](IDE64_Cheat_Sheet.pdf) (PDF)
