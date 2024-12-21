@@ -18,16 +18,18 @@ theme:
   name: material
   custom_dir: overrides
   features:
-  - header.autohide
-  - navigation.tabs
-  - navigation.instant
-  - navigation.instant.progress
-  - navigation.tracking
-  - toc.follow
-  - navigation.top
-  - search.suggest
-  - search.highlight
-  - content.code.copy
+    - header.autohide
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -72,3 +74,10 @@ extra_javascript:
 # Page tree
 nav:
   - Home: index.md
+  - Resources:
+    - Resources: resources/index.md
+    - Hardware peripherals:
+      - Creative Micro Designs: resources/hardware-peripherals/creative-micro-designs.md
+      - Disk drives: resources/hardware-peripherals/disk-drives.md
+      - IDE64 Project: resources/hardware-peripherals/ide64.md
+    - JiffyDOS: resources/jiffydos/index.md
