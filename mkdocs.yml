@@ -77,15 +77,28 @@ extra_javascript:
 # Page tree
 nav:
   - Home: index.md
-  - Resources:
-    - Resources: resources/index.md
-    - C*Base manuals: resources/cbase-manuals/index.md
-    - Hardware enhancements:
-      - JiffyDOS: resources/hardware-enhancements/jiffydos.md
-    - Hardware peripherals:
-      - Creative Micro Designs: resources/hardware-peripherals/creative-micro-designs.md
-      - Floppy disk drives: resources/hardware-peripherals/floppy-disk-drives.md
-      - IDE64 Project: resources/hardware-peripherals/ide64.md
-    - PETSCII:
-      - Converters: resources/petscii/converters.md
-      - Editors: resources/petscii/editors.md
+  #- Reference:
+  #  - Reference: reference/index.md
+  #  - Charts:
+  #    - Configuration: reference/charts/configurations.md
+  #    - Logical unit:
+  #      - Larry v3.1: reference/charts/logical-units-larry.md
+  #      - Tao v3.3.x: reference/charts/logical-units-tao.md
+  #    - Remote access: reference/charts/remote-access.md
+  #    - Sub board:
+  #      - Larry v3.1: reference/charts/sub-board-tao.md
+  #      - Tao v3.3.x: reference/charts/sub-board-larry.md
+  #    - System dimensioning: reference/charts/system-dimensioning.md
+  #    - U/D: reference/charts/ud.md
+  #- Resources:
+  #  - Resources: resources/index.md
+  #  - C*Base manuals: resources/cbase-manuals/index.md
+  #  - Hardware enhancements:
+  #    - JiffyDOS: resources/hardware-enhancements/jiffydos.md
+  #  - Hardware peripherals:
+  #    - Creative Micro Designs: resources/hardware-peripherals/creative-micro-designs.md
+  #    - Floppy disk drives: resources/hardware-peripherals/floppy-disk-drives.md
+  #    - IDE64 Project: resources/hardware-peripherals/ide64.md
+  #  - PETSCII:
+  #    - Converters: resources/petscii/converters.md
+  #    - Editors: resources/petscii/editors.md
