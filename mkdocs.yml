@@ -30,8 +30,8 @@ theme:
     - navigation.tracking
     - toc.follow
     - navigation.top
-    - search.suggest
     - search.highlight
+    - search.suggest
     - content.code.copy
   palette:
     - media: "(prefers-color-scheme: dark)"
@@ -45,6 +45,24 @@ theme:
   favicon: assets/favicon/favicon.png
   icon:
     logo: simple/commodore
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  #- minify:
+  #    minify_html: true
+
+# Additional configuration
+extra:
+  homepage: https://cbasereferenceguide.github.io
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - assets/js/typewriter.js
+  - https://unpkg.com/typeit@8.7.1/dist/index.umd.js
 
 # Extensions
 markdown_extensions:
@@ -63,16 +81,6 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-
-extra:
-  homepage: https://cbasereferenceguide.github.io
-
-extra_css:
-  - assets/css/custom.css
-
-extra_javascript:
-  - assets/js/typewriter.js
-  - https://unpkg.com/typeit@8.7.1/dist/index.umd.js
 
 # Page tree
 nav:
