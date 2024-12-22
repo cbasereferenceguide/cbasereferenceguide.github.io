@@ -5,11 +5,11 @@
 ## Manuals
 
 #### Hard drive
-- Original [Hard Drive User's Manual](CMD_HD_Users_Manual.pdf), all models (PDF)
+- Original [Hard Drive User's Manual](creative-micro-designs/CMD_HD_Users_Manual.pdf), all models (PDF)
 
 #### FD-Series
-- Original [FD Series Disk Drives User's Manual](CMD_FD_Series_Users_Manual.pdf), all models (PDF)
+- Original [FD Series Disk Drives User's Manual](creative-micro-designs/CMD_FD_Series_Users_Manual.pdf), all models (PDF)
 
 #### RAM
-- Original [RamDrive User's Manual](CMD_Ramdrive_Users_Manual.pdf) (PDF)
-- Original [RamLink User's Manual](CMD_Ramlink_Users_Manual.pdf) (PDF)
+- Original [RamDrive User's Manual](creative-micro-designs/CMD_Ramdrive_Users_Manual.pdf) (PDF)
+- Original [RamLink User's Manual](creative-micro-designs/CMD_Ramlink_Users_Manual.pdf) (PDF)

@@ -9,11 +9,11 @@ The 1581 introduces a 3.5-inch format, 800 KB capacity, and improved speed, comp
 ## Manuals
 
 #### Commodore 1541 - 5.25"
-- Original [1541 Disk Drive User's Guide](1541_Users_Guide.pdf) (PDF)
-- Original [1541-II Disk Drive User's Guide](1541-II_Users_Guide.pdf) (PDF)
+- Original [1541 Disk Drive User's Guide](floppy-disk-drives/1541_Users_Guide.pdf) (PDF)
+- Original [1541-II Disk Drive User's Guide](floppy-disk-drives/1541-II_Users_Guide.pdf) (PDF)
 
 #### Commodore 1571 - 5.25"
-- Original [1571 Disk Drive User's Guide](1571_Users_Guide.pdf) (PDF)
+- Original [1571 Disk Drive User's Guide](floppy-disk-drives/1571_Users_Guide.pdf) (PDF)
 
 #### Commodore 1581 - 3.5"
-- Original [1581 Disk Drive User's Guide](1581_Users_Guide.pdf) (PDF)
+- Original [1581 Disk Drive User's Guide](floppy-disk-drives/1581_Users_Guide.pdf) (PDF)
