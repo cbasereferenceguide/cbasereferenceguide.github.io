@@ -6,6 +6,10 @@ site_description: Reference guide and collection of all things related to C*Base
 site_author: C*Base Reference Guide Team
 site_url: https://cbasereferenceguide.github.io
 
+# Local build
+#site_url: ""
+#use_directory_urls: false
+
 # Repository
 repo_name: 'cbasereferenceguide.github.io'
 repo_url: 'https://github.com/cbasereferenceguide/cbasereferenceguide.github.io'
@@ -24,7 +28,7 @@ theme:
     - navigation.indexes
     - navigation.instant
     #- navigation.sections
-    - navigation.expand
+    # - navigation.expand
     #- navigation.prune
     - navigation.instant.progress
     - navigation.tracking
@@ -48,17 +52,21 @@ theme:
 
 # Plugins
 plugins:
+  - tags:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   #- minify:
   #    minify_html: true
+  # - offline:
+  #    enabled: true
 
 # Additional configuration
 extra:
   homepage: https://cbasereferenceguide.github.io
 
 extra_css:
-  - assets/css/custom.css
+  #- assets/css/custom.css
+  - assets/css/test.css
 
 extra_javascript:
   - assets/js/typewriter.js
@@ -66,7 +74,10 @@ extra_javascript:
 
 # Extensions
 markdown_extensions:
+  - md_in_html
+  - pymdownx.blocks.caption
   - toc:
+      toc_depth: 3
       permalink: true
       title: On this page
       permalink_title: Anchor link to this section for reference
@@ -81,6 +92,10 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 # Page tree
 nav:
