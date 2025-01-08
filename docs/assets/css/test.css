@@ -134,8 +134,8 @@
 
 .md-typeset h2 {
   font-family: 'Satoshi';
-  font-weight: 700;
-  color: var(--md-typeset-a-color);
+  /*font-weight: 700;*/
+/*color: var(--md-typeset-a-color);*/
 }
 
 
@@ -267,10 +267,17 @@ header[class="md-header md-header--shadow"], nav[class="md-tabs"] {
     padding-bottom: 2px;
 }
 
+
+/* Footer */
 .md-footer {
   margin-top: 1rem;
   border-top: 1px solid var(--pg-light-border);
 }
+
+
+
+
+
 
 
 
@@ -295,7 +302,6 @@ header[class="md-header md-header--shadow"], nav[class="md-tabs"] {
   color: var(--md-default-bg-color);
   font-weight: 500;
 }
-
 
 /* Fix mobile search with blurred header 
 Causes a delay when opening search, not optimal */
