@@ -10,7 +10,7 @@ If you're new to C\*Base, you may find that some sections require a deeper under
 ## Practical and accessible information
 This guide presents a wealth of detailed and practical C\*Base information in clear, plain English. Technical jargon often used by sysop's is thoroughly explained, ensuring accessibility for beginners. At the same time, experienced users will find all the details necessary to harness the full potential of the system effectively and efficiently.
 
-### Covers (at the moment)
+# Covers (at the moment)
 - Larry Mod v3.1
 - Tao Mod v3.3.8
 
