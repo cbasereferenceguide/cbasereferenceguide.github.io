@@ -23,17 +23,17 @@ Check the [installation](https://squidfunk.github.io/mkdocs-material/getting-sta
 Create a virtual environment for Python, read more here https://docs.python.org/3/library/venv.
 
 ```
-python -m venv [name]
+python -m venv [venv-name]
 
 python -m pip install --upgrade pip
 
-.\[name]\Scripts\activate
+.\[venv-name]\Scripts\activate
 deactivate
 ```
 
 Install MkDocs Material, read more here https://squidfunk.github.io/mkdocs-material/getting-started/
 ```
-Note: Inside venv
+Note: Inside [venv-name]
 
 pip install mkdocs-material
 ```
@@ -41,7 +41,7 @@ Install the "mkdocs-minify-plugin"
 https://github.com/byrnereese/mkdocs-minify-plugin
 
 ```
-Note: Inside venv
+Note: Inside [venv-name]
 
 pip install mkdocs-minify-plugin
 ```
@@ -50,7 +50,7 @@ pip install mkdocs-minify-plugin
 
 Run site locally at http://localhost:8000:
 ```
-.\_environment\Scripts\activate
+.\[venv-name]\Scripts\activate
 
 mkdocs serve
 ```
