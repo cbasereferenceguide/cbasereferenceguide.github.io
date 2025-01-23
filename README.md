@@ -60,7 +60,7 @@ To run the site on a different port, such as 8080:
 mkdocs serve --dev-addr=127.0.0.1:8080
 ```
 
-### Deactivate a Virtual Environment
+### Deactivate the virtual environment
 ```
 .\<venv-name>\Scripts\deactivate
 ```
