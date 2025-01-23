@@ -23,17 +23,14 @@ Check the [installation](https://squidfunk.github.io/mkdocs-material/getting-sta
 Create a virtual environment for Python, read more here https://docs.python.org/3/library/venv.
 
 ```
-python -m venv [venv-name]
+python -m venv <venv-name>
 
 python -m pip install --upgrade pip
-
-.\[venv-name]\Scripts\activate
-deactivate
 ```
 
 Install MkDocs Material, read more here https://squidfunk.github.io/mkdocs-material/getting-started/
 ```
-Note: Inside [venv-name]
+Note: Inside <venv-name>
 
 pip install mkdocs-material
 ```
@@ -41,23 +38,31 @@ Install the "mkdocs-minify-plugin"
 https://github.com/byrnereese/mkdocs-minify-plugin
 
 ```
-Note: Inside [venv-name]
+Note: Inside <venv-name>
 
 pip install mkdocs-minify-plugin
+```
+
+### Activate the virtual environment
+```
+.\<venv-name>\Scripts\activate
 ```
 
 ### Running local site
 
 Run site locally at http://localhost:8000:
 ```
-.\[venv-name]\Scripts\activate
-
 mkdocs serve
 ```
 
 To run the site on a different port, such as 8080:
 ```
 mkdocs serve --dev-addr=127.0.0.1:8080
+```
+
+### Deactivate a Virtual Environment
+```
+.\<venv-name>\Scripts\deactivate
 ```
 
 ---
