@@ -1,4 +1,4 @@
-# C\*Base - Manuals
+# Manuals
 
 ## A plethora of manuals: The puzzle of C\*Base
 
@@ -6,13 +6,13 @@ Over the years, several manuals have been written for C\*Base, each tailored to 
 
 This puzzle sparked the creation of the C\*Base Reference Guide, designed to organize and unify this scattered knowledge.
 
-### Tao/Triad v3.3
+### Tao Mod v3.3.x
 - Original [Users guide](manuals/CBase_v3.3_User_Guide.pdf) (PDF)
 - Original [Programmers reference guide](manuals/CBase_v3.3_Programmers_Reference_Guide.pdf) (PDF)
 - Original [Project reference guide](manuals/CBase_v3.3_Project_Reference_Guide.pdf) (PDF)
 
-### Holy Moses/Raiders of the Lost Empire
-- Original [C*Base v3.1 Holy Moses MOD Guide for Sysops](manuals/CBase_v3.1_Holy_Moses_Mod_Guide_For_Sysops.pdf) (PDF)[^1]
+### Holy Moses Mod / Raiders of the Lost Empire
+- Original [C*Base v3.1 Holy Moses Mod Guide for Sysops](manuals/CBase_v3.1_Holy_Moses_Mod_Guide_For_Sysops.pdf) (PDF)[^1]
 
 
 ### Gunther Birznieks
