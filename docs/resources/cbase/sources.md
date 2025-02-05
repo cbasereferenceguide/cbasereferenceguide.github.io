@@ -33,7 +33,7 @@ The release of different versions of C\*Base source code by [**Larry of Raiders 
 | C\*BASE Cyborg Mod Sources     |         | [CSDB](https://csdb.dk/release/?id=200939) | [ZIP](sources/cbase-cyborg-mod-%20sources.zip) |
 | C\*BASE Radar Mod Sources      |         | [CSDB](https://csdb.dk/release/?id=200946) | [ZIP](sources/cbase-radarmod-sources.zip)      |
 
-### Tao Mod [^1]
+### Tao Mod
 | Name   | Version | Link                                       | File                                        |
 | :----- | :------ | :----------------------------------------- | :------------------------------------------ |
 | C*Base | v3.3    | [CSDB](https://csdb.dk/release/?id=45545)  | [TAR.GZ](sources/cbase-3.3.4.tar.gz)        |
