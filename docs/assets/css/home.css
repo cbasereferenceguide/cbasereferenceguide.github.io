@@ -13,6 +13,11 @@
     font-size: 2.6rem;
 }
 
+/* Hide build date and time */
+.md-source-file {
+    display: none;
+}
+
 @media screen and (max-width: 29.9375em) {
     .mdx-hero h1 {
         font-size: 1.4rem;

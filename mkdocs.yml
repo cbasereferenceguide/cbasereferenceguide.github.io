@@ -15,7 +15,7 @@ repo_name: 'cbasereferenceguide.github.io'
 repo_url: 'https://github.com/cbasereferenceguide/cbasereferenceguide.github.io'
 
 # Copyright
-copyright: Copyright &copy; 2024 C*Base Reference Guide
+copyright: C*Base Reference Guide, 2024-2025
 
 # Configuration
 theme:
@@ -55,6 +55,10 @@ plugins:
   - tags:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+
   #- minify:
   #    minify_html: true
   # - offline:
@@ -100,3 +104,9 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - About:
+    - About: about/index.md
+    - Changelog: about/changelog.md
+    - Contributors: about/contributors.md
+    - Legal:
+      - GNU General Public License: about/legal/license.md
