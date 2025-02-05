@@ -55,10 +55,9 @@ plugins:
   - tags:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  #- git-revision-date-localized:
-  #    type: date
-  #    enable_creation_date: true
-
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
   #- minify:
   #    minify_html: true
   # - offline:
