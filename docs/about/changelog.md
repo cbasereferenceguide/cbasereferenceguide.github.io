@@ -11,11 +11,18 @@
 
 ## [0.1.1] - 2025-02-05
 ### Added
+- Resources
+    - C*Base
+        - For C64/128
+        - For Ultimate64
+        - Manuals
+        - Sources
 - About
     - Contributors
     - Changelog
 - Legal
     - GNU General Public License v2
+    - Trademarks
 
 ### Removed
 - Banner for _The Magical World of C64 BBS:es_ by Twoflower/Triad at Fjälldata 2025

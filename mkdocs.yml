@@ -103,9 +103,17 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - Resources:
+    - Resources: resources/index.md
+    - C*Base:
+      - For C64/128: resources/cbase/for-c64-128.md
+      - For Ultimate64: resources/cbase/for-ultimate64.md
+      - Manuals: resources/cbase/manuals.md
+      - Sources: resources/cbase/sources.md
   - About:
     - About: about/index.md
     - Changelog: about/changelog.md
     - Contributors: about/contributors.md
     - Legal:
       - GNU General Public License: about/legal/license.md
+      - Trademarks: about/legal/trademarks.md      
