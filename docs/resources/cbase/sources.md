@@ -16,7 +16,7 @@
 #  Sources
 
 ## Preservation Efforts
-The release of different versions of C\*Base source code by [**Larry of Raiders of the Lost Empire**](https://csdb.dk/scener/?id=7207) stands as a significant effort in preserving BBS history. This ensures that the legacy of C\*Base remains accessible to developers for future exploration and innovation.
+The release of different versions of C\*Base source code stands as a significant effort in preserving BBS history. This ensures that the legacy of C\*Base remains accessible to developers for future exploration and innovation.
 
 ### Larry Mod v3.1 [^1]
 | Name                                          | Version | Link                                       | File                                                 |
