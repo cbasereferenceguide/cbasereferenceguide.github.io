@@ -1,0 +1,154 @@
+****************************************
+C*Base 3.3.8+ 2024 (C/BBS 11) - THE DOX!
+****************************************
+
+Documentation started by HOLY MOSES/ROLE March 1st, 2024.
+
+Also read this .txt with your Ultimate64 (U64) Filebrowser!
+
+Controls for "VIEW" with your ULTIMATE64 (U64) Filebrowser:
+
+ -> CRSR UP = Scroll one line up
+ -> CRSR DOWN = Scroll one line down
+ -> F1 = Scroll one page up
+ -> F7 = Scroll one page down
+
+Hit the "RESET"-Button or "RUNSTOP" to leave for C*Base again.
+
+
+
+=================
+Table of Contents
+=================
+
+I. Running C*Base "out of the Box"
+II. Changes since last Release-Version
+III. Changed Files if Update C/BBS 9 to C/BBS 11
+IV. Settings for your Ultimate64
+V. Calling your own BBS with PC testwise!
+VI. Get a free Link for your own BBS!
+VII. Please, please, please DON`T use
+
+
+
+==================================
+I. Running C*Base "out of the Box"
+==================================
+
+This Version of C*Base is running "Out-of-the-Box" with your Ultimate64! Just set some preferences (look at: Settings) and plug the Networkcable from your Router into your Ultimate64 - Ready!
+
+No addional Telnetbridgecrap needed anymore to run your own Commodore 64 BBS!
+
+For Questions according to C*Base in any kind, read Tao´s really great "C*Base V3.3 User´s Guide" serveral (!) times.
+
+
+
+=========================================
+II. Changes since C*BASE 3.3.8+ (C/BBS 9)
+=========================================
+
+- Miniterm now with Phonebook!
+- "Change Baudrate" kicked out of Miniterm
+- Change Date in Remote Mode bugfixed (Return = NO Change anymore)
+- Prompt #82 for Post Subject AND CHAT now, #90 is now unused
+- Edit Sysop Status saved in Stats (edit with F6 in Wait screen)
+- Test Text-Prompts with "tx" (x = Prompt-#; in Remote-Mode)
+- UD shows "Unlimited" instead "UnltdBlx" (for amount of Credits)
+- Border turns RED if Caller has Remote-Access
+- No "U" or "T" anymore in Main Menu for New Users
+- Waitscreen timeloops fixed for 48 MHz usage
+
+
+
+============================================================
+III. Changed Files if Update from C/BBS 9 to actual C/BBS 11
+============================================================
+
+These File have been changed since the last Release Version:
+
+- "stats" (additional Sysop Status)
+- "wait" (several)
+- "sysop" (for additional "Tx")
+- "text" (Erase Prompt #90, #107)
+- "C/BBS" (several)
+- "C/SYS SETUP" (additional Sysop Status in "stats")
+- "mterm" (No "Baudrate change" needed anymore, "Phonebook")
+- "phonebook" (NEW! Filestructure similar to "oneliners")
+
+
+
+================================
+IV. Settings for your Ultimate64
+================================
+
+ -> Proper Connection to the Internet via Networkcable.
+
+Your ULTIMATE64 (U64) settings:
+
+ -> Set ACIA/SWIFTLINK to $de00 (NMI)
+ -> Set Turbo Control to "Turbo Enable Bit"
+ -> CPU Speed: 48 MHz
+ -> Cartridge: -NONE-
+ -> Set Cartridge Preference to "Internal"
+
+Mount the System Disk with built in, emulated 1581 on #8.
+
+Mount also a blank 1581 Disk for UL/DL Section, on #9.
+
+Set Remote-Password with "p" in Wait Screen for the first run.
+
+
+
+This Version of C*BASE is supposed to be used on an Ultimate64 (U64) only, never tested it on any other System.
+
+Feel free to test! Create your very own System! Use any kind of CMD Drives or Compatibles! The both emulated 1581´s would love to run powered by JiffyDos!
+
+
+
+=========================================
+V. Calling your own BBS with PC testwise!
+=========================================
+
+ -> I´m personally using "CGTERM" on PC
+
+
+ -> Your Ultimate64 will tell you it´s correct IP-Number if properly      connected to your Router. Look at the first page in Main Menu         after switching your Ultimate64 on.
+
+ -> By using "CGTERM" press "Escape", "D" and type in your IP (for        Example: 192.168.0.xxx 3000". (The Ultimate64 Port-Number "3000"      is default and can be changed) and press Enter!
+    
+ -> You´re in! Press Delete! =)
+
+   
+
+=====================================
+VI. Get a free Link for your own BBS!
+=====================================
+
+Get a DYNDNS Telnet-Link for your BBS for free! All you need is a Router / Provider supporting IPV4, not only IPV6!
+
+
+Example Links:
+
+raveolution.hopto.org:64128
+
+darklevel.hopto.org:64128
+
+
+
+=====================================
+VII. Please, please, please DON`T use
+=====================================
+
+- SD2IEC´s
+- Freezer Cartridges
+- Alcoholfree Beer
+
+
+
+Have fun, see you on the Boards tonight!
+
+
+
+***********
+END OF FILE
+***********
