@@ -111,6 +111,8 @@ nav:
       - For Ultimate64: resources/cbase/for-ultimate64.md
       - Manuals: resources/cbase/manuals.md
       - Sources: resources/cbase/sources.md
+    - Hardware enhancements:
+      - JiffyDOS: resources/hardware-enhancements/jiffydos.md
   - About:
     - About: about/index.md
     - Changelog: about/changelog.md
