@@ -33,7 +33,7 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 ### Flood
 | Name                 | Version | Link | File                                            |
 | :------------------- | :------ | :--- | ----------------------------------------------- |
-| C\*Base Flood Modded |         |      | [ZIP](for-commodore64-128/C-Base_Flood_Mod.zip) |
+| C\*Base Flood Modded |         |      | [ZIP](for-commodore64-128/flood/C-Base_Flood_Mod.zip) |
 
 ### Holy Moses
 | Name                                       | Version | Link                                       | File                                                          |
