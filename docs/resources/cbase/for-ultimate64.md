@@ -1,15 +1,15 @@
 <style>
     table th:first-of-type {
-        width: 30%;
+        width: 100%;
     }
     table th:nth-of-type(2) {
-        width: 10%;
+        width: 100%;
     }
     table th:nth-of-type(3) {
-        width: 10%;
+        width: 100%;
     }
     table th:nth-of-type(4) {
-        width: auto;
+        width: 100%;
     }
 </style>
 
@@ -26,8 +26,8 @@ These C*Base versions, all fixed by [Holy Moses](https://csdb.dk/scener/?id=1968
 ### Tao
 | Name                     | Version | Link                                       | File                                                                                                                                 |
 | :----------------------- | :------ | :----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| C*Base V3.3.8+ U64       | v3.3.8  | [CSDB](https://csdb.dk/release/?id=193010) | [RAR](for-ultimate64/tao/TAO+.rar), [D64-1](for-ultimate64/tao/tao%20bbs.D64), [D64-2](for-ultimate64/tao/tao%20boot.D64)                        |
-| C\*Base V3.3.8+ U64 2024 | v3.3.8+ | [CSDB](https://csdb.dk/release/?id=240273) | [D81](for-ultimate64/tao/tao%20c-base.d81), [RAR](for-ultimate64/tao/tao%20c-base%202024.rar), [TXT](for-ultimate64/tao/tao%20c-base%202024.txt) |
+| C*Base V3.3.8+ U64       | v3.3.8  | [CSDB](https://csdb.dk/release/?id=193010) | [RAR](for-ultimate64/tao/TAO+.rar),</br> [D64-1](for-ultimate64/tao/tao%20bbs.D64), [D64-2](for-ultimate64/tao/tao%20boot.D64)                        |
+| C\*Base V3.3.8+ U64 2024 | v3.3.8+ | [CSDB](https://csdb.dk/release/?id=240273) | [D81](for-ultimate64/tao/tao%20c-base.d81),</br> [RAR](for-ultimate64/tao/tao%20c-base%202024.rar),</br> [TXT](for-ultimate64/tao/tao%20c-base%202024.txt) |
 
 ### Villain
 | Name                     | Version | Link                                       | File                                                                                                                                 |
