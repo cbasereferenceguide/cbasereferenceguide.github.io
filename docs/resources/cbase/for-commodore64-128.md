@@ -36,18 +36,18 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | C\*Base Flood Modded |         |      | [ZIP](for-commodore64-128/C-Base_Flood_Mod.zip) |
 
 ### Holy Moses
-| Name                                       | Version | Link                                       | File                                          |
-| :----------------------------------------- | :------ | :----------------------------------------- | --------------------------------------------- |
-| C\*Base HolyMoses Mod Full Release         | v3.1    | [CSDB](https://csdb.dk/release/?id=169998) | [ZIP](for-commodore64-128/cbase31hm[r].zip)   |
-| C\*Base Cyborg/HolyMoses Bugfix Pack       | v3.1    | [CSDB](https://csdb.dk/release/?id=167278) | [ZIP](for-commodore64-128/cb31hmbugfix.zip)   |
-| C\*Base Cyborg/HolyMoses Bugfix Pack Vol.2 | v3.1    | [CSDB](https://csdb.dk/release/?id=167337) | [D64](for-commodore64-128/cb31bugfixvol2.d64) |
-| C\*Base Cyborg/HolyMoses Bugfix Pack Vol.3 | v3.1    | [CSDB](https://csdb.dk/release/?id=171648) | [D64](for-commodore64-128/cb31bugfixvol3.d64) |
-| C\*Base Cyborg/HolyMoses Bugfix Pack Vol.4 | v3.1    | [CSDB](https://csdb.dk/release/?id=174805) | [D64](for-commodore64-128/cb31bugfixvol4.d64) |
-| C\*Base Cyborg/HolyMoses Bugfix Pack Vol.5 | v3.1    | [CSDB](https://csdb.dk/release/?id=187125) | [D64](for-commodore64-128/cb31bugfixvol5.d64) |
+| Name                                       | Version | Link                                       | File                                                          |
+| :----------------------------------------- | :------ | :----------------------------------------- | ------------------------------------------------------------- |
+| C\*Base HolyMoses Mod Full Release         | v3.1    | [CSDB](https://csdb.dk/release/?id=169998) | [ZIP](for-commodore64-128/holy-moses-v3.1/cbase31hm[r].zip)   |
+| C\*Base Cyborg/HolyMoses Bugfix Pack       | v3.1    | [CSDB](https://csdb.dk/release/?id=167278) | [ZIP](for-commodore64-128/holy-moses-v3.1/cb31hmbugfix.zip)   |
+| C\*Base Cyborg/HolyMoses Bugfix Pack Vol.2 | v3.1    | [CSDB](https://csdb.dk/release/?id=167337) | [D64](for-commodore64-128/holy-moses-v3.1/cb31bugfixvol2.d64) |
+| C\*Base Cyborg/HolyMoses Bugfix Pack Vol.3 | v3.1    | [CSDB](https://csdb.dk/release/?id=171648) | [D64](for-commodore64-128/holy-moses-v3.1/cb31bugfixvol3.d64) |
+| C\*Base Cyborg/HolyMoses Bugfix Pack Vol.4 | v3.1    | [CSDB](https://csdb.dk/release/?id=174805) | [D64](for-commodore64-128/holy-moses-v3.1/cb31bugfixvol4.d64) |
+| C\*Base Cyborg/HolyMoses Bugfix Pack Vol.5 | v3.1    | [CSDB](https://csdb.dk/release/?id=187125) | [D64](for-commodore64-128/holy-moses-v3.1/cb31bugfixvol5.d64) |
 
 ### Larry
-| Name                                          | Version | Link                                       | File                                                         |
-| :-------------------------------------------- | :------ | :----------------------------------------- | ------------------------------------------------------------ |
+| Name                                          | Version | Link                                       | File                                                                    |
+| :-------------------------------------------- | :------ | :----------------------------------------- | ----------------------------------------------------------------------- |
 | C\*BASE Larry Mod                             | v3.1    | [CSDB](https://csdb.dk/release/?id=212357) | [ZIP](for-commodore64-128/larry-v3.1/cbase-larrymod.zip)                |
 | C\*BASE Larry Mod 2023 Updates and Sources    | v3.1    | [CSDB](https://csdb.dk/release/?id=238025) | [ZIP](for-commodore64-128/larry-v3.1/cbaselarmod2023.zip)               |
 | C\*BASE Larry Mod 2024-02 updates and sources | v3.1    | [CSDB](https://csdb.dk/release/?id=239293) | [ZIP](for-commodore64-128/larry-v3.1/cbase_larrymod_update_rainbow.zip) |
@@ -71,14 +71,14 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | C*Base | v3.3.8  | [CSDB](https://csdb.dk/release/?id=150178) | [D64-1](for-commodore64-128/tao-3.3.8/cbase_side1.d64), [D64-2](for-commodore64-128/tao-3.3.8/cbase_side2.d64), [D64-3](for-commodore64-128/tao-3.3.8/cbase_side3.d64)                                                        |
 
 ### Vanilla (Not modded)
-| Name         | Version      | Link | File                                                                                                                                                                   |
-| :----------- | :----------- | :--- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| C\*Base      | v3.0         |      | [ZIP](for-commodore64-128/vanilla/C-Base_v3.0_Vanilla.zip)                                                                                                                     |
+| Name         | Version      | Link | File                                                                                                                                                                                                   |
+| :----------- | :----------- | :--- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| C\*Base      | v3.0         |      | [ZIP](for-commodore64-128/vanilla/C-Base_v3.0_Vanilla.zip)                                                                                                                                             |
 | C\*Base [^1] | v3.2 (v3.23) |      | [D64-1](for-commodore64-128/vanilla/cbv32d1.d64), [D64-2](for-commodore64-128/vanilla/cbv32d2.d64), [D64-3](for-commodore64-128/vanilla/cbv32m1.d64), [D64-4](for-commodore64-128/vanilla/cbv32m2.d64) |
 
 ### Villian
-| Name                   | Version | Link                                      | File                                             |
-| :--------------------- | :------ | :---------------------------------------- | ------------------------------------------------ |
+| Name                   | Version | Link                                      | File                                                     |
+| :--------------------- | :------ | :---------------------------------------- | -------------------------------------------------------- |
 | C\*Base Villain Modded |         | [CSDB](https://csdb.dk/release/?id=25223) | [ZIP](for-commodore64-128/villian/CBASE_Villian_Mod.zip) |
 
 [^1]:
