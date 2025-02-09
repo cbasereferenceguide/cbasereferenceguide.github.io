@@ -17,6 +17,8 @@
         - For Ultimate64
         - Manuals
         - Sources
+    - Hardware enhancements
+        - JiffyDOS
 - About
     - Contributors
     - Changelog
