@@ -9,7 +9,7 @@
 
 # Changelog [^1]
 
-## [v.0.1.2] - 2025-02-09
+## [v0.1.2] - 2025-02-09
 ### Added
 - Resources
     - Hardware enhancements
@@ -27,7 +27,7 @@
 - Legal
     - Trademarks
 
-## [v.0.1.1] - 2025-02-05
+## [v0.1.1] - 2025-02-05
 ### Added
 - Resources
     - C*Base
@@ -45,12 +45,12 @@
 ### Removed
 - Banner for _The Magical World of C64 BBS:es_ by Twoflower/Triad at Fjälldata 2025
 
-## [v.0.1.0] - 2025-01-08
+## [v0.1.0] - 2025-01-08
 
 ### Added
 - Announcement bar for Twoflower's talk at Fjälldata 2025 added.
 
-## [v.0.1.0] - 2024-12-20
+## [v0.1.0] - 2024-12-20
 
 ### Added
 - Teaser version of the C\*Base Referece Guide went live.
