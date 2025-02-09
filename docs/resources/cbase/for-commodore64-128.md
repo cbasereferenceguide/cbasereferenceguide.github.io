@@ -79,7 +79,7 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 ### Villian
 | Name                   | Version | Link                                      | File                                             |
 | :--------------------- | :------ | :---------------------------------------- | ------------------------------------------------ |
-| C\*Base Villain Modded |         | [CSDB](https://csdb.dk/release/?id=25223) | [ZIP](for-commodore64-128/CBASE_Villian_Mod.zip) |
+| C\*Base Villain Modded |         | [CSDB](https://csdb.dk/release/?id=25223) | [ZIP](for-commodore64-128/villian/CBASE_Villian_Mod.zip) |
 
 [^1]:
     Includes the .9 feature (called .9-thing) for Message maker mentioned in Tao's [C\*Base v3.3 User Guide, Page 20](manuals/CBase_v3.3_User_Guide.pdf#page=22). This version also requires a C\*Base "dongle" to work. D64-3 and D64-4 are modules.
