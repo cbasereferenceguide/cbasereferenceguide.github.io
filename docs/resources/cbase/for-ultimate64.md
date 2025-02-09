@@ -18,7 +18,7 @@
 ## Ultimate64
 These C*Base versions, all fixed by [Holy Moses](https://csdb.dk/scener/?id=1968), are specifically tailored for the [Ultimate-64](https://ultimate64.com/), a modern C64 motherboard replacement with an integrated 1541 Ultimate-II+ cartridge.
 
-### Plum
+### Professor Plum
 | Name                     | Version | Link                                       | File                                                                                                                                 |
 | :----------------------- | :------ | :----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | C\*Base V3.0+ U64        | v3.0+   | [CSDB](https://csdb.dk/release/?id=193986) | [RAR](for-ultimate64/plum/plum%203.0+.rar)                                                                                                |
