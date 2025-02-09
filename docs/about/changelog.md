@@ -9,7 +9,7 @@
 
 # Changelog [^1]
 
-## [v0.1.2] - 2025-02-09
+## [0.1.2] - 2025-02-09
 ### Added
 - Resources
     - Hardware enhancements
