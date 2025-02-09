@@ -30,4 +30,4 @@ This document is a dump of JiffyDOS version 6.01. The parts concerning JiffyDOS 
 - Original [JiffyDOS v6.01, Rev. 1996-10-03](jiffydos/JiffyDOS_v6.01_DisAssembly.pdf) (PDF)
 
 
-[^1]: Please note that RETRO Innovation has kindly requested that these documents not be rehosted. However, they are available through other sources. In the context of this C*Base Reference Guide, our sole intention is to preserve them for informational purposes and ensure they remain accessible as a reference. Thank you for your understanding.
+[^1]: Please note that RETRO Innovation has kindly requested that these documents not be rehosted. However, they are available through other sources. In the context of this _C*Base Reference Guide_, our sole intention is to preserve them for informational purposes and ensure they remain accessible as a reference. Thank you for your understanding.
