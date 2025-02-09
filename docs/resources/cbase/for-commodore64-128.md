@@ -19,9 +19,9 @@
 Explore the various versions of C\*Base for the Commodore 64/128, including releases by Larry, Holy Moses, Cyborg, Board Rider, Villain, and others. These versions highlight the evolution of C\*Base, showcasing its solid significance and diversity within the BBS community.
 
 ### Board Rider
-| Name                  | Version | Link                                       | File                                             |
-| :-------------------- | :------ | :----------------------------------------- | ------------------------------------------------ |
-| BoardRiderMod C\*Base | v3.0    | [CSDB](https://csdb.dk/release/?id=124624) | [ZIP](for-commodore64-128/Surf%20Shop%20BBS.zip) |
+| Name                  | Version | Link                                       | File                                                              |
+| :-------------------- | :------ | :----------------------------------------- | ----------------------------------------------------------------- |
+| BoardRiderMod C\*Base | v3.0    | [CSDB](https://csdb.dk/release/?id=124624) | [ZIP](for-commodore64-128/board-rider-v3.0/Surf%20Shop%20BBS.zip) |
 
 ### Cyborg
 | Name                  | Version | Link                                       | File                                                |
