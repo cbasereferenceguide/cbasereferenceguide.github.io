@@ -53,14 +53,14 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | C\*BASE Larry Mod 2024-02 updates and sources | v3.1    | [CSDB](https://csdb.dk/release/?id=239293) | [ZIP](for-commodore64-128/larry-v3.1/cbase_larrymod_update_rainbow.zip) |
 
 ### Other
-| Name                        | Version | Link                                       | File                                                              |
-| :-------------------------- | :------ | :----------------------------------------- | ----------------------------------------------------------------- |
-| C\*Base                     | v1.0    | [CSDB](https://csdb.dk/release/?id=191303) | [D64](for-commodore64-128/C-Base-1.0_Mirage_100%_09.May.1989.d64) |
-| C\*Base                     | v2.0    | [CSDB](https://csdb.dk/release/?id=126152) | [ZIP](for-commodore64-128/c-base%202.zip)                         |
-| C\*Base                     | v3.0    | [CSDB](https://csdb.dk/release/?id=216558) | [D64](for-commodore64-128/C-Base_BBS_v3.0_ALT-PHURY.d64)          |
-| C\*Base                     | v3.1    | [CSDB](https://csdb.dk/release/?id=31029)  | [ZIP](for-commodore64-128/C-Base_3.1_Phury.zip)                   |
-| C\*Base Eric / Violence Mod | v3.5    | [CSDB](https://csdb.dk/release/?id=175350) | [D81](for-commodore64-128/e-boyzmod.d81)                          |
-| C\*Base 128                 |         | [CSDB](https://csdb.dk/release/?id=234618) | [ZIP](for-commodore64-128/cbase128.zip)                           |
+| Name                        | Version | Link                                       | File                                                                    |
+| :-------------------------- | :------ | :----------------------------------------- | ----------------------------------------------------------------------- |
+| C\*Base                     | v1.0    | [CSDB](https://csdb.dk/release/?id=191303) | [D64](for-commodore64-128/other/C-Base-1.0_Mirage_100%_09.May.1989.d64) |
+| C\*Base                     | v2.0    | [CSDB](https://csdb.dk/release/?id=126152) | [ZIP](for-commodore64-128/other/c-base%202.zip)                         |
+| C\*Base                     | v3.0    | [CSDB](https://csdb.dk/release/?id=216558) | [D64](for-commodore64-128/other/C-Base_BBS_v3.0_ALT-PHURY.d64)          |
+| C\*Base                     | v3.1    | [CSDB](https://csdb.dk/release/?id=31029)  | [ZIP](for-commodore64-128/other/C-Base_3.1_Phury.zip)                   |
+| C\*Base Eric / Violence Mod | v3.5    | [CSDB](https://csdb.dk/release/?id=175350) | [D81](for-commodore64-128/other/e-boyzmod.d81)                          |
+| C\*Base 128                 |         | [CSDB](https://csdb.dk/release/?id=234618) | [ZIP](for-commodore64-128/other/cbase128.zip)                           |
 
 ### Tao
 | Name   | Version | Link                                       | File                                                                                                                                                                                                                          |
