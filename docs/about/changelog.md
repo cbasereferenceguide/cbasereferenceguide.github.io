@@ -9,6 +9,24 @@
 
 # Changelog [^1]
 
+## [0.1.2] - 2025-02-09
+### Added
+- Resources
+    - Hardware enhancements
+        - JiffyDOS
+
+### Changed
+- Resources
+    - C*Base
+        - For C64/128
+        - For Ultimate64
+        - Manuals
+        - Sources
+- About
+    - Changelog
+- Legal
+    - Trademarks
+
 ## [0.1.1] - 2025-02-05
 ### Added
 - Resources
@@ -17,8 +35,6 @@
         - For Ultimate64
         - Manuals
         - Sources
-    - Hardware enhancements
-        - JiffyDOS
 - About
     - Contributors
     - Changelog
