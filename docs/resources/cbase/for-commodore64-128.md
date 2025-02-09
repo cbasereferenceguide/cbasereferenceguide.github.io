@@ -48,9 +48,9 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 ### Larry
 | Name                                          | Version | Link                                       | File                                                         |
 | :-------------------------------------------- | :------ | :----------------------------------------- | ------------------------------------------------------------ |
-| C\*BASE Larry Mod                             | v3.1    | [CSDB](https://csdb.dk/release/?id=212357) | [ZIP](for-commodore64-128/cbase-larrymod.zip)                |
-| C\*BASE Larry Mod 2023 Updates and Sources    | v3.1    | [CSDB](https://csdb.dk/release/?id=238025) | [ZIP](for-commodore64-128/cbaselarmod2023.zip)               |
-| C\*BASE Larry Mod 2024-02 updates and sources | v3.1    | [CSDB](https://csdb.dk/release/?id=239293) | [ZIP](for-commodore64-128/cbase_larrymod_update_rainbow.zip) |
+| C\*BASE Larry Mod                             | v3.1    | [CSDB](https://csdb.dk/release/?id=212357) | [ZIP](for-commodore64-128/larry-v3.1/cbase-larrymod.zip)                |
+| C\*BASE Larry Mod 2023 Updates and Sources    | v3.1    | [CSDB](https://csdb.dk/release/?id=238025) | [ZIP](for-commodore64-128/larry-v3.1/cbaselarmod2023.zip)               |
+| C\*BASE Larry Mod 2024-02 updates and sources | v3.1    | [CSDB](https://csdb.dk/release/?id=239293) | [ZIP](for-commodore64-128/larry-v3.1/cbase_larrymod_update_rainbow.zip) |
 
 ### Other
 | Name                        | Version | Link                                       | File                                                              |
