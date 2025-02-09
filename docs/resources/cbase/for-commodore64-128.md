@@ -24,11 +24,11 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | BoardRiderMod C\*Base | v3.0    | [CSDB](https://csdb.dk/release/?id=124624) | [ZIP](for-commodore64-128/Surf%20Shop%20BBS.zip) |
 
 ### Cyborg
-| Name                  | Version | Link                                       | File                                         |
-| :-------------------- | :------ | :----------------------------------------- | -------------------------------------------- |
-| C\*Base Cyborg Modded |         | [CSDB](https://csdb.dk/release/?id=31028)  | [ZIP](for-commodore64-128/Cyborg_C-Base.zip) |
-| Cyborg C\*Base ++     |         | [CSDB](https://csdb.dk/release/?id=162814) | [D64](for-commodore64-128/cyborg++.d64)      |
-| Cyborg C\*Base +8     |         | [CSDB](https://csdb.dk/release/?id=165099) | [D64](for-commodore64-128/cyborg+.d64)       |
+| Name                  | Version | Link                                       | File                                                |
+| :-------------------- | :------ | :----------------------------------------- | --------------------------------------------------- |
+| C\*Base Cyborg Modded |         | [CSDB](https://csdb.dk/release/?id=31028)  | [ZIP](for-commodore64-128/cyborg/Cyborg_C-Base.zip) |
+| Cyborg C\*Base ++     |         | [CSDB](https://csdb.dk/release/?id=162814) | [D64](for-commodore64-128/cyborg/cyborg++.d64)      |
+| Cyborg C\*Base +8     |         | [CSDB](https://csdb.dk/release/?id=165099) | [D64](for-commodore64-128/cyborg/cyborg+.d64)       |
 
 ### Flood
 | Name                 | Version | Link | File                                            |
