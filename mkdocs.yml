@@ -104,6 +104,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+
   - Resources:
     - Resources: resources/index.md
     - C*Base:
@@ -111,6 +112,8 @@ nav:
       - For Ultimate64: resources/cbase/for-ultimate64.md
       - Manuals: resources/cbase/manuals.md
       - Sources: resources/cbase/sources.md
+    - Hardware:
+      - Xetec Lt. Kernal: resources/hardware/xetec-lt-kernal.md
     - Hardware enhancements:
       - JiffyDOS: resources/hardware-enhancements/jiffydos.md
   - About:
