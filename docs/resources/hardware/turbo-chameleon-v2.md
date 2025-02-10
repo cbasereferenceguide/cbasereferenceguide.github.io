@@ -1,10 +1,10 @@
 # Turbo Chameleon v2
 
-## Stand-Alone Mode: More Than Just a Cartridge  
+## Stand-alone mode: More than just a cartridge
 
 The **Chameleon** can function independently, without requiring a C64. In this mode, it operates as an FPGA-based computer, similar to the C-One or Minimi, but with more memory, greater FPGA power, and additional interfaces**. It also supports a wider range of cores than the previously mentioned models.  
 
-## Versatile Core Support  
+## Versatile core support
 
 While the primary use case for the Chameleon is **C64 expansion and emulation**, its powerful FPGA and high-speed memory enable additional functionalities:  
 
