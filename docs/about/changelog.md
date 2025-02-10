@@ -9,11 +9,23 @@
 
 # Changelog [^1]
 
+## [0.1.3] - 2025-02-10
+### Added
+- Resources
+    - Hardware enhancements
+        - Xetec Lt. Kernal
+
+### Changed
+- Resources
+    - C*Base
+        - For C64/128
+- Legal
+    - Trademarks
+
 ## [0.1.2] - 2025-02-09
 ### Added
 - Resources
     - Hardware enhancements
-        - JiffyDOS
 
 ### Changed
 - Resources
