@@ -1,8 +1,10 @@
 # JiffyDOS
 
-JiffyDOS is a Disk Operating System (DOS) enhancement which gives your Commodore 64/128 the disk access speed it has always needed. A chip-for-chip replacement for the Kernal ROM in your computer and the DOS ROM in your disk drive(s), JiffyDOS achieves levels of performance and compatibility unmatched by other disk speed-enhancement products. Outstanding speed, solid compatibility with virtually all hardware and software, and a new set of desperately-needed commands and features, gives your system a new lease on life and the power to compete with today's newer, more-expensive machines.
+JiffyDOS is a Disk Operating System (DOS) enhancement which gives your Commodore 64/128 the disk access speed it has always needed. A chip-for-chip replacement for the Kernal ROM in your computer and the DOS ROM in your disk drive(s), JiffyDOS achieves levels of performance and compatibility unmatched by other disk speed-enhancement products.
 
-JiffyDOS can and should [legally be bought](http://www.go4retro.com) from RETRO Innovations.[^1]
+Outstanding speed, solid compatibility with virtually all hardware and software, and a new set of desperately-needed commands and features, gives your system a new lease on life and the power to compete with today's newer, more-expensive machines. You can also read more on 
+
+JiffyDOS can and **should legally be bought** from distributors listed on [jiffydos.com](http://www.jiffydos.com) [^1]
 
 ## Manuals
 - Original [JiffyDOS v6 User's Manual](jiffydos/JiffyDOS_v6_User_Manual.pdf) (PDF)
@@ -30,4 +32,7 @@ This document is a dump of JiffyDOS version 6.01. The parts concerning JiffyDOS 
 - Original [JiffyDOS v6.01, Rev. 1996-10-03](jiffydos/JiffyDOS_v6.01_DisAssembly.pdf) (PDF)
 
 
-[^1]: Please note that RETRO Innovation has kindly requested that these documents not be rehosted. However, they are available through other sources. In the context of this _C*Base Reference Guide_, our sole intention is to preserve them for informational purposes and ensure they remain accessible as a reference. Thank you for your understanding.
+[^1]:
+    Please note that [jiffydos.com](http://www.jiffydos.com) and [RETRO Innovation](http://www.go4retro.com) has kindly requested that these documents not be rehosted. However, they are available through other sources.
+    
+    In the context of this _C*Base Reference Guide_, our sole intention is to preserve them for informational purposes and ensure they remain accessible as a reference. Thank you for your understanding.
