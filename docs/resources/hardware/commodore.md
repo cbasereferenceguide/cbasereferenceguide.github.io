@@ -3,9 +3,9 @@
 ## Commodore 64
 The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) is an 8-bit home computer with 64 KB of RAM, renowned for its advanced graphics and sound capabilities. Launched in 1982 by [Commodore International](https://en.wikipedia.org/wiki/Commodore_International), it became the best-selling single computer model of all time, with millions of units sold worldwide.
 
-- Original [Mapping the Commodore 64/64C](commodore/Compute_Mapping_the_64_and_64C.pdf) (PDF) [^1]
 - Original [Commodore 64 Programmers Reference Guide](commodore/Commodore_64_Programmers_Reference_Guide_1983_Commodore.pdf) (PDF) [^2]
 - Original [Machine Language for the Commodore 64, 128, and other Commodore Computers. Revised & Expanded Edition](commodore/Machine_Language_for_the_Commodore_Revised_and_Expanded_Edition.pdf) (PDF)
+- Original [Mapping the Commodore 64/64C](commodore/Compute_Mapping_the_64_and_64C.pdf) (PDF) [^1]
 - Original [Programming the 6502](commodore/Programming_the_6502.pdf) (PDF) [^3]
 
 ## Floppy disk drives
@@ -28,7 +28,7 @@ The [Commodore 1581](https://en.wikipedia.org/wiki/Commodore_1581) introduces a 
 - Original [1581 Disk Drive User's Guide](commodore/1581_Users_Guide.pdf) (PDF)
 
 ### Commodore RAM Expansion
-- Original [1700/750 RAM Expansion Module User's Guide](commodore/1700-1750_Ram_Expansion_Module_Users_Guide.pdf) (PDF)
+- Original [1700/1750 RAM Expansion Module User's Guide](commodore/1700-1750_Ram_Expansion_Module_Users_Guide.pdf) (PDF)
 - Original [1764 RAM Expansion Module User's Guide](commodore/1764_Ram_Expansion_Module_Users_Guide.pdf) (PDF)
 
 ## Hard drives
