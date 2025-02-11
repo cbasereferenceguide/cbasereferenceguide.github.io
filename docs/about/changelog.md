@@ -9,10 +9,25 @@
 
 # Changelog [^1]
 
+## [0.1.4] - 2025-02-11
+### Added
+- Resources
+    - Hardware
+        - Commodore
+
+### Changed
+- Resources
+    - Hardware
+        - Turbo Chameleon
+    - Hardware enhancements
+        - JiffyDOS
+- Legal
+    - Copyrights and Trademarks
+
 ## [0.1.3] - 2025-02-10
 ### Added
 - Resources
-    - Hardware enhancements
+    - Hardware
         - Turbo Chameleon
         - Xetec Lt. Kernal
 
@@ -27,6 +42,7 @@
 ### Added
 - Resources
     - Hardware enhancements
+        - JiffyDOS
 
 ### Changed
 - Resources
@@ -40,7 +56,7 @@
 - Legal
     - Trademarks
 
-## [v0.1.1] - 2025-02-05
+## [0.1.1] - 2025-02-05
 ### Added
 - Resources
     - C*Base
@@ -58,12 +74,12 @@
 ### Removed
 - Banner for _The Magical World of C64 BBS:es_ by Twoflower/Triad at Fjälldata 2025
 
-## [v0.1.0] - 2025-01-08
+## [0.1.0] - 2025-01-08
 
 ### Added
 - Announcement bar for Twoflower's talk at Fjälldata 2025 added.
 
-## [v0.1.0] - 2024-12-20
+## [0.1.0] - 2024-12-20
 
 ### Added
 - Teaser version of the C\*Base Referece Guide went live.
