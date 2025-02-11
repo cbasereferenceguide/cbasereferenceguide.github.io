@@ -3,9 +3,9 @@
 ## Commodore 64
 The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) is an 8-bit home computer with 64 KB of RAM, renowned for its advanced graphics and sound capabilities. Launched in 1982 by [Commodore International](https://en.wikipedia.org/wiki/Commodore_International), it became the best-selling single computer model of all time, with millions of units sold worldwide.
 
-- Original [Commodore 64 Programmers Reference Guide](commodore/Commodore_64_Programmers_Reference_Guide_1983_Commodore.pdf) (PDF) [^2]
+- Original [Commodore 64 Programmers Reference Guide](commodore/Commodore_64_Programmers_Reference_Guide_1983_Commodore.pdf) (PDF) [^1]
 - Original [Machine Language for the Commodore 64, 128, and other Commodore Computers. Revised & Expanded Edition](commodore/Machine_Language_for_the_Commodore_Revised_and_Expanded_Edition.pdf) (PDF)
-- Original [Mapping the Commodore 64/64C](commodore/Compute_Mapping_the_64_and_64C.pdf) (PDF) [^1]
+- Original [Mapping the Commodore 64/64C](commodore/Compute_Mapping_the_64_and_64C.pdf) (PDF) [^2]
 - Original [Programming the 6502](commodore/Programming_the_6502.pdf) (PDF) [^3]
 
 ## Floppy disk drives
@@ -38,7 +38,7 @@ The [Commodore D9060/D9090](https://en.wikipedia.org/wiki/Commodore_D9060) was a
 
 - Original [Hard Disk Drive Technical Manual](commodore/9060_9090_Commodore_Hard_Disk_Drive_Technical_Manual_(PN_990441).pdf) (PDF)
 
-[^1]: Written by Sheldon Leemon
-[^2]: Written by Jim Butterfield
+[^1]: Written by Jim Butterfield
+[^2]: Written by Sheldon Leemon
 [^3]: Written by Rodnay Zaks
 [^4]: Richard Immers and Gerald G. Neufeld
