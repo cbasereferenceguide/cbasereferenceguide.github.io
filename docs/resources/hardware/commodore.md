@@ -28,7 +28,9 @@ The [Commodore 1581](https://en.wikipedia.org/wiki/Commodore_1581) introduces a 
 
 - Original [1581 Disk Drive User's Guide](commodore/1581_Users_Guide.pdf) (PDF)
 
-### Commodore RAM Expansion
+## RAM Expansion
+
+### Commodore  1700/1750/1764
 - Original [1700/1750 RAM Expansion Module User's Guide](commodore/1700-1750_Ram_Expansion_Module_Users_Guide.pdf) (PDF)
 - Original [1764 RAM Expansion Module User's Guide](commodore/1764_Ram_Expansion_Module_Users_Guide.pdf) (PDF)
 
