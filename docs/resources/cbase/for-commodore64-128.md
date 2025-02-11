@@ -77,7 +77,7 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | C\*Base      | v3.0         |      | [ZIP](for-commodore64-128/vanilla/C-Base_v3.0_Vanilla.zip)                                                                                                                                             |
 | C\*Base [^1] | v3.2 (v3.23) |      | [D64-1](for-commodore64-128/vanilla/cbv32d1.d64), [D64-2](for-commodore64-128/vanilla/cbv32d2.d64), [D64-3](for-commodore64-128/vanilla/cbv32m1.d64), [D64-4](for-commodore64-128/vanilla/cbv32m2.d64) |
 
-### Villian Mod
+### Villain Mod
 | Name                   | Version | Link                                      | File                                                     |
 | :--------------------- | :------ | :---------------------------------------- | -------------------------------------------------------- |
 | C\*Base Villain Modded |         | [CSDB](https://csdb.dk/release/?id=25223) | [ZIP](for-commodore64-128/villian/CBASE_Villian_Mod.zip) |
