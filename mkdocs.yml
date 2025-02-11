@@ -113,7 +113,7 @@ nav:
       - Manuals: resources/cbase/manuals.md
       - Sources: resources/cbase/sources.md
     - Hardware:
-      - Turbo Chameleon v2: resources/hardware/turbo-chameleon-v2.md
+      - Turbo Chameleon: resources/hardware/turbo-chameleon.md
       - Xetec Lt. Kernal: resources/hardware/xetec-lt-kernal.md
     - Hardware enhancements:
       - JiffyDOS: resources/hardware-enhancements/jiffydos.md

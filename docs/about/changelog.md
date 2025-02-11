@@ -13,7 +13,7 @@
 ### Added
 - Resources
     - Hardware enhancements
-        - Turbo Chameleon v2
+        - Turbo Chameleon
         - Xetec Lt. Kernal
 
 ### Changed

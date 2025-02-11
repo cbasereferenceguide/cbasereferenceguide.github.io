@@ -1,4 +1,4 @@
-# Turbo Chameleon v2
+# Turbo Chameleon
 
 ## Stand-alone mode: More than just a cartridge
 The Chameleon, sold by [Individual Computers](https://icomp.de/shop-icomp/index.php/en/produkt-details/product/Turbo_Chameleon_64.html), can function independently, without requiring a Commodore 64. In this mode, it operates as an FPGA-based computer, similar to the C-One or Minimi, but with more memory, greater FPGA power, and additional interfaces. It also supports a wider range of cores than the previously mentioned models.
