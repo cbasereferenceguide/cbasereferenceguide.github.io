@@ -13,9 +13,7 @@ While the primary use case for the Chameleon is **expansion and emulation**, its
 
 By leveraging these multiple cores, the Chameleon transforms into a highly **versatile** retro-computing powerhouse, catering to fans of various classic platforms. [Read more here in the Wiki](https://wiki.icomp.de/wiki/Chameleon).
 
-
 ## Turbo functionality and RS232 compatibility [^1]
 The Chameleon v2 can be used as an affordable replacement for the SuperCPU or other Turbo Cards that work with C\*Base. By adding a Silversurfer RS232 daughter board, it can also function as an SuperCPU/Turbo232 replacement. However, the correct NMI file ("ssurfer") is required.
-
 
 [^1]: Chameleon v1 cannot run in stand-alone mode with this combination. A pull-up resistor is needed to make the RS232 card work, but this is not an issue when using the Chameleon in cartridge mode.
