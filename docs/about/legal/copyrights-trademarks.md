@@ -1,7 +1,7 @@
 # Copyrights and trademarks
 
 ## C\*Base
-C\*Base, copyright 2003-2013 David Weinehall. More information can be found [here on Tao´s site](https://www.accum.se/~tao/cbase/mainpage.xhtml).
+Copyright 2003-2013 David Weinehall. More information on [Tao´s site](https://www.accum.se/~tao/cbase/mainpage.xhtml).
 
 ## Hardware
 - (Xetec) Lt. Kernal is a registered trademark of Fiscal Information, Inc.
