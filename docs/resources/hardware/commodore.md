@@ -1,8 +1,9 @@
 # Commodore
+Founded in 1976 by Jack Tramiel and Irving Gould, the company was a home computer and electronics manufacturer with its head office in The Bahamas and an executive office in the United States. Known as [Commodore International](https://en.wikipedia.org/wiki/Commodore_International) Corporation, it played a significant role in the personal computing industry
 
+The foundation of all this nonsense on this site.
+ 
 ## Commodore 64
-The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) is an 8-bit home computer with 64 KB of RAM, renowned for its advanced graphics and sound capabilities. Launched in 1982 by [Commodore International](https://en.wikipedia.org/wiki/Commodore_International), it became the best-selling single computer model of all time, with millions of units sold worldwide.
-
 - Original [Commodore 64 Programmers Reference Guide](commodore/Commodore_64_Programmers_Reference_Guide_1983_Commodore.pdf) (PDF) [^1]
 - Original [Machine Language for the Commodore 64, 128, and other Commodore Computers. Revised & Expanded Edition](commodore/Machine_Language_for_the_Commodore_Revised_and_Expanded_Edition.pdf) (PDF)
 - Original [Mapping the Commodore 64/64C](commodore/Compute_Mapping_the_64_and_64C.pdf) (PDF) [^2]
