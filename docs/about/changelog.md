@@ -9,6 +9,12 @@
 
 # Changelog [^1]
 
+## [0.1.5] - 2025-02-12
+### Added
+- Resources
+    - Hardware
+        - Creative Micro Designs
+
 ## [0.1.4] - 2025-02-11
 ### Added
 - Resources

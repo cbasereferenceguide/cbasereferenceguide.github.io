@@ -114,6 +114,7 @@ nav:
       - Sources: resources/cbase/sources.md
     - Hardware:
       - Commodore: resources/hardware/commodore.md
+      - Creative Micro Designs: resources/hardware/creative-micro-designs.md
       - Turbo Chameleon: resources/hardware/turbo-chameleon.md
       - Xetec Lt. Kernal: resources/hardware/xetec-lt-kernal.md
     - Hardware enhancements:
