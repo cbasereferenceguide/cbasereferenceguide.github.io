@@ -10,15 +10,15 @@
 ### CMD Hard drive
 - Original [Hard Drive User's Manual, 4th Edition, January 1991](creative-micro-designs/CMD_Hard_Drive_Users_Manual_4th_Edition_Jan_1991.pdf), all models (PDF)
 
-## Expansions
-### CMD 1750/1750XL REU
+## RAM Expansion
+### CMD 1750/1750XL
 - Original [CMD 1750/1750XL](creative-micro-designs/CMD_1750-1750XL_Users_Guide.pdf) (PDF)
 
 ### CMD RAMLink
 - Original [RamLink User's Manual, 4th Edition](creative-micro-designs/CMD_RamLink_Users_Manual_4th_Edition_1st_Printing_1993_Feb.pdf) (PDF)
 - Original [RamLink Addendum](creative-micro-designs/CMD_RamLink_Addendum.pdf) (PDF)
 
-### SuperCPU
+## SuperCPU
 - Original [SuperCPU 128 v2 User's Guide](creative-micro-designs/CMD_SuperCPU_128_v2_Users_Guide.pdf) (PDF)
 
 ## RS232 Interface

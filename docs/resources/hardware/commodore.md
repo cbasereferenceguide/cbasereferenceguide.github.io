@@ -10,7 +10,6 @@ The foundation of all this nonsense on this site.
 - Original [Programming the 6502](commodore/Programming_the_6502.pdf) (PDF) [^3]
 
 ## Floppy disk drives
-
 ### Commodore 1541 and 1541-II
 The [Commodore 1541](https://en.wikipedia.org/wiki/Commodore_1541) is a 5.25-inch single-sided drive with 170 KB capacity, utilizing CBM DOS for seamless compatibility. The 1541-II offers the same specifications in a smaller design with an external power supply for better heat management.
 
@@ -28,18 +27,16 @@ The [Commodore 1581](https://en.wikipedia.org/wiki/Commodore_1581) introduces a 
 
 - Original [1581 Disk Drive User's Guide](commodore/1581_Users_Guide.pdf) (PDF)
 
-## RAM Expansion
-
-### Commodore  1700/1750/1764
-- Original [1700/1750 RAM Expansion Module User's Guide](commodore/1700-1750_Ram_Expansion_Module_Users_Guide.pdf) (PDF)
-- Original [1764 RAM Expansion Module User's Guide](commodore/1764_Ram_Expansion_Module_Users_Guide.pdf) (PDF)
-
 ## Hard drives
-
 ### Commodore D9060/D9090
 The [Commodore D9060/D9090](https://en.wikipedia.org/wiki/Commodore_D9060) was an early hard drive system designed primarily the Commodore PET but could be used for Commodore 64. Featuring 5 MB of storage and a [SASI interface](https://en.wikipedia.org/wiki/SCSI#History), it provided a significant storage upgrade over floppy disk drives.
 
 - Original [Hard Disk Drive Technical Manual](commodore/9060_9090_Commodore_Hard_Disk_Drive_Technical_Manual_(PN_990441).pdf) (PDF)
+
+## RAM Expansion
+### Commodore  1700/1750/1764
+- Original [1700/1750 RAM Expansion Module User's Guide](commodore/1700-1750_Ram_Expansion_Module_Users_Guide.pdf) (PDF)
+- Original [1764 RAM Expansion Module User's Guide](commodore/1764_Ram_Expansion_Module_Users_Guide.pdf) (PDF)
 
 [^1]: Written by Jim Butterfield
 [^2]: Written by Sheldon Leemon
