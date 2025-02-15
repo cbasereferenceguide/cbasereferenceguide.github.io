@@ -15,7 +15,9 @@ repo_name: 'cbasereferenceguide.github.io'
 repo_url: 'https://github.com/cbasereferenceguide/cbasereferenceguide.github.io'
 
 # Copyright
-copyright: C*Base Reference Guide, 2024-2025
+copyright: >
+  C*Base Reference Guide, 2024-2025 –
+  <a href="#__consent">Manage cookies</a>
 
 # Configuration
 theme:
@@ -52,6 +54,7 @@ theme:
 
 # Plugins
 plugins:
+  - privacy:
   - tags:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
@@ -70,6 +73,14 @@ extra:
   analytics:
     provider: google
     property: G-R0H2BDF9CX
+  consent:
+    title: How about a cookie?
+    description: 
+      Cookies help us improve functionality, remember your preferences, and analyze usage to ensure the best possible experience. You can choose to accept all cookies or customize your preferences. By continuing to use this guide, you agree to our use of cookies.
+    actions:
+      - accept
+      - reject
+      - manage
 
 extra_css:
   #- assets/css/custom.css
