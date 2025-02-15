@@ -67,6 +67,9 @@ plugins:
 # Additional configuration
 extra:
   homepage: https://cbasereferenceguide.github.io
+  analytics:
+    provider: google
+    property: G-R0H2BDF9CX
 
 extra_css:
   #- assets/css/custom.css
@@ -104,7 +107,6 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-
   - Resources:
     - Resources: resources/index.md
     - C*Base:
