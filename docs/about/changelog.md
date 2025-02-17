@@ -9,6 +9,12 @@
 
 # Changelog [^1]
 
+## [0.1.6] - 2025-02-17
+### Added
+- Resources
+    - C*Base
+        - Prompt editors
+
 ## [0.1.5] - 2025-02-12
 ### Added
 - Resources
@@ -40,7 +46,7 @@
 ### Changed
 - Resources
     - C*Base
-        - For C64/128
+        - For Commodore 64/128
 - Legal
     - Trademarks
 
@@ -53,7 +59,7 @@
 ### Changed
 - Resources
     - C*Base
-        - For C64/128
+        - For Commodore 64/128
         - For Ultimate64
         - Manuals
         - Sources
@@ -66,7 +72,7 @@
 ### Added
 - Resources
     - C*Base
-        - For C64/128
+        - For Commodore 64/128
         - For Ultimate64
         - Manuals
         - Sources

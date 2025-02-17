@@ -124,6 +124,7 @@ nav:
       - For Commodore 64/128: resources/cbase/for-commodore64-128.md
       - For Ultimate64: resources/cbase/for-ultimate64.md
       - Manuals: resources/cbase/manuals.md
+      - Prompt editors: resources/cbase/prompt-editors.md
       - Sources: resources/cbase/sources.md
     - Hardware:
       - Commodore: resources/hardware/commodore.md
