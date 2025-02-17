@@ -74,7 +74,7 @@ extra:
     provider: google
     property: G-R0H2BDF9CX
   consent:
-    title: How about a cookie?
+    title: How about some cookies?
     description: 
       Cookies help us improve functionality, remember your preferences, and analyze usage to ensure the best possible experience. You can choose to accept all cookies or customize your preferences. By continuing to use this guide, you agree to our use of cookies.
     actions:
