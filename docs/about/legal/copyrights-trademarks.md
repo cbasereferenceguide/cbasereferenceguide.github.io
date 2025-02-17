@@ -1,4 +1,4 @@
-# Copyrights and Trademarks
+# Copyrights and trademarks
 
 ## C\*Base
 Copyright 2003-2013 David Weinehall. More information on [Tao´s site](https://www.accum.se/~tao/cbase/mainpage.xhtml).
