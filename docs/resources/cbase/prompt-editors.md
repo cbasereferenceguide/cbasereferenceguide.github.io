@@ -16,7 +16,7 @@
 # Prompt editors
 
 ## Compatibility for C\*Base prompt editors
-C\*Base offers various prompt editors, including versions from Cyborg, Holy Moses, Tao, and others. The Tao version from Raiders of the Lost Empire are compatible with newer releases of Larry v3.1, though some headings may not align perfectly.
+C\*Base offers various prompt editors, including versions from Cyborg, Holy Moses, Tao, and others. The Tao version from [Holy Moses](#holy-moses) is compatible with newer releases of Larry v3.1, though some headings may not align perfectly.
 
 For more details, check the different prompt editors available.
 
