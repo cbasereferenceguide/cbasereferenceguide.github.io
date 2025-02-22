@@ -25,7 +25,7 @@
 ### SwiftLink RS232
 - Original [SwiftLink RS232 Serial Cartridge](creative-micro-designs/CMD-SwiftLink_RS232.pdf) (PDF)
 ### Turbo232
-- Original [Turbo232 High Speed Modem Interface User's Guide](creative-micro-designs/CMD_Turbo232_Interface_Users_Guide) (PDF)
+- Original [Turbo232 High Speed Modem Interface User's Guide](creative-micro-designs/CMD_Turbo232_Interface_Users_Guide.pdf) (PDF)
 
 ## Utilities
 - Original [CMD Utilities Summary](creative-micro-designs/CMD_Utilities_Summary_1993.pdf) (PDF)
