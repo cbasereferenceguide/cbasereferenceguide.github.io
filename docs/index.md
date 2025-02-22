@@ -14,7 +14,6 @@ hide:
             <h1>An essential C*Base reference for sysop's, from aspiring to expert – to manage, and master <div id="typewriter"></div></h1>
             <h3>Coming 2025. Loading...</h3>
             <p>In collaboration with <b>Triad</b>, <b>Raiders of the Lost Empire</b> and <b>Judas</b></p>
-            
         </div>
       </div>
     </div>
