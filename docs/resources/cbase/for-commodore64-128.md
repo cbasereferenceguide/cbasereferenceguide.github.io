@@ -71,6 +71,11 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | C*Base | v3.3.7  | [CSDB](https://csdb.dk/release/?id=121416) | [D64-1](for-commodore64-128/tao-3.3.7/cbase_side1.d64), [D64-2](for-commodore64-128/tao-3.3.7/cbase_side2.d64), [D64-3](for-commodore64-128/tao-3.3.7/cbase_side3.d64),</br> [D81](for-commodore64-128/tao-3.3.7/cbase_3_3_7.d81) |
 | C*Base | v3.3.8  | [CSDB](https://csdb.dk/release/?id=150178) | [D64-1](for-commodore64-128/tao-3.3.8/cbase_side1.d64), [D64-2](for-commodore64-128/tao-3.3.8/cbase_side2.d64), [D64-3](for-commodore64-128/tao-3.3.8/cbase_side3.d64)                                                            |
 
+### The Sage Mod [^2]
+| Name   | Version | Link | File                                                     |
+| :----- | :------ | :--- | -------------------------------------------------------- |
+| C*Base | v2.0    |      | [D64](for-commodore64-128/the-sage/cbase-2.0-zipped.d64) |
+
 ### Vanilla (Not modded)
 | Name         | Version      | Link | File                                                                                                                                                                                                   |
 | :----------- | :----------- | :--- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
