@@ -18,7 +18,7 @@
 ## Different versions
 Explore the various versions of C\*Base for the Commodore 64/128, including releases by Larry, Holy Moses, Cyborg, Board Rider, Villain, and others. These versions highlight the evolution of C\*Base, showcasing its solid significance and diversity within the BBS community.
 
-### Board Rider Mod v3.0
+### Board Rider Mod
 | Name                  | Version | Link                                       | File                                                              |
 | :-------------------- | :------ | :----------------------------------------- | ----------------------------------------------------------------- |
 | BoardRiderMod C\*Base | v3.0    | [CSDB](https://csdb.dk/release/?id=124624) | [ZIP](for-commodore64-128/board-rider-v3.0/Surf%20Shop%20BBS.zip) |
@@ -35,7 +35,7 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | :------------------- | :------ | :--- | ----------------------------------------------- |
 | C\*Base Flood Modded |         |      | [ZIP](for-commodore64-128/flood/C-Base_Flood_Mod.zip) |
 
-### Holy Moses Mod v3.1
+### Holy Moses Mod
 | Name                                       | Version | Link                                       | File                                                          |
 | :----------------------------------------- | :------ | :----------------------------------------- | ------------------------------------------------------------- |
 | C\*Base HolyMoses Mod Full Release         | v3.1    | [CSDB](https://csdb.dk/release/?id=169998) | [ZIP](for-commodore64-128/holy-moses-v3.1/cbase31hm[r].zip)   |
@@ -45,7 +45,7 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | C\*Base Cyborg/HolyMoses Bugfix Pack Vol.4 | v3.1    | [CSDB](https://csdb.dk/release/?id=174805) | [D64](for-commodore64-128/holy-moses-v3.1/cb31bugfixvol4.d64) |
 | C\*Base Cyborg/HolyMoses Bugfix Pack Vol.5 | v3.1    | [CSDB](https://csdb.dk/release/?id=187125) | [D64](for-commodore64-128/holy-moses-v3.1/cb31bugfixvol5.d64) |
 
-### Larry Mod v.3.1
+### Larry Mod
 | Name                                          | Version | Link                                       | File                                                                    |
 | :-------------------------------------------- | :------ | :----------------------------------------- | ----------------------------------------------------------------------- |
 | C\*BASE Larry Mod                             | v3.1    | [CSDB](https://csdb.dk/release/?id=212357) | [ZIP](for-commodore64-128/larry-v3.1/cbase-larrymod.zip)                |

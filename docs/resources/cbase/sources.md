@@ -15,7 +15,7 @@
 
 #  Sources
 
-## Preservation Efforts
+## Preservation efforts & mods
 The release of different versions of C\*Base source code stands as a significant effort in preserving BBS history. This ensures that the legacy of C\*Base remains accessible to developers for future exploration and innovation.
 
 ### Cyborg Mod
@@ -28,20 +28,20 @@ The release of different versions of C\*Base source code stands as a significant
 | :----------------------------- | :------ | :----------------------------------------- | :--------------------------------------------- |
 | C\*BASE Holy Moses Mod Sources |         | [CSDB](https://csdb.dk/release/?id=200990) | [ZIP](sources/holy-moses/cbase-moses-mod96-sources.zip)   |
 
-### Larry Mod v3.1 [^1]
-| Name                                          | Version | Link                                       | File                                                 |
-| :-------------------------------------------- | :------ | :----------------------------------------- | :--------------------------------------------------- |
+### Larry Mod [^1]
+| Name                                          | Version | Link                                       | File                                                                    |
+| :-------------------------------------------- | :------ | :----------------------------------------- | :---------------------------------------------------------------------- |
 | C\*BASE Larry Mod                             | v3.1    | [CSDB](https://csdb.dk/release/?id=212357) | [ZIP](for-commodore64-128/larry-v3.1/cbase-larrymod.zip)                |
 | C\*BASE Larry Mod 2023 Updates and Sources    | v3.1    | [CSDB](https://csdb.dk/release/?id=238025) | [ZIP](for-commodore64-128/larry-v3.1/cbaselarmod2023.zip)               |
 | C\*BASE Larry Mod 2024-02 updates and sources | v3.1    | [CSDB](https://csdb.dk/release/?id=239293) | [ZIP](for-commodore64-128/larry-v3.1/cbase_larrymod_update_rainbow.zip) |
-| C\*Base Larry Mod Rainbow Protocol            |         |                                            | [ASM](sources/larry/rainbow_protocol_cb.asm)     |
+| C\*Base Larry Mod Rainbow Protocol            | v3.1    |                                            | [ASM](sources/larry/rainbow_protocol_cb.asm)                            |
 
 ### Radar Mod
 | Name                           | Version | Link                                       | File                                           |
 | :----------------------------- | :------ | :----------------------------------------- | :--------------------------------------------- |
 | C\*BASE Radar Mod Sources      |         | [CSDB](https://csdb.dk/release/?id=200946) | [ZIP](sources/radar/cbase-radarmod-sources.zip)      |
 
-### Tao Mod v3.3.x
+### Tao Mods
 | Name   | Version | Link                                       | File                                            |
 | :----- | :------ | :----------------------------------------- | :---------------------------------------------- |
 | C*Base | v3.3    | [CSDB](https://csdb.dk/release/?id=45545)  | [TAR.GZ](sources/tao/cbase-3.3.4.tar.gz)        |
