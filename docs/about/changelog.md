@@ -8,6 +8,15 @@
 --->
 
 # Changelog [^1]
+## [0.1.7] - 2025-03-18
+### Added
+- PETSCII
+    - History
+    - Character set
+    - Converters
+    - Editors
+    - Tools
+    - Viewers
 
 ## [0.1.6] - 2025-02-17
 ### Added

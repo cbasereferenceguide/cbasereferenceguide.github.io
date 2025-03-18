@@ -54,7 +54,9 @@ theme:
 
 # Plugins
 plugins:
+  - mkdocs-video:
   - privacy:
+      assets: false
   - tags:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
@@ -133,6 +135,14 @@ nav:
       - Xetec Lt. Kernal: resources/hardware/xetec-lt-kernal.md
     - Hardware enhancements:
       - JiffyDOS: resources/hardware-enhancements/jiffydos.md
+  - PETSCII:
+    - PETSCII: petscii/index.md
+    - History: petscii/history.md
+    - Character set: petscii/character-set.md
+    - Converters: petscii/converters.md
+    - Editors: petscii/editors.md
+    - Tools: petscii/tools.md
+    - Viewers: petscii/viewers.md
   - About:
     - About: about/index.md
     - Changelog: about/changelog.md
