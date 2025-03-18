@@ -19,7 +19,7 @@ PETSCII (PET Standard Code of Information Interchange) is the character set deve
 :    PETSCII to ASCII/Unicode/TrueType mappings + more. This PETSCII reference focuses on the C64 character set and control codes. The character matrix displays each PETSCII code point, showing the corresponding glyph or control effect, with reverse mode off by default.
 - Joe Forster's [Commodore 64 PETSCII codes (with key combinations)](http://sta.c64.org/cbm64petkey.html)
 
-## Tools and coding
+## Encoding for other platforms
 - [cbmcodecs2 - Python encodings for handling PETSCII and C64 Screencode text](https://github.com/irmen/cbmcodecs2)
 :   The cbmcodecs2 package provides a number of encodings for handling text from Commodore 8-bit systems. Much of the credit for this package must go to Linus Walleij of Triad, as these codecs were built from his PETSCII to Unicode mappings. The screencodes codec was created by hand later and borrows from them.
 :   [Current master branch as of 2023/09/07](character-set/cbmcodecs2-main.zip) (ZIP)
