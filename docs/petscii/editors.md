@@ -47,6 +47,13 @@ A Commodore 64 PETSCII movie maker inspired by Letter Noperator, but with its ow
 | Movie Noperator | v2.0.0  | [Mathman](https://csdb.dk/scener/?id=3916) | [CSDB](https://csdb.dk/release/?id=247645)        | [D64](editors/commodore64-128/nop_v2.0.0.d64)     |
 | Sources         | v2.0.0  | [Mathman](https://csdb.dk/scener/?id=3916) | [GitHub](https://github.com/jkotlinski/noperator) | [ZIP](editors/sources/source-noperator-2.0.0.zip) |
 
+#### PETSCII Video Generator
+Not an editor, but a generator. This program creates PETSCII-based patterns, giving you the choice to take full control or let the system run wild for a completely randomized experience. It might just come in handy in unexpected ways.
+
+| Name | Version | Creator                                    | Link                                       | File                                         |
+| :--- | :------ | :----------------------------------------- | :----------------------------------------- | :------------------------------------------- |
+| PVG  | v1.0    | [LDX#40](https://csdb.dk/scener/?id=18843) | [CSDB](https://csdb.dk/release/?id=175798) | [ZIP](editors/commodore64-128/LDX40-PVG.zip) |
+
 ### Multi platform
 | Name           | Version | Creator     | Link                                                                                     | File |
 | :------------- | :------ | :---------- | :--------------------------------------------------------------------------------------- | ---- |

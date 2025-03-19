@@ -22,15 +22,17 @@
 Find your favorite tool for viewing SEQ files. Various SEQ viewers have been developed to access and read these files, each offering "unique" features for displaying and navigating.
 
 ### Commodore 64/128
-| Name            | Version | Creator                                     | Link                                       | File                                        |
-| :-------------- | :------ | :------------------------------------------ | :----------------------------------------- | ------------------------------------------- |
-| SEQ Viewer      |         | [Groepaz](https://csdb.dk/scener/?id=572)   | [CSDB](https://csdb.dk/release/?id=40422)  | [ZIP](viewers/SEQ-VIEW.zip)                 |
-| SEQ Shower      |         | [Devil](https://csdb.dk/release/?id=136550) | [CSDB](https://csdb.dk/release/?id=136550) | [D64](viewers/SEQ%20Shower%20-%20Noice.d64) |
-| Petvjuscii [^1] | Beta    | [Triad](https://csdb.dk/group/?id=132)      |                                            | [PRG](viewers/petvjuscii%20beta.prg)        |
-| Petvjuscii      |         | [Triad](https://csdb.dk/group/?id=132)      | [CSDB](https://csdb.dk/release/?id=13313)  | [ZIP](viewers/TRIAD_DECEMBER_DISK.zip)      |
-| TSEQV           | v1.0    | [Tao](https://csdb.dk/scener/?id=988)       | [CSDB](https://csdb.dk/release/?id=34689)  | [GZ](viewers/TSeqv._1.0.TRIAD.prg.gz)       |
-| TSEQV           | v1.1    | [Tao](https://csdb.dk/scener/?id=988)       | [CSDB](https://csdb.dk/release/?id=34690)  | [GZ](viewers/TSeqv._1.1.TRIAD.prg.gz)       |
-| TSEQV           | v1.2    | [Tao](https://csdb.dk/scener/?id=988)       | [CSDB](https://csdb.dk/release/?id=34692)  | [GZ](viewers/TSeqv._1.2.TRIAD.prg.gz)       |
+| Name            | Version | Creator                                          | Link                                       | File                                        |
+| :-------------- | :------ | :----------------------------------------------- | :----------------------------------------- | ------------------------------------------- |
+| Chaos Reader    | v1.1    | [Stormbringer](https://csdb.dk/scener/?id=10687) | [CSDB](https://csdb.dk/release/?id=142486) | [PRG](viewers/chaos%20reader%201.1.prg)     |
+| SEQ Viewer      |         | [Groepaz](https://csdb.dk/scener/?id=572)        | [CSDB](https://csdb.dk/release/?id=40422)  | [ZIP](viewers/SEQ-VIEW.zip)                 |
+| SEQ Shower      |         | [Devil](https://csdb.dk/release/?id=136550)      | [CSDB](https://csdb.dk/release/?id=136550) | [D64](viewers/SEQ%20Shower%20-%20Noice.d64) |
+| Seq-file Shower | v1.0    | [Ream](https://csdb.dk/scener/?id=2202)          | [CSDB](https://csdb.dk/release/?id=250707) | [D64](viewers/Seq-Show_V1.d64)              |
+| Petvjuscii [^1] | Beta    | [Triad](https://csdb.dk/group/?id=132)           |                                            | [PRG](viewers/petvjuscii%20beta.prg)        |
+| Petvjuscii      |         | [Triad](https://csdb.dk/group/?id=132)           | [CSDB](https://csdb.dk/release/?id=13313)  | [ZIP](viewers/TRIAD_DECEMBER_DISK.zip)      |
+| TSEQV           | v1.0    | [Tao](https://csdb.dk/scener/?id=988)            | [CSDB](https://csdb.dk/release/?id=34689)  | [GZ](viewers/TSeqv._1.0.TRIAD.prg.gz)       |
+| TSEQV           | v1.1    | [Tao](https://csdb.dk/scener/?id=988)            | [CSDB](https://csdb.dk/release/?id=34690)  | [GZ](viewers/TSeqv._1.1.TRIAD.prg.gz)       |
+| TSEQV           | v1.2    | [Tao](https://csdb.dk/scener/?id=988)            | [CSDB](https://csdb.dk/release/?id=34692)  | [GZ](viewers/TSeqv._1.2.TRIAD.prg.gz)       |
 
 [^1]: If this is a "Beta" or not. We don't know, but it works!
 
