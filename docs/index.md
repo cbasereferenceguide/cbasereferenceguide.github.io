@@ -12,7 +12,7 @@ hide:
       <div class="mdx-hero">
         <div class="mdx-hero__content">
             <h1>An essential C*Base reference for sysop's, from aspiring to expert – to manage, and master <div id="typewriter"></div></h1>
-            <h3>Coming 2025. Loading...</h3>
+            <h3>CONNECT 2400. Loading 2%...
             <p>In collaboration with <b>Triad</b>, <b>Raiders of the Lost Empire</b> and <b>Judas</b></p>
         </div>
       </div>
