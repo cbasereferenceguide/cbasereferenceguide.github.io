@@ -103,9 +103,15 @@ markdown_extensions:
       permalink_title: Anchor link to this section for reference
   - admonition
   - footnotes
+
   - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
   - pymdownx.details
   - tables
+  - pymdownx.highlight:
+      use_pygments: true
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -121,13 +127,22 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Resources:
-    - Resources: resources/index.md
+    - resources/index.md
     - C*Base:
       - For Commodore 64/128: resources/cbase/for-commodore64-128.md
       - For Ultimate64: resources/cbase/for-ultimate64.md
       - Manuals: resources/cbase/manuals.md
       - Prompt editors: resources/cbase/prompt-editors.md
       - Sources: resources/cbase/sources.md
+    - C*Base Games:
+        - Alien Attack: resources/cbase-games/alien-attack.md
+        - Dragonslayer: resources/cbase-games/dragonslayer.md
+        - Eliza: resources/cbase-games/eliza.md
+        - Forest Fire: resources/cbase-games/forest-fire.md
+        - Goldmine: resources/cbase-games/goldmine.md
+        - LIFE: resources/cbase-games/life.md
+        - Oceangunner: resources/cbase-games/oceangunner.md
+        - Puzzler: resources/cbase-games/puzzler.md
     - Hardware:
       - Commodore: resources/hardware/commodore.md
       - Creative Micro Designs: resources/hardware/creative-micro-designs.md

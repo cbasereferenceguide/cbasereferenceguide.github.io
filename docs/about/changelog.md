@@ -8,6 +8,17 @@
 --->
 
 # Changelog [^1]
+## [0.1.8] - 2025-05-03
+### Added
+- C\*Base Games
+    - Alien Attack
+    - Dragonslayer
+    - Eliza
+    - Forest Fire
+    - Goldmine
+    - Oceangunner
+    - Puzzler
+
 ## [0.1.7] - 2025-03-18
 ### Added
 - PETSCII
