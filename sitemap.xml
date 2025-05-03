@@ -2,118 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://cbasereferenceguide.github.io/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/changelog/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/larry-role/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/skyhawk-triad/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/tao-triad/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/taper-triad/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/twoflower-triad/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/legal/copyrights-trademarks/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/legal/license/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/character-set/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/converters/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/editors/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/history/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/tools/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/viewers/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/for-commodore64-128/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/for-ultimate64/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/manuals/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/prompt-editors/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/sources/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://cbasereferenceguide.github.io/resources/cbase-games/alien-attack/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://cbasereferenceguide.github.io/resources/cbase-games/dragonslayer/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://cbasereferenceguide.github.io/resources/cbase-games/eliza/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://cbasereferenceguide.github.io/resources/cbase-games/forest-fire/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://cbasereferenceguide.github.io/resources/cbase-games/goldmine/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://cbasereferenceguide.github.io/resources/cbase-games/life/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://cbasereferenceguide.github.io/resources/cbase-games/oceangunner/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://cbasereferenceguide.github.io/resources/cbase-games/puzzler/</loc>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware/commodore/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware/creative-micro-designs/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware/turbo-chameleon/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware/xetec-lt-kernal/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware-enhancements/jiffydos/</loc>
-         <lastmod>2025-03-25</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
 </urlset>
