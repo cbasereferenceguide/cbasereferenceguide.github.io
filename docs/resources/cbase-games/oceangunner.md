@@ -65,6 +65,5 @@ This package includes the fully compiled module, the original and fixed BASIC so
 | Module           | C\*Base version        | Tested           | File                           |
 | :--------------- | :--------------------- | :--------------- | ------------------------------ |
 | Oceangunner [^1] | C\*Base v3.1 Larry Mod | :material-check: | [ZIP](sources/oceangunner.zip) |
-|                  | C\*Base v3.3.x Tao Mod | :material-minus: |                                |
 
 [^1]: Decompiled, fixed and put together by [Larry/ROLE](https://csdb.dk/scener/?id=7207)
