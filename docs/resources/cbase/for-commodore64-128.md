@@ -21,7 +21,7 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 ### Board Rider Mod
 | Name                  | Version | Link                                       | File                                                              |
 | :-------------------- | :------ | :----------------------------------------- | ----------------------------------------------------------------- |
-| BoardRiderMod C\*Base | v3.0    | [CSDB](https://csdb.dk/release/?id=124624) | [ZIP](for-commodore64-128/board-rider-v3.0/Surf%20Shop%20BBS.zip) |
+| BoardRiderMod C\*Base | v3.2    | [CSDB](https://csdb.dk/release/?id=124624) | [ZIP](for-commodore64-128/board-rider-v3.0/Surf%20Shop%20BBS.zip) |
 
 ### Cyborg Mod
 | Name                  | Version | Link                                       | File                                                |

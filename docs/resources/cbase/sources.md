@@ -24,9 +24,9 @@ The release of different versions of C\*Base source code stands as a significant
 | C\*BASE Cyborg Mod Sources     |         | [CSDB](https://csdb.dk/release/?id=200939) | [ZIP](sources/cyborg/cbase-cyborg-mod-%20sources.zip) |
 
 ### Holy Moses Mod
-| Name                           | Version | Link                                       | File                                           |
-| :----------------------------- | :------ | :----------------------------------------- | :--------------------------------------------- |
-| C\*BASE Holy Moses Mod Sources |         | [CSDB](https://csdb.dk/release/?id=200990) | [ZIP](sources/holy-moses/cbase-moses-mod96-sources.zip)   |
+| Name                           | Version | Link                                       | File                                                    |
+| :----------------------------- | :------ | :----------------------------------------- | :------------------------------------------------------ |
+| C\*BASE Holy Moses Mod Sources |         | [CSDB](https://csdb.dk/release/?id=200990) | [ZIP](sources/holy-moses/cbase-moses-mod96-sources.zip) |
 
 ### Larry Mod [^1]
 | Name                                          | Version | Link                                       | File                                                                    |
@@ -37,9 +37,9 @@ The release of different versions of C\*Base source code stands as a significant
 | C\*Base Larry Mod Rainbow Protocol            | v3.1    |                                            | [ASM](sources/larry/rainbow_protocol_cb.asm)                            |
 
 ### Radar Mod
-| Name                           | Version | Link                                       | File                                           |
-| :----------------------------- | :------ | :----------------------------------------- | :--------------------------------------------- |
-| C\*BASE Radar Mod Sources      |         | [CSDB](https://csdb.dk/release/?id=200946) | [ZIP](sources/radar/cbase-radarmod-sources.zip)      |
+| Name                      | Version | Link                                       | File                                            |
+| :------------------------ | :------ | :----------------------------------------- | :---------------------------------------------- |
+| C\*BASE Radar Mod Sources |         | [CSDB](https://csdb.dk/release/?id=200946) | [ZIP](sources/radar/cbase-radarmod-sources.zip) |
 
 ### Tao Mods
 | Name   | Version | Link                                       | File                                            |
