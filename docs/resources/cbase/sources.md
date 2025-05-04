@@ -15,7 +15,7 @@
 
 #  Sources
 
-## Preservation efforts & mods
+## Preservation efforts and versions
 The release of different versions of C\*Base source code stands as a significant effort in preserving BBS history. This ensures that the legacy of C\*Base remains accessible to developers for future exploration and innovation.
 
 ### Cyborg Mod
