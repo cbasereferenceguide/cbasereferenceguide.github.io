@@ -6,7 +6,7 @@ When Objectile disbanded in the mid-'90s, he joined Rebels PC, continuing to sup
 ## Journey to planet C64
 About a year before OCT dissolved, Skyhawk found himself in the same high school class as [Taper](../taper-triad), who introduced him to the Commodore 64 scene. He first joined Delta before transferring to Ambient when the Swedish members of Delta merged with the Norwegian group Unlight (formerly Digital Designs). He became an active caller on several Swedish C64 boards and a frequent visitor to Taper's BBS, Antidote.
 
-As some Ambient members moved on to TRIAD, Skyhawk remained solo for a while before joining Laxity as a graphician and BBS supporter. A key figure in the Swedish scene, he was especially vital as a party organizer (Floppy, Big Floppy People), though his activity levels fluctuated over the years. In 2018, he left Laxity and joined TRIAD, breathing new life into his scene activities.
+As some Ambient members moved on to TRIAD, Skyhawk remained solo for a while before joining Laxity as a graphician and BBS supporter. As a key figure in the Swedish scene, he was especially vital as a party organizer (Floppy, Big Floppy People), though his activity levels fluctuated over the years. In 2018, he left Laxity and joined TRIAD, breathing new life into his scene activities.
 
 Since then, Skyhawk has focused on BBS culture and creating graphics for the group.
 
