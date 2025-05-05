@@ -162,11 +162,11 @@ nav:
     - About: about/index.md
     - Changelog: about/changelog.md
     - Contributors:
+      - Jucke/Judas: about/contributors/jucke-judas.md
       - Larry/ROLE: about/contributors/larry-role.md
       - Skyhawk/Triad: about/contributors/skyhawk-triad.md
       - Tao/Triad: about/contributors/tao-triad.md
       - Taper/Triad: about/contributors/taper-triad.md
-      - Twoflower/Triad: about/contributors/twoflower-triad.md
     - Legal:
       - GNU General Public License: about/legal/license.md
       - Copyrights and trademarks: about/legal/copyrights-trademarks.md
