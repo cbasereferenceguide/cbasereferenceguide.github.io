@@ -30,9 +30,9 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | Cyborg C\*Base ++     |         | [CSDB](https://csdb.dk/release/?id=162814) | [D64](for-commodore64-128/cyborg/cyborg++.d64)      |
 | Cyborg C\*Base +8     |         | [CSDB](https://csdb.dk/release/?id=165099) | [D64](for-commodore64-128/cyborg/cyborg+.d64)       |
 
-### Flood Mod
-| Name                 | Version | Link | File                                            |
-| :------------------- | :------ | :--- | ----------------------------------------------- |
+### Flood Mod [^3]
+| Name                 | Version | Link | File                                                  |
+| :------------------- | :------ | :--- | ----------------------------------------------------- |
 | C\*Base Flood Modded |         |      | [ZIP](for-commodore64-128/flood/C-Base_Flood_Mod.zip) |
 
 ### Holy Moses Mod
@@ -98,3 +98,5 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
     Also includes a rather interesting private note from [Stormlord/Warriors of the Wasteland](https://csdb.dk/scener/?id=973) to Tao.
 
 [^2]: Found and supplied by [Dr. Doom](https://csdb.dk/scener/?id=2978)
+
+[^3]: Found and supplied by [Twoflower](https://csdb.dk/scener/?id=8074)
