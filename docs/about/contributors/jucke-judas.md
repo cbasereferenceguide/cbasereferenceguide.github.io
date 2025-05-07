@@ -1,22 +1,29 @@
 # Jucke / Judas
 
-## A pillar of the Swedish C64 BBS scene
-Jucke has been an influential figure in the Swedish Commodore 64 scene since the late 1980s. It was in 1988 that he acquired the nickname "Jucke", which originated as a playful tease from a friend at a party but soon became his handle on the scene. His extensive contributions span across multiple roles, including trader, phreaker, sysop, PETSCII artist and organizer.
 
-Through the years, Jucke has been associated with several legendary groups, including Genesis Project (G*P), Vision and Judas.
+## A pillar of the Swedish C64 BBS scene
+Jucke has been an influential figure in the Swedish Commodore 64 scene since the late 1980s. In 1988 he acquired the nickname "Jucke," which originated as a playful tease from a friend at a party but soon became his scene handle. His extensive contributions span across multiple roles, including trader, phreaker, sysop, PETSCII artist, and organizer.
+
+Through the years, he has been associated with several legendary groups, including Genesis Project (G*P), Vision, and Judas.
 
 ## Revitalizing the Swedish C64 scene
-In the late 1990s, the C64 scene was in decline, with many believing it was on the edge of extinction. However, Jucke played a key role in revitalizing it. His presence at the 1997 Hype demoparty [^1] in Malmö was a turning point — where he, along with Skyhawk/Laxity and Taper/Triad, forcibly took over the event’s big screen and displayed C64 demos to the horror of the PC-focused attendees. This moment underscored the contrast between "boring PC nerds" and passionate C64 enthusiasts, showcasing the rebellious nature of a C64 scene refusing to die.
+In the late 1990s the C64 scene was in decline, with many believing it was on the edge of extinction. Jucke played a key role in revitalizing it. His presence at the 1997 Hype demoparty [^1] in Malmö was a turning point where he, along with Skyhawk/Laxity and Taper/Triad, forcibly took over the event’s big screen and displayed C64 demos — to the horror of the PC-focused attendees. This moment underscored the contrast between "boring PC nerds" and passionate C64 enthusiasts, showcasing the rebellious nature of a C64 scene refusing to die.
 
-Inspired by these events, the first FLOPPY party was organized in 1998, with Jucke playing a pivotal role. The momentum from this gathering helped revitalising the Swedish C64 scene.
+Inspired by these events, the first FLOPPY party was organized in 1998, with Jucke playing a pivotal role. The momentum from this gathering helped revitalize the Swedish C64 scene.
 
 ## BBS and sysop contributions
-Jucke has been an active force in the C64 BBS community. He was co-sysop on [Joyride's BBS The Highway](https://csdb.dk/bbs/?id=97), and then also on [Antidote](https://csdb.dk/bbs/?id=38), the longest-running C64 BBS, just to mention a few.
+Jucke has been an active force in the C64 BBS community. He was co-sysop on [Joyride's BBS The Highway](https://csdb.dk/bbs/?id=97), and then also on [Antidote](https://csdb.dk/bbs/?id=38), the longest-running C64 BBS.
 
-Additionally, in recent years, Jucke founded and operates [Fria Bad BBS](https://csdb.dk/bbs/?id=2244), based in Helsingborg, Sweden. Specializing in PETSCII graphics, Fria Bad has become a go-to spot for C64 enthusiasts and artists.
+The number of boards graced by his presence are too many to mention, but two more Swedish boards fondly remembered by Jucke must also be mentioned;
+
+Wonderland, operated by Flood, was active between 1991 and 1992, and its demise came as a surprise given its popularity at the time. The reason became clear a few months later when Flood appeared on SVT, explaining that he had decided to pursue a music career. He had joined the synth band S.P.O.C.K, which was on the verge of gaining widespread recognition.
+
+Paradize BBS in Torslanda also stands out as a premier European C64 board. Tronic’s Paradize mods were groundbreaking and showcased his exceptional talent and innovation, setting a new benchmark in the scene. Tronic is widely regarded as one of the most skilled C\*Base modders, second only to Tao/Triad.
+
+In recent years, Jucke founded and operates [Fria Bad BBS](https://csdb.dk/bbs/?id=2244), based in Helsingborg, Sweden. Specializing in PETSCII graphics, Fria Bad has become a go-to spot for C64 enthusiasts and artists.
 
 ## PETSCII art and music
-Jucke is also recognized for his work in PETSCII art, [gracing many C64 boards during the years](../../petscii/index.md) with open screens, end screens and everything in between. Also known for his SID-music DJ sets, he has been playing on numerous parties. For instance, in 2024, Jucke performed a live SID-techno re-edit at [Reunion 2024](https://csdb.dk/event/?id=3387), a demoparty in Kvidinge Folkets Hus. Using an MPC Live loaded with C64 SID sounds, he spent a year preparing for this well received performance.
+Jucke is also recognized for his work in PETSCII art, [gracing many C64 boards during the years](../../petscii/index.md) with open screens, end screens, and everything in between. Also known for his SID music DJ sets, he has been playing at numerous parties. For instance, in 2024, Jucke performed a live SID-techno re-edit at [Reunion 2024](https://csdb.dk/event/?id=3387), a demoparty in Kvidinge Folkets Hus. Using an MPC Live loaded with C64 SID sounds, he spent a year preparing for this well-received performance.
 
 [^1]:
     Comment from Frantic / Hack n' Trade on [csdb.dk about Hype 97](https://csdb.dk/event/?id=1480):
