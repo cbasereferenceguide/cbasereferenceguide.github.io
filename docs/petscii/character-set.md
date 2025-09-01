@@ -7,7 +7,7 @@ PETSCII (PET Standard Code of Information Interchange) is the character set deve
 - Slark's [Commodore 64 PETSCII & screen display characters chart](character-set/c64-petscii-screen-display-characters-chart.pdf) (PDF) [^1]
 - Larry Anderson's [Commodore 8-bit multi-chart](character-set/cbm-character-byte-multichart.pdf) in (PDF)
 :   This is a Commodore Multichart on steroids, it lists various byte representations in Commodore 8-bit computers, Character Symbols (using the VIC-20 character ROM for best representation w/grey borders) Character Codes of PETASCII, Screen Code, true ASCII, 6502 ML, and BASIC Tokens for most of the 8-bit Commodores. As one person put it, "a Commodore Rosetta Stone".
-- Vladimir Lidovski's [C16/+4/116/64 Character generator and Unicode](character-set/c16-plus4-116-64-character-generator.pdf) in (PDF) [^2]
+- Vladimir Lidovski's [C16/+4/116/64 Character generator and Unicode](character-set/c16-plus4-116-64-character-generator-and-unicode.pdf) in (PDF) [^2]
 - Linus Walleij's [PETSCII C64 English uppercase to Unicode table](character-set/petscii_c64en_uc.txt) (TXT)
 - Linus Walleij's [PETSCII C64 English lowercase to Unicode table](character-set/petscii_c64en_lc.txt) (TXT)
 - Aivosto's [Commodore PETSCII character sets](character-set/commodore-petscii-character-sets.pdf) [^3]
