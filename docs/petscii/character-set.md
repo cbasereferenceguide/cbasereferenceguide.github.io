@@ -10,7 +10,7 @@ PETSCII (PET Standard Code of Information Interchange) is the character set deve
 - Vladimir Lidovski's [C16/+4/116/64 Character generator and Unicode](character-set/c16-plus4-116-64-character-generator.pdf) in (PDF) [^2]
 - Linus Walleij's [PETSCII C64 English uppercase to Unicode table](character-set/petscii_c64en_uc.txt) (TXT)
 - Linus Walleij's [PETSCII C64 English lowercase to Unicode table](character-set/petscii_c64en_lc.txt) (TXT)
-- Aivosto's [Commodore PETSCII character sets](character-set/commodore-petscii-character_sets.pdf) [^3]
+- Aivosto's [Commodore PETSCII character sets](character-set/commodore-petscii-character-sets.pdf) [^3]
 
 ## Links
 - C64-Wiki's [Control character](https://www.c64-wiki.com/wiki/control_character)
