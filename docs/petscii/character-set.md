@@ -4,13 +4,13 @@
 PETSCII (PET Standard Code of Information Interchange) is the character set developed by Commodore for their 8-bit computers, starting with the PET in 1977. It extends the original ASCII standard to include graphical symbols, allowing for the creation of text-based graphics and interfaces.
 
 ## Documents
-- Slark's [Commodore 64 PETSCII & screen display characters chart](character-set/C64_PETSCII_Screen_Display_Characters_Chart.pdf) (PDF) [^1]
-- Larry Anderson's [Commodore 8-bit multi-chart](character-set/CBM_Character_Byte_Multichart.pdf) in (PDF)
+- Slark's [Commodore 64 PETSCII & screen display characters chart](character-set/c64-petscii-screen-display-characters-chart.pdf) (PDF) [^1]
+- Larry Anderson's [Commodore 8-bit multi-chart](character-set/cbm-character-byte-multichart.pdf) in (PDF)
 :   This is a Commodore Multichart on steroids, it lists various byte representations in Commodore 8-bit computers, Character Symbols (using the VIC-20 character ROM for best representation w/grey borders) Character Codes of PETASCII, Screen Code, true ASCII, 6502 ML, and BASIC Tokens for most of the 8-bit Commodores. As one person put it, "a Commodore Rosetta Stone".
-- Vladimir Lidovski's [C16/+4/116/64 Character generator and Unicode](character-set/C16_Plus4_116_64_Character_Generator.pdf) in (PDF) [^2]
+- Vladimir Lidovski's [C16/+4/116/64 Character generator and Unicode](character-set/c16-plus4-116-64-character-generator.pdf) in (PDF) [^2]
 - Linus Walleij's [PETSCII C64 English uppercase to Unicode table](character-set/petscii_c64en_uc.txt) (TXT)
 - Linus Walleij's [PETSCII C64 English lowercase to Unicode table](character-set/petscii_c64en_lc.txt) (TXT)
-- Aivosto's [Commodore PETSCII character sets](character-set/Commodore_PETSCII_Character_Sets.pdf) [^3]
+- Aivosto's [Commodore PETSCII character sets](character-set/commodore-petscii-character_sets.pdf) [^3]
 
 ## Links
 - C64-Wiki's [Control character](https://www.c64-wiki.com/wiki/control_character)
@@ -26,7 +26,7 @@ PETSCII (PET Standard Code of Information Interchange) is the character set deve
 
 ## Fonts for other platforms
 - Kreative Korporation's [The Ultimate Commodore Font](character-set/petme.zip) (ZIP) [^4]
-- Style's [C64 TrueType (TTF) Fonts](character-set/C64_TrueType_v1.2.1-STYLE.zip) (ZIP) [^5]
+- Style's [C64 TrueType (TTF) Fonts](character-set/c64-truetype-v1.2.1-style.zip) (ZIP) [^5]
 :   Style’s C64 TrueType package offers a comprehensive TrueType (TTF) representation of the C64 glyph set. The package includes two typefaces, each available in .ttf, .otf, .woff, .woff2, and .eot formats.
 
 [^1]: Created by [slark.me](https://slark.me/c64-petscii-screen-display-characters-chart.html)
