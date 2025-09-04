@@ -11,62 +11,62 @@
 ## [0.1.8] - 2025-05-03
 ### Added
 - C\*Base Games
-    - Alien Attack
-    - Dragonslayer
-    - Eliza
-    - Forest Fire
-    - Goldmine
-    - Oceangunner
-    - Puzzler
+    - [Alien Attack](../resources/cbase-games/alien-attack.md)
+    - [Dragonslayer](../resources/cbase-games/dragonslayer.md)
+    - [Eliza](../resources/cbase-games/eliza.md)
+    - [Forest Fire](../resources/cbase-games/forest-fire.md)
+    - [Goldmine](../resources/cbase-games/goldmine.md)
+    - [Oceangunner](../resources/cbase-games/oceangunner.md)
+    - [Puzzler](../resources/cbase-games/puzzler.md)
 
 ## [0.1.7] - 2025-03-18
 ### Added
 - PETSCII
-    - History
-    - Character set
-    - Converters
-    - Editors
-    - Tools
-    - Viewers
+    - [History](../petscii/history.md)
+    - [Character set](../petscii/character-set.md)
+    - [Converters](../petscii/converters.md)
+    - [Editors](../petscii/editors.md)
+    - [Tools](../petscii/tools.md)
+    - [Viewers](../petscii/viewers.md)
 
 ## [0.1.6] - 2025-02-17
 ### Added
 - Resources
     - C*Base
-        - Prompt editors
+        - [Prompt editors](../resources/cbase/prompt-editors.md)
 
 ## [0.1.5] - 2025-02-12
 ### Added
 - Resources
     - Hardware
-        - Creative Micro Designs
+        - [Creative Micro Designs](../resources/hardware/creative-micro-designs.md)
 
 ## [0.1.4] - 2025-02-11
 ### Added
 - Resources
     - Hardware
-        - Commodore
+        - [Commodore](../resources/hardware/commodore.md)
 
 ### Changed
 - Resources
     - Hardware
-        - Turbo Chameleon
+        - [Turbo Chameleon](../resources/hardware/turbo-chameleon.md)
     - Hardware enhancements
-        - JiffyDOS
+        - [JiffyDOS](../resources/hardware-enhancements/jiffydos.md)
 - Legal
-    - Copyrights and Trademarks
+    - [Copyrights and trademarks](../about/legal/copyrights-trademarks.md)
 
 ## [0.1.3] - 2025-02-10
 ### Added
 - Resources
     - Hardware
-        - Turbo Chameleon
-        - Xetec Lt. Kernal
+        - [Turbo Chameleon](../resources/hardware/turbo-chameleon.md)
+        - [Xetec Lt. Kernal](../resources/hardware/xetec-lt-kernal.md)
 
 ### Changed
 - Resources
     - C*Base
-        - For Commodore 64/128
+        - [For Commodore 64/128](../resources/cbase/for-commodore64-128.md)
 - Legal
     - Trademarks
 
@@ -74,7 +74,7 @@
 ### Added
 - Resources
     - Hardware enhancements
-        - JiffyDOS
+        - [JiffyDOS](../resources/hardware-enhancements/jiffydos.md)
 
 ### Changed
 - Resources
@@ -100,7 +100,7 @@
     - Contributors
     - Changelog
 - Legal
-    - GNU General Public License v2
+    - [GNU General Public License v2](../about/legal/license.md)
     - Trademarks
 
 ### Removed
