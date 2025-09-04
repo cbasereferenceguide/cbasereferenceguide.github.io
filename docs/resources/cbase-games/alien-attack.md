@@ -18,7 +18,7 @@
 ## Introduction
 Alien Attack is a competitive multiplayer game where players pit their aliens against one another in a fight for survival. As your alien wins battles, it earns experience, grows stronger, and climbs the ranks.
 
-![opening screen](/assets/images/cbase-games/alien-attack/opening-screen.png){ loading=lazy }
+![opening screen](../../assets/images/cbase-games/alien-attack/opening-screen.png){ loading=lazy }
 
 ## Gameplay
 Every new player starts with a standard alien—basic, but battle-ready. You’ll challenge other aliens in turn-based combat. Each win earns you experience points. Once you've collected enough, you gain the right to design your own alien from the ground up.

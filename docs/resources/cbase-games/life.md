@@ -17,7 +17,7 @@
 ## Introduction
 **Life** is a financial simulation game where players build wealth through investments and career choices. Starting with education, they enter the workforce and grow their net worth. The game ends when a player reaches the target wealth.
 
-![opening screen](/assets/images/cbase-games/life/opening-screen.png){ loading=lazy }
+![opening screen](../../assets/images/cbase-games/life/opening-screen.png){ loading=lazy }
 
 ## Gameplay
 Players manage their finances through investments in the stock market, real estate, and businesses while progressing through their careers. Each decision carries risks and potential rewards:

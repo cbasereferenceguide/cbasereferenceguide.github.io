@@ -18,7 +18,7 @@
 ## Introduction
 Oceangunner is a single-player naval combat game. Track, aim, and fire to sink your enemy before they sink you.
 
-![opening screen](/assets/images/cbase-games/oceangunner/opening-screen.png){ loading=lazy }
+![opening screen](../../assets/images/cbase-games/oceangunner/opening-screen.png){ loading=lazy }
 
 ## Gameplay
 Your ship and the enemy are represented through a tactical display, complete with compasses, range information, and weapon controls. Victory depends on your aim, timing, and ability to read your instruments.

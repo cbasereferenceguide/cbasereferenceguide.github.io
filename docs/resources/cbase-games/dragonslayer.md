@@ -18,7 +18,7 @@
 ## Introduction
 Dragonslayer is a single-player game where you take on the role of a knight sworn to King George. Your mission is clear: find the dragon and end its reign of terror.
 
-![opening screen](/assets/images/cbase-games/dragonslayer/opening-screen.png){ loading=lazy }
+![opening screen](../../assets/images/cbase-games/dragonslayer/opening-screen.png){ loading=lazy }
 
 ## Gameplay
 You are the dragonslayer. To strike with your sword, you must be exactly one pace away from the beast. You also carry a bow with ten arrows — use them wisely. Your shield can block dragon fire, but only three times before it shatters.

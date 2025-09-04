@@ -20,7 +20,7 @@ Eliza is a pioneering natural language processing computer application, develope
 
 Naturally, C*Base had its own Eliza module. How closely it followed Weizenbaum’s original work is unclear, but the goal remained the same - to simulate a conversation and make users feel as if the computer was responding in a meaningful way.
 
-![opening screen](/assets/images/cbase-games/eliza/opening-screen.png){ loading=lazy }
+![opening screen](../../assets/images/cbase-games/eliza/opening-screen.png){ loading=lazy }
 
 ## Usage
 By today’s standards, the module was extremely primitive. Yet, at the time, it was still "clever" enough to fool many teenagers into believing they were having a somewhat meaningful discussion with Eliza. One can only imagine the sheer amount of swearing and sexual harassment this poor chatbot had to endure.

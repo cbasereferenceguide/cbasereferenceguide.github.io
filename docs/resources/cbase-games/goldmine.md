@@ -18,7 +18,7 @@
 ## Introduction
 Goldmine by Sam Lewit. Somewhere on a 9x9 grid, a box hides a stash of gold. Your goal is simple: find it. You have 10 tries to locate the gold. If you succeed, the game continues — only now, you’ll have one fewer try. The challenge increases with each round.
 
-![opening screen](/assets/images/cbase-games/goldmine/opening-screen.png){ loading=lazy }
+![opening screen](../../assets/images/cbase-games/goldmine/opening-screen.png){ loading=lazy }
 
 ## Gameplay
 You’ll navigate a 9x9 grid, choosing one box at a time to dig. With each guess, you get closer — or not. Find the gold within the limit to move on. Fail, and the game ends.

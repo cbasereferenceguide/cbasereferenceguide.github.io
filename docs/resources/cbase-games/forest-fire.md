@@ -20,7 +20,7 @@ In Forest Fire, a wildfire is sweeping through the forest. Some sectors are alre
 
 The fire moves fast. Every decision counts.
 
-![opening screen](/assets/images/cbase-games/forest-fire/opening-screen.png){ loading=lazy }
+![opening screen](../../assets/images/cbase-games/forest-fire/opening-screen.png){ loading=lazy }
 
 ## Gameplay
 You play on a forest grid. The fire is already active in several sectors when the game begins. Your task is to stop it before it gets out of hand.
