@@ -8,6 +8,14 @@
 --->
 
 # Changelog [^1]
+## [0.1.9] - 2025-09-04
+### Added
+- Resources
+  - MCI Commands
+    - £ Commands
+      - [Color](../reference/mci-commands/pound-commands/color.md)
+      - [Output](../reference/mci-commands/pound-commands/output.md)
+
 ## [0.1.8] - 2025-05-03
 ### Added
 - C\*Base Games
