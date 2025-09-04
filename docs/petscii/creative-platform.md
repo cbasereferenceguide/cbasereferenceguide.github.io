@@ -1,6 +1,6 @@
 # Creative platform
 
-Collected articles and links on PETSCII and its role across the Commodore line. These cover design choices, creative uses, and technical details that show how PETSCII shaped both software and culture. The page serves as a reference for anyone looking to explore PETSCII beyond the basics.
+Collected articles and links on PETSCII and its role in creative work. The material covers design choices, uses in art and software, and technical details that show how PETSCII influenced both software and culture. This page serves as a reference for those interested in exploring PETSCII beyond the basics.
 
 ## Links
 - [BBS PETSCII, 1986-1993 (WIP)](https://text-mode.org/?p=27470)
