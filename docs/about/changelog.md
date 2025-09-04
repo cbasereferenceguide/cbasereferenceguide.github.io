@@ -10,7 +10,7 @@
 # Changelog [^1]
 ## [0.1.9] - 2025-09-04
 ### Added
-- Resources
+- [Reference](../reference/index.md)
   - MCI Commands
     - £ Commands
       - [Color](../reference/mci-commands/pound-commands/color.md)
