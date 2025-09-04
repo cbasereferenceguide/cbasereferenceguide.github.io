@@ -126,6 +126,13 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - Reference:
+    - reference/index.md
+    - MCI Commands:
+      - reference/mci-commands/index.md
+      - £ Commands:
+        - Color: reference/mci-commands/pound-commands/color.md
+        - Output: reference/mci-commands/pound-commands/output.md
   - Resources:
     - resources/index.md
     - C*Base:
