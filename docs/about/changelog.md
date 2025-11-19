@@ -8,15 +8,24 @@
 --->
 
 # Changelog [^1]
+
+## [0.2.0] - 2025-11-19
+
+### Added
+- [Development](../development/index.md)
+    - [BPP+ Preprocessor](../development/bpp-plus-preprocessor/index.md)
+
 ## [0.1.9] - 2025-09-04
+
 ### Added
 - [Reference](../reference/index.md)
-  - MCI Commands
-    - £ Commands
-      - [Color](../reference/mci-commands/pound-commands/color.md)
-      - [Output](../reference/mci-commands/pound-commands/output.md)
+    - [MCI Commands](../reference/mci-commands/index.md)
+        - £ Commands
+          - [Color](../reference/mci-commands/pound-commands/color.md)
+          - [Output](../reference/mci-commands/pound-commands/output.md)
 
 ## [0.1.8] - 2025-05-03
+
 ### Added
 - C\*Base Games
     - [Alien Attack](../resources/cbase-games/alien-attack.md)
@@ -28,8 +37,9 @@
     - [Puzzler](../resources/cbase-games/puzzler.md)
 
 ## [0.1.7] - 2025-03-18
+
 ### Added
-- PETSCII
+- [PETSCII](../petscii/index.md)
     - [History](../petscii/history.md)
     - [Character set](../petscii/character-set.md)
     - [Converters](../petscii/converters.md)
@@ -38,18 +48,21 @@
     - [Viewers](../petscii/viewers.md)
 
 ## [0.1.6] - 2025-02-17
+
 ### Added
 - Resources
     - C*Base
         - [Prompt editors](../resources/cbase/prompt-editors.md)
 
 ## [0.1.5] - 2025-02-12
+
 ### Added
 - Resources
     - Hardware
         - [Creative Micro Designs](../resources/hardware/creative-micro-designs.md)
 
 ## [0.1.4] - 2025-02-11
+
 ### Added
 - Resources
     - Hardware
@@ -65,6 +78,7 @@
     - [Copyrights and trademarks](../about/legal/copyrights-trademarks.md)
 
 ## [0.1.3] - 2025-02-10
+
 ### Added
 - Resources
     - Hardware
@@ -79,6 +93,7 @@
     - Trademarks
 
 ## [0.1.2] - 2025-02-09
+
 ### Added
 - Resources
     - Hardware enhancements
@@ -97,6 +112,7 @@
     - Trademarks
 
 ## [0.1.1] - 2025-02-05
+
 ### Added
 - Resources
     - C*Base

@@ -166,6 +166,29 @@ nav:
     - Editors: petscii/editors.md
     - Tools: petscii/tools.md
     - Viewers: petscii/viewers.md
+  - Development:
+    - development/index.md
+    - BPP+ Preprocessor:
+      - development/bpp-plus-preprocessor/index.md
+      - Installation: development/bpp-plus-preprocessor/getting-started/installation.md
+      - Compilation pipeline: development/bpp-plus-preprocessor/getting-started/compilation-pipeline.md
+      - Language specification:
+        - Lexical structure: development/bpp-plus-preprocessor/language-specification/lexical-structure.md
+        - PETSCII control codes: development/bpp-plus-preprocessor/language-specification/petscii-control-codes.md
+        - Symbol resolution: development/bpp-plus-preprocessor/language-specification/symbol-resolution.md
+        - Scope hierarchies: development/bpp-plus-preprocessor/language-specification/scope-hierarchies.md
+        - Control flow: development/bpp-plus-preprocessor/language-specification/control-flow.md
+        - Statement chaining: development/bpp-plus-preprocessor/language-specification/statement-chaining.md
+        - Include directives: development/bpp-plus-preprocessor/language-specification/include-directives.md
+        - Blitz! BASIC Compiler: development/bpp-plus-preprocessor/language-specification/blitz-basic-compiler.md
+      - Advanced topics:
+        - Symbol resolution algorithm: development/bpp-plus-preprocessor/advanced-topics/symbol-resolution-algorithm.md
+        - Static analysis & validation: development/bpp-plus-preprocessor/advanced-topics/static-analysis-and-validation.md
+        - Debugging & diagnostics: development/bpp-plus-preprocessor/advanced-topics/debugging-and-diagnostics.md
+      - Reference:
+        - API Reference: development/bpp-plus-preprocessor/reference/api-reference.md
+        - Build integration: development/bpp-plus-preprocessor/reference/build-integration.md
+        - Error handling: development/bpp-plus-preprocessor/reference/error-handling.md
   - About:
     - About: about/index.md
     - Changelog: about/changelog.md
