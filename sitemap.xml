@@ -2,238 +2,238 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://cbasereferenceguide.github.io/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/changelog/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/jucke-judas/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/larry-role/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/skyhawk-triad/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/tao-triad/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/contributors/taper-triad/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/legal/copyrights-trademarks/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/about/legal/license/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/advanced-topics/debugging-and-diagnostics/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/advanced-topics/static-analysis-and-validation/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/advanced-topics/symbol-resolution-algorithm/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/getting-started/compilation-pipeline/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/getting-started/installation/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/language-specification/blitz-basic-compiler/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/language-specification/control-flow/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/language-specification/include-directives/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/language-specification/lexical-structure/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/language-specification/petscii-control-codes/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/language-specification/scope-hierarchies/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/language-specification/statement-chaining/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/language-specification/symbol-resolution/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/reference/api-reference/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/reference/build-integration/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/reference/error-handling/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/character-set/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/converters/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/creative-platform/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/editors/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/history/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/tools/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/petscii/viewers/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/reference/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/reference/mci-commands/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/reference/mci-commands/pound-commands/color/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/reference/mci-commands/pound-commands/output/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/for-commodore64-128/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/for-ultimate64/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/manuals/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/prompt-editors/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase/sources/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase-games/alien-attack/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase-games/dragonslayer/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase-games/eliza/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase-games/forest-fire/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase-games/goldmine/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase-games/life/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase-games/oceangunner/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/cbase-games/puzzler/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware/commodore/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware/creative-micro-designs/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware/turbo-chameleon/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware/xetec-lt-kernal/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
     <url>
          <loc>https://cbasereferenceguide.github.io/resources/hardware-enhancements/jiffydos/</loc>
-         <lastmod>2025-11-19</lastmod>
+         <lastmod>2025-11-20</lastmod>
     </url>
 </urlset>
