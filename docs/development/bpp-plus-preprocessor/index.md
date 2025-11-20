@@ -15,6 +15,8 @@ Part of the **C\*Base Larry Mod v3.1** development package.
 **Source** - Enhanced syntax with labels, scopes and statement chaining (`.bpp`)
 
 ```cbmbas
+goto main
+
 screen: {
     init:
         poke 53280,0\
@@ -36,10 +38,11 @@ main:
 **Target** - Standard BASIC v2 with line numbers (`.bas`)
 
 ```cbmbas
-1 poke53280,0:poke53281,0:return
-2 print"hello bpp+":return
-3 gosub1
+1 goto 4
+2 poke53280,0:poke53281,0:return
+3 print"hello bpp+":return
 4 gosub2
+5 gosub3
 ```
 
 ## Getting started
