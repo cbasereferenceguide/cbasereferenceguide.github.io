@@ -189,6 +189,19 @@ nav:
         - API Reference: development/bpp-plus-preprocessor/reference/api-reference.md
         - Build integration: development/bpp-plus-preprocessor/reference/build-integration.md
         - Error handling: development/bpp-plus-preprocessor/reference/error-handling.md
+    - BPP+ Syntax Highlighting:
+      - development/bpp-plus-syntax-highlighting/index.md
+      - Installation: development/bpp-plus-syntax-highlighting/getting-started/installation.md
+      - Quick start: development/bpp-plus-syntax-highlighting/getting-started/quick-start.md
+      - Features:
+        - Syntax highlighting: development/bpp-plus-syntax-highlighting/features/syntax-highlighting.md
+        - Code snippets: development/bpp-plus-syntax-highlighting/features/code-snippets.md
+      - Advanced topics:
+        - Development & testing: development/bpp-plus-syntax-highlighting/advanced-topics/development-and-testing.md
+      - Reference:
+        - Basic v2 language: development/bpp-plus-syntax-highlighting/reference/basic-v2-language.md
+        - BPP+ features: development/bpp-plus-syntax-highlighting/reference/bpp-plus-features.md
+        - Control characters: development/bpp-plus-syntax-highlighting/reference/control-characters.md
   - About:
     - About: about/index.md
     - Changelog: about/changelog.md
