@@ -9,6 +9,17 @@
 
 # Changelog [^1]
 
+## [0.2.1] - 2026-01-05
+
+### Added
+- Resources
+    - C\*Base
+        - For Commodore 64/128
+            - [Deathlok Mod](../resources/cbase/for-commodore64-128.md#deathlok-mod)
+        - For Ultimate64
+            - [Deathlok Mod](../resources/cbase/for-ultimate64.md#deathlok-mod)
+
+
 ## [0.2.0] - 2025-11-19
 
 ### Added
@@ -21,20 +32,21 @@
 - [Reference](../reference/index.md)
     - [MCI Commands](../reference/mci-commands/index.md)
         - £ Commands
-          - [Color](../reference/mci-commands/pound-commands/color.md)
-          - [Output](../reference/mci-commands/pound-commands/output.md)
+            - [Color](../reference/mci-commands/pound-commands/color.md)
+            - [Output](../reference/mci-commands/pound-commands/output.md)
 
 ## [0.1.8] - 2025-05-03
 
 ### Added
-- C\*Base Games
-    - [Alien Attack](../resources/cbase-games/alien-attack.md)
-    - [Dragonslayer](../resources/cbase-games/dragonslayer.md)
-    - [Eliza](../resources/cbase-games/eliza.md)
-    - [Forest Fire](../resources/cbase-games/forest-fire.md)
-    - [Goldmine](../resources/cbase-games/goldmine.md)
-    - [Oceangunner](../resources/cbase-games/oceangunner.md)
-    - [Puzzler](../resources/cbase-games/puzzler.md)
+- Resources
+    - C\*Base Games
+        - [Alien Attack](../resources/cbase-games/alien-attack.md)
+        - [Dragonslayer](../resources/cbase-games/dragonslayer.md)
+        - [Eliza](../resources/cbase-games/eliza.md)
+        - [Forest Fire](../resources/cbase-games/forest-fire.md)
+        - [Goldmine](../resources/cbase-games/goldmine.md)
+        - [Oceangunner](../resources/cbase-games/oceangunner.md)
+        - [Puzzler](../resources/cbase-games/puzzler.md)
 
 ## [0.1.7] - 2025-03-18
 
