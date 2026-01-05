@@ -30,6 +30,11 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | Cyborg C\*Base ++     |         | [CSDB](https://csdb.dk/release/?id=162814) | [D64](for-commodore64-128/cyborg/cyborg++.d64)      |
 | Cyborg C\*Base +8     |         | [CSDB](https://csdb.dk/release/?id=165099) | [D64](for-commodore64-128/cyborg/cyborg+.d64)       |
 
+### Deathlok Mod
+| Name                    | Version | Link                                       | File                                                  |
+| :---------------------- | :------ | :----------------------------------------- | ----------------------------------------------------- |
+| Deathlok Modded C\*Base | 3.0     | [CSDB](https://csdb.dk/release/?id=257842) | [D64](for-commodore64-128/deathlok/DLOK%20C-Base.d64) |
+
 ### Flood Mod [^3]
 | Name                 | Version | Link | File                                                  |
 | :------------------- | :------ | :--- | ----------------------------------------------------- |
@@ -66,10 +71,10 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 ### Tao Mods
 | Name   | Version | Link                                       | File                                                                                                                                                                                                                              |
 | :----- | :------ | :----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| C*Base | v3.3    | [CSDB](https://csdb.dk/release/?id=45545)  | [D64-1](for-commodore64-128/tao-3.3/cbase_side1.d64), [D64-2](for-commodore64-128/tao-3.3/cbase_side2.d64), [D64-3](for-commodore64-128/tao-3.3/cbase_side3.d64)                                                                  |
-| C*Base | v3.3.5  | [CSDB](https://csdb.dk/release/?id=55798)  | [D64-1](for-commodore64-128/tao-3.3.5/cbase_side1.d64), [D64-2](for-commodore64-128/tao-3.3.5/cbase_side2.d64), [D64-3](for-commodore64-128/tao-3.3.5/cbase_side3.d64)                                                            |
-| C*Base | v3.3.7  | [CSDB](https://csdb.dk/release/?id=121416) | [D64-1](for-commodore64-128/tao-3.3.7/cbase_side1.d64), [D64-2](for-commodore64-128/tao-3.3.7/cbase_side2.d64), [D64-3](for-commodore64-128/tao-3.3.7/cbase_side3.d64),</br> [D81](for-commodore64-128/tao-3.3.7/cbase_3_3_7.d81) |
-| C*Base | v3.3.8  | [CSDB](https://csdb.dk/release/?id=150178) | [D64-1](for-commodore64-128/tao-3.3.8/cbase_side1.d64), [D64-2](for-commodore64-128/tao-3.3.8/cbase_side2.d64), [D64-3](for-commodore64-128/tao-3.3.8/cbase_side3.d64)                                                            |
+| C*Base | v3.3    | [CSDB](https://csdb.dk/release/?id=45545)  | [D64-1](for-commodore64-128/tao-3.3/cbase_side1.d64),<br>[D64-2](for-commodore64-128/tao-3.3/cbase_side2.d64),<br>[D64-3](for-commodore64-128/tao-3.3/cbase_side3.d64)                                                                  |
+| C*Base | v3.3.5  | [CSDB](https://csdb.dk/release/?id=55798)  | [D64-1](for-commodore64-128/tao-3.3.5/cbase_side1.d64),<br>[D64-2](for-commodore64-128/tao-3.3.5/cbase_side2.d64),<br>[D64-3](for-commodore64-128/tao-3.3.5/cbase_side3.d64)                                                            |
+| C*Base | v3.3.7  | [CSDB](https://csdb.dk/release/?id=121416) | [D64-1](for-commodore64-128/tao-3.3.7/cbase_side1.d64),<br>[D64-2](for-commodore64-128/tao-3.3.7/cbase_side2.d64),<br>[D64-3](for-commodore64-128/tao-3.3.7/cbase_side3.d64),<br>[D81](for-commodore64-128/tao-3.3.7/cbase_3_3_7.d81) |
+| C*Base | v3.3.8  | [CSDB](https://csdb.dk/release/?id=150178) | [D64-1](for-commodore64-128/tao-3.3.8/cbase_side1.d64),<br>[D64-2](for-commodore64-128/tao-3.3.8/cbase_side2.d64),<br>[D64-3](for-commodore64-128/tao-3.3.8/cbase_side3.d64)                                                            |
 
 ### The Sage Mod [^2]
 | Name   | Version | Link | File                                                     |
@@ -80,7 +85,7 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 | Name         | Version      | Link | File                                                                                                                                                                                                   |
 | :----------- | :----------- | :--- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | C\*Base      | v3.0         |      | [ZIP](for-commodore64-128/vanilla/C-Base_v3.0_Vanilla.zip)                                                                                                                                             |
-| C\*Base [^1] | v3.2 (v3.23) |      | [D64-1](for-commodore64-128/vanilla/cbv32d1.d64), [D64-2](for-commodore64-128/vanilla/cbv32d2.d64), [D64-3](for-commodore64-128/vanilla/cbv32m1.d64), [D64-4](for-commodore64-128/vanilla/cbv32m2.d64) |
+| C\*Base [^1] | v3.2 (v3.23) |      | [D64-1](for-commodore64-128/vanilla/cbv32d1.d64),<br>[D64-2](for-commodore64-128/vanilla/cbv32d2.d64),<br>[D64-3](for-commodore64-128/vanilla/cbv32m1.d64),<br>[D64-4](for-commodore64-128/vanilla/cbv32m2.d64) |
 
 ### Villain Mod
 | Name                   | Version | Link                                      | File                                                     |
@@ -90,7 +95,7 @@ Explore the various versions of C\*Base for the Commodore 64/128, including rele
 ### Warlord Mod [^2]
 | Name                        | Version | Link                                       | File                                                                                                  |
 | :-------------------------- | :------ | :----------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| C\*Base Warlord "Super mod" | v2.0    | [CSDB](https://csdb.dk/release/?id=250491) | [D64-1](for-commodore64-128/warlord/cb20warlord.d64), [D64-2](for-commodore64-128/warlord/WARES5.d64) |
+| C\*Base Warlord "Super mod" | v2.0    | [CSDB](https://csdb.dk/release/?id=250491) | [D64-1](for-commodore64-128/warlord/cb20warlord.d64),<br>[D64-2](for-commodore64-128/warlord/WARES5.d64) |
 
 [^1]:
     Includes the .9 feature (called .9-thing) for Message maker mentioned in Tao's [C\*Base v3.3 User Guide, Page 20](manuals/cbase-v3.3-user-guide.pdf#page=22). This version also requires a C\*Base "dongle" to work. D64-3 and D64-4 are modules.

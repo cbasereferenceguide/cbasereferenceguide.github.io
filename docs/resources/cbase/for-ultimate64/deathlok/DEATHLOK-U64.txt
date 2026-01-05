@@ -1,0 +1,245 @@
+******************************************
+DEATHLOK MODDED C*BASE for the ULTIMATE64!
+******************************************
+
+You can also read this .txt with your Ultimate64 (U64) Filebrowser!
+
+Controls to "VIEW" it with your ULTIMATE64 (U64) Filebrowser:
+
+ -> CRSR UP = Scroll one line up
+ -> CRSR DOWN = Scroll one line down
+ -> F1 = Scroll one page up
+ -> F7 = Scroll one page down
+
+Hit the "RESET"-Button or "RUNSTOP" to leave e.g. for C*Base again without any lost.
+
+
+
+=================
+Table of Contents
+=================
+
+A. Required Hardware
+B. Big Thanks
+C. C*BASE Guide
+D. Special Features
+E. My Changes
+F. Trouble Shooting
+
+
+
+====================
+A. Required Hardware
+====================
+
+All you need is an Ultimate64 (U64) and a proper Connection to the Internet via Networkcable or Wireless Fidelity (WiFi).
+
+This Version of C*Base is supposed to be used on an Ultimate64 (U64), never tested it on any other System.
+
+Your ULTIMATE64 (U64) settings:
+
+ -> Set ACIA/SWIFTLINK to $de00 (NMI)
+ -> Set Turbo Control to "U64 Turbo Registers"
+ -> Cartridge: -NONE-
+ -> Set Cartridge Preference to "Auto"
+
+If you don't own something like a CMD HD, don't hesitate to use both 1581's inside your U64. Don't forget to built in JiffyDos ROMS, once for the C64, one for each of the 1581's.
+
+If you're using a 1541, don't forget to insert the "SYSTEM DISK" when "Clock Setting Procedure Screen" appears!
+
+
+
+=============
+B. Big Thanks
+=============
+
+Real *BIG* Thanks to SCRATCHER/ONSLAUGHT for passing his very own copy of DEATHLOK MODDED C*BASE to me, to preserve another priceless *GEM* of the former C64 BBS History. Ofcourse I had to modify it for nowadays Hardware!
+
+If you want to, get the "original" Version of it, too:
+
+(https://csdb.dk/release/id=257842)
+
+
+
+===============
+C. C*Base Guide
+===============
+
+This never was, is, or will be something like a C*BASE Guide. This is just to show up what's that special according to the Modifications to the mentioned Version of C*Base.
+
+If you have questions according to C*Base itself, get one of the very well made C*Base Guides from the World Wide Web out there.
+
+
+
+===================
+D. Special Features
+===================
+
+This C*BASE MOD is very special and counts to the most unique ones.
+
+It contains:
+
+- A Cursor Menu with 32 (!) Options
+- Mixed up Filenames for ML Files (didn't changed them back intentionally)
+- "Advanced to Main (Y/N)"
+- A Voting System
+- A Blacklist
+- Killerpic
+- A Wall
+- A Ranklist
+- Last 7 Callers with Sum of Postings (in brackets)
+- Code Lister User Level 7 or higher
+- Card Lister User Level 7 or higher
+- Leave Msg to Next User (Y/N)
+
+
+
+Commands for the Main Menu:
+
+"a" = Add Oneliner
+"b" = Blacklist
+"c" = chat Request to Sysop
+"d" = Disclaimer
+"e" = GFX Check
+"f" = Feedback
+"g" = Goodbye
+"h" = Help File
+"i" = Info about BBS
+"k" = Killer Pic
+"m" = Mail Section
+"n" = New Messages
+"o" = Opening Messages
+"p" = Play Games
+"q" = Quick Logoff
+"r" = Read Wall
+"s" = Sub-Boards
+"t" = Text/Graphics (Libraries)
+"u" = User Editor
+"v" = View Userlog (Userlist)
+"w" = Write OMNI
+"x" = Xamine Ranks
+"y" = Your Status
+"+" = UD File Area
+"*" = Voting Booth
+"arrow up" = Code Lister
+"#" = Card Lister
+"%" = BBS Lister
+"/" = Top Five
+"!" = Last seven Callers
+"l" = Log of Callers
+"left arrow" = Remote Mode
+
+"?" or "Return" = Main Menu
+
+
+
+Also the C*Base Filenames got heavily changed, here's a list of all Filenames, in alphabetcial Order:
+
+Deathlok / Original / Used for
+
+"+" / - / ud title
+"/" / - / top 5 user
+"an" / 	"ansi tab" / Ansi Codetable
+"asc" / "ascii tab" / ASCII Codetable
+"b" / - / Blacklist (fake)
+"boardz" / "bbs list" / Board List
+"bul x" / "bul x" / Bulleting Boards Messages, x = Number
+"bp" / "stats.bu" / Backup of Stats after some time in Wait and at Midnight 
+"c" / "chat" / Chat Graphics
+"cardz" / - / Card List (User Level 7 or greater)
+"cat" / "cat" / Log for New User Apllication
+"cm" / - / Cursor-Menu
+"codez" / - / Code List (User Level 7 or greater)
+"d" / - / Disclaimer
+"dl" / - / Hit Delete Screen
+"fo_x" / "forced_x / Forced Message
+"g" / "end" / Logoff Screen
+"h" / "h" / Helpscreen
+"i" / "i" / Infoscreen
+"k" / - / Killerpic, Picture of the Month
+"lc" / "lcall" / last 7 (!) callers
+"lg" / "callers" / full callers log
+"lib" / "lib" / Libraries
+"ma" / "mail" / Mail Menu
+"Mail-" / "mail-" / ???
+"mc" / "macros" / Oneliner
+"mf" / "mf" / Feedback Screen
+"mg" / - / Message to next caller (not for Guests anymore)
+"mh" / "msghelp" / Helpfile for Texteditor
+"mi" / - / summary Caller Log
+"ml" / "mlog" / Logfile for Oneliner
+"mm" / - / Message Menu
+"mod" / "mod" / Modules
+"mt" / "mterm" / Mini Terminal
+"mu" / "menu" / main menu
+"n1" / - / No Post Warning, created with "wa"
+"n2" / - / No Post Warning #2, created with "wa"
+"n3" / - / Hack Attempt Warning
+"ne" / "new" / New User Menu
+"nwid" / "nwid" / ???
+"om" / "omni" / Omni Message
+"on" / "logon" / BBS Stats
+"op" / "open" / Opening Screen
+"rp" / - / Ranks
+"s" / - / Subboard Titlescreen
+"sb" / "subop" / Helpfile Subs Remote Commands
+"sub" / "subs" / Helpfile Subs standard Commands
+"sys" / "sysop" / Helpfile Remote Mode
+"tu" / "tu" / ???
+"u" / "user" / Usereditor
+"ud" / "uldl" / Helpfile UL/DL Standard Commands
+"udp" / "udop" / Helpfile UL/DL Remote Commands
+"ue" / - / User Editor
+"votez" / - / Vote Results
+"wa" / - / Screen to create "n1" and "n2"
+"wall" / - / Wall
+"wt" / "wait" / Waiting for Callers Screen
+"y" / " " / Your Stats
+
+"c/a" / "c/app" / Application Module
+"c/n" / - / Create Ranks Module at Midnight
+"c/t" / "c/term" / Modular Terminal
+
+*NEW* "C/B" / "C/BBS" / BBS Mainfile
+*NEW* "p" / - / Password for Remote Mode
+
+
+
+=============
+E. My Changes
+=============
+
+I really don't want to change this marvelous C*Base Mod, but a few things wouldn't be good for everyday use nowadays I think.
+
+So here we go:
+
+- Make it running on a U64 with up to 38400 Baud just with a Networkcable or WiFi
+- Kicked out the unchangeable Password "joshua" for Remote Mode and...
+- Choose now your own REM Password with "p" in WAIT-SCREEN (Filename: "p")
+- No "Non-Post-Warning" anymore for Guests and Sysop
+- Border turns "RED" if someone logs in with REMOTE ACCESS
+- No "Advanced to Main (Y/N) for Guests anymore
+- No "Leave Msg to Next User (Y/N)" for Guests anymore
+- If New User writes "y" for "CRSR Menu on" in Application, it won't get replaced with a useless "-" anymore, but a New User won't become a Cursor-Menu in the beginning before validation, but the New User Menu instead
+- If CRSR Menu is on, an additional "Hit a Key" (to make it more readable) after: Info, User Stats, Top Five User, Help, Killer Pic, Hack Attempt Warning, Ranx, Votez, Cardz, Wall, Boardz and Userlist
+- If Cursor-Menu is off, at the Main Menu Prompt "RETURN" acts like a "?" from now on
+- Additional Transfer-Protocols: "X-Modem 1K" and "X-Modem CRC"
+- Now a ":" is allowed in the Boardlist, for "Link:Portnumber"
+- Don't laugh, but I had to change the "C/BBS" Filename to "C/B" to complete that cool Style
+- Last used Transfer-Protocol will be saved in Userlog
+
+
+
+==================
+F. Troubleshooting
+==================
+
+I've tested this Version of C*BASE several times, but I didn't simulated a real BBS Running over a particular time period with real Users. Just several dozens of intern network calls, so it might be there're a few disagreements left. Or not.
+
+Have fun exploring it!
+
+
+
+***********
+END OF FILE
+***********
