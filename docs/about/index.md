@@ -6,4 +6,4 @@ The **C\*Base Reference Guide** serves as a resource for users at all levels. Li
 
 If you're new to C\*Base, you may find that some sections require a deeper understanding of the system to fully grasp and apply. However, as you expand your familiarity with C\*Base, this guide will continue to be an invaluable resource.
 
-This guide presents a wealth of detailed and practical information in clear, plain English. Technical jargon often used by sysop's is thoroughly explained, ensuring accessibility for beginners. At the same time, experienced users will find all the details necessary to harness the full potential of C\*Base effectively and efficiently.
+This guide presents a wealth of detailed and practical information in clear, plain English. Technical jargon often used by sysops is thoroughly explained, ensuring accessibility for beginners. At the same time, experienced users will find all the details necessary to harness the full potential of C\*Base effectively and efficiently.

@@ -8,7 +8,7 @@ The C\*Base Reference Guide serves as a resource for users at all levels. Like a
 If you're new to C\*Base, you may find that some sections require a deeper understanding of the system to fully grasp and apply. However, as you expand your familiarity with C\*Base, this guide will continue to be an invaluable resource.
 
 ## Practical and accessible information
-This guide presents a wealth of detailed and practical C\*Base information in clear, plain English. Technical jargon often used by sysop's is thoroughly explained, ensuring accessibility for beginners. At the same time, experienced users will find all the details necessary to harness the full potential of the system effectively and efficiently.
+This guide presents a wealth of detailed and practical C\*Base information in clear, plain English. Technical jargon often used by sysops is thoroughly explained, ensuring accessibility for beginners. At the same time, experienced users will find all the details necessary to harness the full potential of the system effectively and efficiently.
 
 # Covers (at the moment)
 - Larry Mod v3.1
