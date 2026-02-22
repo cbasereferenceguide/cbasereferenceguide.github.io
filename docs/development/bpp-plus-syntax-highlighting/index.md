@@ -49,4 +49,4 @@ view_Opening:
 
 ## GitHub repository
 
-Source code, issue tracking, and releases: [GitHub](https://github.com/cbase-larrymod/bpp-plus-syntax-highlighter).
+Source code, issue tracking, and releases: [GitHub](https://github.com/cbase-larrymod/bpp-plus-syntax-highlighting).
