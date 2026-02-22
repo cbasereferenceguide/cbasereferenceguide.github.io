@@ -69,17 +69,17 @@ Blitz! compilation offers significant advantages: programs run 3-5x faster throu
 
 BPP+ preserves all Blitz! directives during preprocessing and handles multi-dimensional array constraints automatically. For complete details on directives, optimizations, and compiler-specific features, see the [Blitz! BASIC Compiler reference](../language-specification/blitz-basic-compiler.md).
 
-## Pipeline with character set conversion
+## PETSCII character conversion
 
-Some systems require character encoding adjustments for PETSCII compatibility:
+BPP+ automatically converts PETSCII characters to ASCII equivalents during preprocessing:
 
-```bash
-# Syntax:
-# bpp source.bpp | sed 's/OLD/NEW/g' > output.bas
+- `£` (pound sign, 0x5C) → `\` (backslash)
+- `←` (left arrow, 0x5F) → `_` (underscore)
+- `↑` (up arrow, 0x5E) → `^` (caret)
 
-# Example:
-bpp source.bpp | sed 's/£/\\/g;s/←/_/g' > output.bas
-```
+This eliminates the need for external `sed` pipelines in build scripts. Files created with C64 editors are handled automatically.
+
+For complete details, see [PETSCII character conversion](../language-specification/lexical-structure.md#petscii-character-conversion).
 
 ## Integrated build script
 

@@ -212,6 +212,53 @@ print ""                    rem Empty string is valid
 if a$="" then print "empty"
 ```
 
+## PETSCII character conversion
+
+BPP+ automatically converts certain PETSCII characters to their ASCII equivalents during preprocessing. This eliminates the need for external `sed` pipelines in build systems and handles files created with C64 character sets transparently.
+
+### Automatic conversions
+
+| PETSCII Character | Byte Value | ASCII Equivalent | Usage                       |
+| :---------------- | :--------- | :--------------- | :-------------------------- |
+| `£` (pound sign)  | 0x5C       | `\` (backslash)  | Line continuation character |
+| `←` (left arrow)  | 0x5F       | `_` (underscore) | Variable names, identifiers |
+| `↑` (up arrow)    | 0x5E       | `^` (caret)      | Exponentiation operator     |
+
+### Why this is needed
+
+C64 editors and some modern PETSCII editors use different character codes for these symbols. Files created on a C64 or with PETSCII-aware editors may contain the PETSCII variants, which need conversion to standard ASCII for proper processing.
+
+### Example
+
+**Source file created with PETSCII editor:**
+
+```cbmbas
+main:
+    x£5             rem £ is PETSCII backslash (continuation)
+    y←var           rem ← is PETSCII underscore (in identifier)
+    z=2↑3           rem ↑ is PETSCII caret (exponentiation)
+```
+
+**After BPP+ preprocessing (automatic conversion):**
+
+```cbmbas
+main:
+    x\5             rem Converted to ASCII backslash
+    y_var           rem Converted to ASCII underscore
+    z=2^3           rem Converted to ASCII caret
+```
+
+### No configuration required
+
+This conversion happens automatically during preprocessing. You don't need to:
+
+- Add command-line flags
+- Use external `sed` pipelines
+- Modify your source files manually
+- Configure character set mappings
+
+BPP+ handles this transparently, allowing you to work with files from various sources without worrying about character encoding differences.
+
 ## Statement separator: Single vs Double Colon
 
 ### Single colon (`:`)

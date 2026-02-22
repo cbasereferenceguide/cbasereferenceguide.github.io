@@ -10,7 +10,7 @@
 ### Optional
 
 - Make (for automated builds)
-- [Blitz! BASIC Compiler](https://csdb.dk/release/?id=173267) by Daniel Kahlin (see [version compatibility details](../language-specification/blitz-basic-compiler.md#about-blitz-compiler))
+- [Blitz! BASIC Compiler](https://csdb.dk/release/?id=173267) by Daniel Kahlin (see [version compatibility details](../language-specification/blitz-basic-compiler.md#almost-full-speed-ahead))
 - Filesystem watching via [inotify-tools](https://github.com/inotify-tools/inotify-tools)
 
 ## Installation procedure

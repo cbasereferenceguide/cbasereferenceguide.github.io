@@ -26,7 +26,7 @@ screen: {
 
 screen: {
     welcome:
-        print "hello bpp+"\
+        print "{wht}hello bpp+"\
         return
 }
 
@@ -40,7 +40,7 @@ main:
 ```cbmbas
 1 goto 4
 2 poke53280,0:poke53281,0:return
-3 print"hello bpp+":return
+3 print"{wht}hello bpp+":return
 4 gosub2
 5 gosub3
 ```
@@ -57,6 +57,10 @@ New to BPP+? Start here:
 - [Language Specification](language-specification/lexical-structure.md) - Syntax, scopes, labels, directives, and PETSCII codes
 - [Advanced Topics](advanced-topics/symbol-resolution-algorithm.md) - Symbol resolution, debugging, and validation
 - [Reference](reference/api-reference.md) - API, build integration, and error handling
+
+## Related tools
+
+- [BPP+ Syntax Highlighting](../bpp-plus-syntax-highlighting/index.md) - Visual Studio Code extension with syntax highlighting and code snippets for Commodore 64 BASIC v2 and the BPP+ preprocessor.
 
 ## GitHub repository
 
@@ -80,12 +84,13 @@ BASIC v2 (Commodore BASIC 2.0) is a line-number-based interpreted language with 
 
 BPP+ implements a preprocessing layer that:
 
-1. **Tokenizes** enhanced BASIC syntax with symbolic labels
-2. **Parses** hierarchical scope structures and include directives
-3. **Resolves** label references to line numbers via static analysis
-4. **Validates** symbol tables for duplicates and undefined references
-5. **Transpiles** to standard BASIC v2 with generated line numbers
-6. **Maintains** source mapping for debugging compiled programs
+1. **Converts** PETSCII characters to ASCII equivalents (£→\, ←→_, ↑→^)
+2. **Tokenizes** enhanced BASIC syntax with symbolic labels
+3. **Parses** hierarchical scope structures and include directives
+4. **Resolves** label references to line numbers via static analysis
+5. **Validates** symbol tables for duplicates and undefined references
+6. **Transpiles** to standard BASIC v2 with generated line numbers
+7. **Maintains** source mapping for debugging compiled programs
 
 The output is standard BASIC v2 that can be tokenized by Petcat and executed on C64 hardware or emulators. For production use, compile the generated BASIC with the Blitz! compiler for 4x faster execution.
 

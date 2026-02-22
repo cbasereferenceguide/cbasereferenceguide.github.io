@@ -9,15 +9,15 @@ BPP+ provides full compatibility with the Blitz! BASIC Compiler through special 
 **BPP+** and **C\*Base Larry Mod v3.1 development package** uses the Blitz!/Austro-Comp compiler v0.1 by Daniel Kahlin as the default compiler. The table below lists multiple compiler variants and tools available for different development environments and workflows.
 
 - **Video overview:** [The 8-Bit Theory - Blitz! BASIC Compiler](https://www.youtube.com/watch?v=5thXpk_hv54) (YouTube)
-- **Related:** [BLITZ! 128 Manual](../blitz-basic-compiler/blitz-basic-compiler-for-the-commodore-128-1985-skyles-electrical-works.pdf) (PDF)
+- **Related:** [BLITZ! 128 Manual](blitz-basic-compiler/blitz-basic-compiler-for-the-commodore-128-1985-skyles-electric-works.pdf) (PDF)
 
 ### Compilers and tools
 | Name                           | Version | Description                                                        | Link                                                                                | File                                                                                       |
 | :----------------------------- | :------ | :----------------------------------------------------------------- | :---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Blitz!/Austro-Comp compiler    | v0.1    | Cross-compiler by Daniel Kahlin (default for BPP+/C\*Base)         | [CSDB](https://csdb.dk/release/?id=173267)                                          | [ZIP](../blitz-basic-compiler/blitz-0.1.zip)                                          |
-| Blitz!/Austro-Speed decompiler | v0.1    | Decompiler for Blitz!-compiled programs back to BASIC              | [CSDB](https://csdb.dk/release/?id=165744)                                          | [ZIP](../blitz-basic-compiler/deblitz-0.1.zip)                                        |
-| Reblitz64                      | -       | JavaScript port of Blitz! compiler (extremely fast, browser-based) | [GitHub](https://github.com/c1570/Reblitz64)                                        | [ZIP](../blitz-basic-compiler/Reblitz64-master.zip)                                   |
-| BC64                           | -       | Cross-compiler with C128-style forced integer support              | [GitHub](https://github.com/mvr70702/BC64-Blitz-crosscompiler-for-the-Commodore-64) | [ZIP](../blitz-basic-compiler/BC64-Blitz-crosscompiler-for-the-Commodore-64-main.zip) |
+| Blitz!/Austro-Comp compiler    | v0.1    | Cross-compiler by Daniel Kahlin (default for BPP+/C\*Base)         | [CSDB](https://csdb.dk/release/?id=173267)                                          | [ZIP](blitz-basic-compiler/blitz-0.1.zip)                                          |
+| Blitz!/Austro-Speed decompiler | v0.1    | Decompiler for Blitz!-compiled programs back to BASIC              | [CSDB](https://csdb.dk/release/?id=165744)                                          | [ZIP](blitz-basic-compiler/deblitz-0.1.zip)                                        |
+| Reblitz64                      | -       | JavaScript port of Blitz! compiler (extremely fast, browser-based) | [GitHub](https://github.com/c1570/Reblitz64)                                        | [ZIP](blitz-basic-compiler/Reblitz64-master.zip)                                   |
+| BC64                           | -       | Cross-compiler with C128-style forced integer support              | [GitHub](https://github.com/mvr70702/BC64-Blitz-crosscompiler-for-the-Commodore-64) | [ZIP](blitz-basic-compiler/BC64-Blitz-crosscompiler-for-the-Commodore-64-main.zip) |
 
 [^1]:
     Authors: Skyles Electric Works, Commodore Buromaschinen GmbH and Daniel Kahlin
