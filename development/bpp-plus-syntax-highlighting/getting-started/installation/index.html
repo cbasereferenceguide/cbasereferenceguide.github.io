@@ -2847,10 +2847,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#method-1-install-from-vsix-file" class="md-nav__link">
+  <a href="#method-1-install-pre-compiled-extension" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Method 1: Install from .VSIX file
+        Method 1: Install pre-compiled extension
       
     </span>
   </a>
@@ -2858,10 +2858,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#method-2-development-installation" class="md-nav__link">
+  <a href="#method-2-build-and-install-from-source" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Method 2: Development installation
+        Method 2: Build and install from source
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-3-development-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 3: Development installation
       
     </span>
   </a>
@@ -3920,10 +3931,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#method-1-install-from-vsix-file" class="md-nav__link">
+  <a href="#method-1-install-pre-compiled-extension" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Method 1: Install from .VSIX file
+        Method 1: Install pre-compiled extension
       
     </span>
   </a>
@@ -3931,10 +3942,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#method-2-development-installation" class="md-nav__link">
+  <a href="#method-2-build-and-install-from-source" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Method 2: Development installation
+        Method 2: Build and install from source
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-3-development-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 3: Development installation
       
     </span>
   </a>
@@ -4063,24 +4085,19 @@
 </ul>
 <h3 id="optional">Optional<a class="headerlink" href="#optional" title="Anchor link to this section for reference">¶</a></h3>
 <ul>
-<li><a href="../../../bpp-plus-preprocessor/">BPP+ preprocessor</a> - Adds labels, scopes, and modular compilation to BASIC v2</li>
-<li><a href="https://nodejs.org/">Node.js</a> v16.0 or later - Required only for building from source or contributing to development</li>
-<li><a href="https://github.com/microsoft/vscode-vsce">vsce</a> package manager - Required for creating <code>.vsix</code> distribution packages from source</li>
+<li><a href="https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/">BPP+ preprocessor</a> - Adds labels, scopes, and modular compilation to BASIC v2</li>
+<li><a href="https://nodejs.org/">Node.js</a> v16.0 or later - Required only for building from source</li>
+<li><a href="https://github.com/microsoft/vscode-vsce">vsce</a> - Required only for building from source</li>
 </ul>
 <h2 id="installation-methods">Installation methods<a class="headerlink" href="#installation-methods" title="Anchor link to this section for reference">¶</a></h2>
-<h3 id="method-1-install-from-vsix-file">Method 1: Install from .VSIX file<a class="headerlink" href="#method-1-install-from-vsix-file" title="Anchor link to this section for reference">¶</a></h3>
+<h3 id="method-1-install-pre-compiled-extension">Method 1: Install pre-compiled extension<a class="headerlink" href="#method-1-install-pre-compiled-extension" title="Anchor link to this section for reference">¶</a></h3>
+<p>The repository includes a pre-compiled <code>.vsix</code> file in the <code>dist/</code> folder.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Clone repository</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/cbase-larrymod/bpp-plus-syntax-highlighter.git
 <span class="nb">cd</span><span class="w"> </span>bpp-plus-syntax-highlighter
-
-<span class="c1"># Install vsce if needed</span>
-npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>vsce
-
-<span class="c1"># Build the extension package</span>
-npm<span class="w"> </span>run<span class="w"> </span>package
 </code></pre></div>
-<p>The package command creates <code>dist/bpp-plus-basic-v2-syntax-0.0.5.vsix</code>.</p>
-<p>In VS Code:</p>
+<p>Install the extension:</p>
+<p><strong>Via VS Code UI:</strong></p>
 <ol>
 <li>Open Extensions panel (<code>Ctrl+Shift+X</code> or <code>Cmd+Shift+X</code>)</li>
 <li>Click the <code>⋯</code> menu (top-right of Extensions panel)</li>
@@ -4088,7 +4105,23 @@ npm<span class="w"> </span>run<span class="w"> </span>package
 <li>Navigate to <code>dist/bpp-plus-basic-v2-syntax-0.0.5.vsix</code></li>
 <li>Click <strong>Install</strong></li>
 </ol>
-<h3 id="method-2-development-installation">Method 2: Development installation<a class="headerlink" href="#method-2-development-installation" title="Anchor link to this section for reference">¶</a></h3>
+<p><strong>Via command line:</strong></p>
+<div class="highlight"><pre><span></span><code>code<span class="w"> </span>--install-extension<span class="w"> </span>dist/bpp-plus-basic-v2-syntax-0.0.5.vsix
+</code></pre></div>
+<h3 id="method-2-build-and-install-from-source">Method 2: Build and install from source<a class="headerlink" href="#method-2-build-and-install-from-source" title="Anchor link to this section for reference">¶</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Clone repository</span>
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/cbase-larrymod/bpp-plus-syntax-highlighter.git
+<span class="nb">cd</span><span class="w"> </span>bpp-plus-syntax-highlighter
+
+<span class="c1"># Install vsce</span>
+npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>@vscode/vsce
+
+<span class="c1"># Build the extension package</span>
+npm<span class="w"> </span>run<span class="w"> </span>package
+</code></pre></div>
+<p>The package command creates <code>dist/bpp-plus-basic-v2-syntax-0.0.5.vsix</code>.</p>
+<p>Install using VS Code UI or command line (see Method 1).</p>
+<h3 id="method-3-development-installation">Method 3: Development installation<a class="headerlink" href="#method-3-development-installation" title="Anchor link to this section for reference">¶</a></h3>
 <p>For development and testing:</p>
 <ol>
 <li>Clone the repository</li>
@@ -4179,7 +4212,7 @@ code<span class="w"> </span>test.bas
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 22, 2026 18:45:04 UTC">February 22, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 22, 2026 20:11:45 UTC">February 22, 2026</span>
   </span>
 
     
