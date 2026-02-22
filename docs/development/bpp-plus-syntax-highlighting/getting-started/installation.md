@@ -31,13 +31,13 @@ Install the extension:
 1. Open Extensions panel (`Ctrl+Shift+X` or `Cmd+Shift+X`)
 2. Click the `⋯` menu (top-right of Extensions panel)
 3. Select **Install from VSIX**
-4. Navigate to `dist/bpp-plus-basic-v2-syntax-0.0.5.vsix`
+4. Navigate to `dist/bpp-plus-basic-v2-syntax-0.0.6.vsix`
 5. Click **Install**
 
 **Via command line:**
 
 ```bash
-code --install-extension dist/bpp-plus-basic-v2-syntax-0.0.5.vsix
+code --install-extension dist/bpp-plus-basic-v2-syntax-0.0.6.vsix
 ```
 
 ### Method 2: Build and install from source
@@ -54,7 +54,7 @@ npm install -g @vscode/vsce
 npm run package
 ```
 
-The package command creates `dist/bpp-plus-basic-v2-syntax-0.0.5.vsix`.
+The package command creates `dist/bpp-plus-basic-v2-syntax-0.0.6.vsix`.
 
 Install using VS Code UI or command line (see Method 1).
 

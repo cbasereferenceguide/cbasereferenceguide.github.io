@@ -182,12 +182,12 @@ npm install -g vsce
 npm run package
 ```
 
-Output: `dist/bpp-plus-basic-v2-syntax-0.0.5.vsix`
+Output: `dist/bpp-plus-basic-v2-syntax-0.0.6.vsix`
 
 ### Install from .vsix
 
 ```bash
-code --install-extension dist/bpp-plus-basic-v2-syntax-0.0.5.vsix
+code --install-extension dist/bpp-plus-basic-v2-syntax-0.0.6.vsix
 ```
 
 Or via VS Code UI:
