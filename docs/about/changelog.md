@@ -9,6 +9,10 @@
 
 # Changelog [^1]
 
+## [0.2.2] - 2026-02-22
+- [Development](../development/index.md)
+    - [BPP+ Syntax Highlighting](../development/bpp-plus-syntax-highlighting/index.md)
+
 ## [0.2.1] - 2026-01-05
 
 ### Added
