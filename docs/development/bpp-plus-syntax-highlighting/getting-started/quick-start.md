@@ -1,6 +1,11 @@
 # Quick start
 
-This guide shows how to use BPP+ Syntax Highlighting for BASIC v2 development in VS Code.
+Two features:
+
+- **Syntax highlighting** - Colors and styles for language elements
+- **Code snippets** - Predefined snippets with placeholders
+
+Both activate when you open `.bas` or `.bpp` files.
 
 ## Creating your first file
 
@@ -9,59 +14,68 @@ This guide shows how to use BPP+ Syntax Highlighting for BASIC v2 development in
 Create a new file named `hello.bas`:
 
 ```cbmbas
-10 rem Hello World Program
-20 print "{clr}"
-30 print "{wht}Hello, World!"
-40 end
+10 print "{clr}"
+20 poke 53280,0
+30 poke 53281,0
+40 print "{wht}hello bpp+"
 ```
 
-The extension highlights:
+What gets highlighted:
 
-- Keywords: `rem`, `print`, `end`
-- Line numbers: `10`, `20`, `30`, `40`
-- Strings: `"{clr}"`, `"{wht}Hello, World!"`
-- Control tokens: `{clr}`, `{wht}`
+- **Line numbers:** `10`, `20`, `30`, `40`
+- **Keywords:** `print`, `poke`
+- **Strings:** `"{clr}"`, `"{wht}hello bpp+"`
+- **PETSCII tokens:** `{clr}`, `{wht}`
 
-### BPP+ enhanced syntax
+### BPP+ syntax
 
 Create a new file named `hello.bpp`:
 
 ```cbmbas
-rem Modern BASIC with BPP+ preprocessor
 
-main:
-    gosub screen.init
-    gosub screen.message
-    end
+; bpp+ program
+
+goto main
 
 screen: {
     init:
-        print "{clr}"\
+        poke 53280,0\
+        poke 53281,0\
         return
 
-    message:
-        print "{wht}Hello, BPP+ World!"\
+    welcome:
+        print "{wht}hello bpp+"\
         return
 }
+
+main:
+    gosub screen.init
+    gosub screen.welcome
 ```
 
-The extension highlights:
+BPP+ features highlighted:
 
-- **Labels:** `main:`, `init:`, `message:`
-- **Scopes:** `screen: { ... }`
-- **Label references:** `screen.init`, `screen.message`
-- **Statement chaining:** backslash (`\`) line continuations
-- **BPP+ comments:** semicolon (`;`) comments work alongside `rem`
+- **Labels:** `main:`, `init:`, `welcome:` - Styled as declarations and references
+- **Scopes:** `screen: { ... }` - Styled as namespace delimiters
+- **Scoped references:** `screen.init`, `screen.welcome` - Styled to show qualified access
+- **Statement chaining:** Backslash (`\`) continuation character
+- **Preprocessor comments:** Semicolon (`;`) comments in addition to standard `rem` syntax
+
+## Working with BPP+ files
+
+### What is BPP+?
+
+BPP+ is a preprocessor that extends BASIC v2 with labels, scopes, and includes.
+
+See [BPP+ preprocessor documentation](../../bpp-plus-preprocessor/index.md) for language specification and [BPP+ features reference](../reference/bpp-plus-features.md) for highlighting details.
 
 ## Using code snippets
-
-Type a snippet prefix and press `Tab` to insert code.
 
 ### Example: FOR loop
 
 1. Type `for`
 2. Press `Tab`
-3. Extension inserts: `for <var>=<start> to <end>:<expr>:next <var>`
+3. Inserts: `for <counter variable>=<start value> to <end value>:<expression>:next <counter variable>`
 4. Press `Tab` to move between placeholders
 5. Type your values
 
@@ -73,71 +87,33 @@ for i=1 to 10:print i:next i
 
 1. Type `{wht}`
 2. Press `Tab` or `Enter`
-3. Extension inserts the white color token
+3. Inserts the white color token
 
-Alternative using chr$ function:
+Using chr$ function:
 
 1. Type `chr`
 2. Press `Tab`
-3. Extension inserts: `chr$(<numeric expression>)`
+3. Inserts: `chr$(<numeric expression>)`
 4. Type `5` for white color
 
 ### Common snippets
 
-| Type      | Press Tab | Result                          |
-| :-------- | :-------- | :------------------------------ |
-| `print`   | Tab       | `print <expression>`            |
-| `gosub`   | Tab       | `gosub <line/label>`            |
-| `if`      | Tab       | `if <condition> then <action>`  |
-| `peek`    | Tab       | `peek(<memory address>)`        |
-| `poke`    | Tab       | `poke <address>,<value>`        |
-| `{clr}`   | Tab       | Clear screen token              |
-| `{wht}`   | Tab       | White color token               |
+| Type    | Result                                     |
+| :------ | :----------------------------------------- |
+| `print` | `print <expression>`                       |
+| `gosub` | `gosub <line/label>`                       |
+| `if`    | `if <condition> then <line or expression>` |
+| `peek`  | `peek(<memory address>)`                   |
+| `poke`  | `poke <memory address>,number`             |
+| `{clr}` | Clear screen token                         |
+| `{wht}` | White color token                          |
 
-See [Code snippets](../features/code-snippets.md) for the complete list.
-
-## Working with BPP+ files
-
-### What is BPP+?
-
-BPP+ is a preprocessor that adds modern features to BASIC v2 (labels, file includes, namespaces). The extension highlights BPP+ syntax in `.bpp` files. Learn more: [BPP+ preprocessor documentation](../../bpp-plus-preprocessor/index.md)
-
-### What gets highlighted
-
-**Labels:** Definitions and references
-
-```cbmbas
-main:                    rem Highlighted
-    gosub init           rem Highlighted
-```
-
-**Scopes:** Declarations and scoped references
-
-```cbmbas
-screen: {                rem Highlighted
-    init: return
-}
-gosub screen.init        rem Highlighted
-```
-
-**Includes:** Keyword, type, and file path
-
-```cbmbas
-!include source "lib/screen.bpp"    rem All highlighted
-```
-
-**Statement chaining:** Backslash continuation
-
-```cbmbas
-print "{clr}";\          rem Backslash highlighted
-```
-
-See [BPP+ features reference](../reference/bpp-plus-features.md) for complete details.
+See [Code snippets](../language-support/code-snippets.md) for the complete list.
 
 ---
 
 ## Next steps
 
-- [Syntax highlighting features](../features/syntax-highlighting.md) - Learn what gets highlighted
-- [Code snippets reference](../features/code-snippets.md) - Complete snippet catalog
-- [BASIC v2 language reference](../reference/basic-v2-language.md) - Full language support details
+- [Syntax highlighting features](../language-support/syntax-highlighting.md)
+- [Code snippets reference](../language-support/code-snippets.md)
+- [BASIC v2 language reference](../reference/basic-v2-language.md)

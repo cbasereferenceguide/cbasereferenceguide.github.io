@@ -1,10 +1,8 @@
 # BASIC v2 language reference
 
-What the extension highlights in Commodore 64 BASIC v2 files.
+Syntax highlighting support for Commodore 64 BASIC v2 (Commodore BASIC 2.0).
 
 ## Control flow keywords
-
-The extension highlights these control flow keywords:
 
 `end`, `for`, `next`, `gosub`, `goto`, `if`, `then`, `step`, `stop`, `return`, `to`, `on`
 
@@ -22,20 +20,57 @@ end
 
 ## Built-in functions
 
-The extension highlights these BASIC v2 functions:
+BASIC v2 built-in functions categorized by purpose:
 
-`abs`, `asc`, `atn`, `chr$`, `cos`, `exp`, `int`, `len`, `left$`, `mid$`, `peek`, `pos`, `rnd`, `right$`, `sgn`, `sin`, `sqr`, `tan`, `str$`, `usr`, `val`
+### Mathematical functions
+
+`abs`, `atn`, `cos`, `exp`, `int`, `log`, `rnd`, `sgn`, `sin`, `sqr`, `tan`
+
+- **`abs(x)`** - Absolute value
+- **`atn(x)`** - Arc tangent (result in radians)
+- **`cos(x)`** - Cosine (argument in radians)
+- **`exp(x)`** - Exponential (e^x)
+- **`int(x)`** - Integer portion (truncates toward zero)
+- **`log(x)`** - Natural logarithm (base e)
+- **`rnd(x)`** - Random number (0 ≤ result < 1)
+- **`sgn(x)`** - Sign function (-1, 0, or 1)
+- **`sin(x)`** - Sine (argument in radians)
+- **`sqr(x)`** - Square root
+- **`tan(x)`** - Tangent (argument in radians)
+
+### String functions
+
+`asc`, `chr$`, `left$`, `len`, `mid$`, `right$`, `str$`, `val`
+
+- **`asc(str$)`** - Returns ASCII/PETSCII code of first character
+- **`chr$(code)`** - Converts numeric code to character
+- **`left$(str$,n)`** - Returns n leftmost characters
+- **`len(str$)`** - Returns string length (0-255)
+- **`mid$(str$,start,length)`** - Extracts substring
+- **`right$(str$,n)`** - Returns n rightmost characters
+- **`str$(num)`** - Converts number to string
+- **`val(str$)`** - Converts string to number
+
+### System functions
+
+`fre`, `peek`, `pos`, `usr`
+
+- **`fre(0)`** - Returns free BASIC memory in bytes
+- **`peek(addr)`** - Reads byte from memory address
+- **`pos(0)`** - Returns cursor column position (0-39)
+- **`usr(x)`** - Calls machine language routine
 
 ```cbmbas
 a = abs(-5)
 b$ = chr$(65)
 c = peek(53280)
 d$ = left$("hello",2)
+m = fre(0)
 ```
 
 ## User-defined functions
 
-The extension highlights `def fn` declarations and `fn` function calls:
+`def fn` declarations and `fn` function calls:
 
 ```cbmbas
 def fn sq(x) = x * x
@@ -43,8 +78,6 @@ a = fn sq(5)
 ```
 
 ## I/O and disk keywords
-
-The extension highlights these keywords:
 
 `print`, `print#`, `input`, `input#`, `open`, `close`, `load`, `list`, `save`, `restore`, `read`, `get`, `get#`, `poke`, `peek`, `sys`, `run`, `verify`, `wait`
 
@@ -59,8 +92,6 @@ sys 49152
 
 ## Storage keywords
 
-The extension highlights these keywords:
-
 `dim`, `data`, `let`, `def`
 
 ```cbmbas
@@ -72,11 +103,11 @@ let x = 42
 
 ## Variables
 
-The extension highlights variable names with optional type suffixes:
+Variable names with optional type suffixes:
 
-- Standard variables: `a`, `counter`
-- String variables: `name$`, `text$`
-- Integer variables: `x%`, `count%`
+- **Standard (float):** `a`, `counter` - 40-bit floating point (default)
+- **String:** `name$`, `text$` - Variable-length strings (up to 255 chars)
+- **Integer:** `x%`, `count%` - 16-bit signed (-32768 to 32767)
 
 ```cbmbas
 a = 10
@@ -84,9 +115,17 @@ name$ = "hello"
 count% = 100
 ```
 
-## Operators
+### Variable naming rules
 
-The extension highlights these operators:
+BASIC v2 enforces these constraints:
+
+- **First two characters significant** - `counter` and `count` are the same variable
+- **Must start with letter** - Cannot begin with digit or special character
+- **Type suffix last** - Dollar sign ($) or percent (%) must be final character
+- **Case insensitive** - `NAME$` and `name$` refer to same variable
+- **Reserved words forbidden** - Cannot use BASIC keywords as variable names
+
+## Operators
 
 - **Arithmetic:** `+`, `-`, `*`, `/`, `^`
 - **Comparison:** `=`, `<>`, `<`, `>`, `<=`, `>=`
@@ -98,8 +137,6 @@ if a>5 and b<10 then print "yes"
 ```
 
 ## Numbers
-
-The extension highlights:
 
 - **Line numbers:** At start of line (e.g., `10`, `100`)
 - **Decimal:** `255`, `3.14159`
@@ -114,20 +151,20 @@ The extension highlights:
 
 ## Comments
 
-The extension highlights:
-
 - **REM comments:** `rem This is a comment`
-- **BPP+ semicolon comments:** `; This is also a comment`
+- **Semicolon comments:** `; BPP+ comment syntax`
 
 ```cbmbas
 rem BASIC comment
 10 rem Comment after line number
-; BPP+ comment (stripped during preprocessing)
+; BPP+ comment
 ```
+
+BPP+ removes both comment types during preprocessing. Exception: Blitz! compiler directives (`rem **`) are preserved.
 
 ## Strings
 
-The extension highlights double-quoted strings and embedded PETSCII tokens:
+Double-quoted strings and embedded PETSCII tokens:
 
 ```cbmbas
 a$ = "simple string"
@@ -141,32 +178,15 @@ Token syntax inside strings:
 - **Repetition:** `{10 space}`, `{5 down}`
 - **Ranges:** `{a-z}`, `{0-9}`
 
-## BPP+ statement chaining
-
-The extension highlights the backslash (`\`) continuation character:
-
-```cbmbas
-print "{clr}";\
-print "{wht}Hello";\
-return
-```
-
 ## Extension symbols
 
-The extension highlights Prof. Plum extension symbols:
-
-- `@` - DOS commands
-- `←` - Arrow-left
-
-```cbmbas
-@ "dos command"
-← variable
-```
+See [Extension symbols](extension-symbols.md) for MCI commands and Prof. Plum extensions.
 
 ---
 
 ## See also
 
-- [BPP+ features](bpp-plus-features.md) - BPP+ preprocessor syntax
-- [Control characters](control-characters.md) - PETSCII tokens reference
-- [Syntax highlighting](../features/syntax-highlighting.md) - Visual styling
+- [BPP+ features](bpp-plus-features.md)
+- [Control characters](control-characters.md)
+- [Extension symbols](extension-symbols.md)
+- [Syntax highlighting](../language-support/syntax-highlighting.md)
