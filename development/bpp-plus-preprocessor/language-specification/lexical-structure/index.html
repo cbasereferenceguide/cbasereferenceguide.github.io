@@ -2378,6 +2378,67 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#petscii-character-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PETSCII character conversion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PETSCII character conversion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automatic-conversions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic conversions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-needed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this is needed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-configuration-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No configuration required
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#statement-separator-single-vs-double-colon" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4144,6 +4205,67 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#petscii-character-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PETSCII character conversion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PETSCII character conversion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automatic-conversions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic conversions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-is-needed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this is needed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-configuration-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No configuration required
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#statement-separator-single-vs-double-colon" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4369,6 +4491,63 @@ chr$     left$    right$   mid$     ti$      ti       st       go
 <h3 id="empty-strings-are-supported">Empty strings are supported<a class="headerlink" href="#empty-strings-are-supported" title="Anchor link to this section for reference">¶</a></h3>
 <div class="highlight"><pre><span></span><code><span class="kr">if</span><span class="w"> </span><span class="n">a$</span><span class="o">=</span><span class="s">""</span><span class="w"> </span><span class="kr">then</span><span class="w"> </span><span class="kr">print</span><span class="w"> </span><span class="s">"empty"</span>
 </code></pre></div>
+<h2 id="petscii-character-conversion">PETSCII character conversion<a class="headerlink" href="#petscii-character-conversion" title="Anchor link to this section for reference">¶</a></h2>
+<p>BPP+ automatically converts certain PETSCII characters to their ASCII equivalents during preprocessing. This eliminates the need for external <code>sed</code> pipelines in build systems and handles files created with C64 character sets transparently.</p>
+<h3 id="automatic-conversions">Automatic conversions<a class="headerlink" href="#automatic-conversions" title="Anchor link to this section for reference">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">PETSCII Character</th>
+<th style="text-align: left;">Byte Value</th>
+<th style="text-align: left;">ASCII Equivalent</th>
+<th style="text-align: left;">Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>£</code> (pound sign)</td>
+<td style="text-align: left;">0x5C</td>
+<td style="text-align: left;"><code>\</code> (backslash)</td>
+<td style="text-align: left;">Line continuation character</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>←</code> (left arrow)</td>
+<td style="text-align: left;">0x5F</td>
+<td style="text-align: left;"><code>_</code> (underscore)</td>
+<td style="text-align: left;">Variable names, identifiers</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>↑</code> (up arrow)</td>
+<td style="text-align: left;">0x5E</td>
+<td style="text-align: left;"><code>^</code> (caret)</td>
+<td style="text-align: left;">Exponentiation operator</td>
+</tr>
+</tbody>
+</table>
+<h3 id="why-this-is-needed">Why this is needed<a class="headerlink" href="#why-this-is-needed" title="Anchor link to this section for reference">¶</a></h3>
+<p>C64 editors and some modern PETSCII editors use different character codes for these symbols. Files created on a C64 or with PETSCII-aware editors may contain the PETSCII variants, which need conversion to standard ASCII for proper processing.</p>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Anchor link to this section for reference">¶</a></h3>
+<p><strong>Source file created with PETSCII editor:</strong></p>
+<div class="highlight"><pre><span></span><code><span class="n">main</span><span class="p">:</span>
+<span class="w">    </span><span class="n">x</span><span class="err">£</span><span class="mf">5</span><span class="w">             </span><span class="c1">rem £ is PETSCII backslash (continuation)</span>
+<span class="w">    </span><span class="n">y</span><span class="err">←</span><span class="n">var</span><span class="w">           </span><span class="c1">rem ← is PETSCII underscore (in identifier)</span>
+<span class="w">    </span><span class="n">z</span><span class="o">=</span><span class="mf">2</span><span class="err">↑</span><span class="mf">3</span><span class="w">           </span><span class="c1">rem ↑ is PETSCII caret (exponentiation)</span>
+</code></pre></div>
+<p><strong>After BPP+ preprocessing (automatic conversion):</strong></p>
+<div class="highlight"><pre><span></span><code><span class="n">main</span><span class="p">:</span>
+<span class="w">    </span><span class="n">x</span><span class="err">\</span><span class="mf">5</span><span class="w">             </span><span class="c1">rem Converted to ASCII backslash</span>
+<span class="w">    </span><span class="n">y_var</span><span class="w">           </span><span class="c1">rem Converted to ASCII underscore</span>
+<span class="w">    </span><span class="n">z</span><span class="o">=</span><span class="mf">2</span><span class="o">^</span><span class="mf">3</span><span class="w">           </span><span class="c1">rem Converted to ASCII caret</span>
+</code></pre></div>
+<h3 id="no-configuration-required">No configuration required<a class="headerlink" href="#no-configuration-required" title="Anchor link to this section for reference">¶</a></h3>
+<p>This conversion happens automatically during preprocessing. You don't need to:</p>
+<ul>
+<li>Add command-line flags</li>
+<li>Use external <code>sed</code> pipelines</li>
+<li>Modify your source files manually</li>
+<li>Configure character set mappings</li>
+</ul>
+<p>BPP+ handles this transparently, allowing you to work with files from various sources without worrying about character encoding differences.</p>
 <h2 id="statement-separator-single-vs-double-colon">Statement separator: Single vs Double Colon<a class="headerlink" href="#statement-separator-single-vs-double-colon" title="Anchor link to this section for reference">¶</a></h2>
 <h3 id="single-colon">Single colon (<code>:</code>)<a class="headerlink" href="#single-colon" title="Anchor link to this section for reference">¶</a></h3>
 <p>Used as a statement separator in BASIC:</p>
@@ -4419,7 +4598,7 @@ chr$     left$    right$   mid$     ti$      ti       st       go
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 19, 2025 21:33:53 UTC">November 19, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 22, 2026 19:10:47 UTC">February 22, 2026</span>
   </span>
 
     
