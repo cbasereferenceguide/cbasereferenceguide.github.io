@@ -19,4 +19,18 @@ BPP+ adds labels, scopes, and file includes to Commodore 64 BASIC v2. Write code
 
 [BPP+ Preprocessor documentation](bpp-plus-preprocessor/index.md) | [GitHub repository](https://github.com/cbase-larrymod/bpp-plus)
 
+## BPP+ Syntax Highlighting [^2]
+
+Syntax highlighting and code snippets for standard BASIC v2 and the BPP+ preprocessor.
+
+### Features
+
+- Syntax highlighting for all BASIC v2 keywords, functions, and operators
+- BPP+ feature highlighting (labels, scopes, includes, statement chaining)
+- 100+ code snippets for commands, functions, and PETSCII control characters
+- Works with `.bas` and `.bpp` files
+
+[BPP+ Syntax Highlighting documentation](bpp-plus-syntax-highlighting/index.md) | [GitHub repository](https://github.com/cbase-larrymod/bpp-plus-syntax-highlighting)
+
 [^1]: Extended from the [original BPP preprocessor](https://github.com/hbekel/bpp) by Henning Liebenau.
+[^2]: For [Visual Studio Code](https://code.visualstudio.com/)

@@ -1,8 +1,8 @@
 # Venv
 _environment
 
-.claude
-MISC-INFO.md
+# Claude
+.claude/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

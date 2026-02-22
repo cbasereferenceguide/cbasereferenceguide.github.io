@@ -16,7 +16,7 @@ Output MCI commands are handled properly during variable column output, ensuring
 | £og     | Name of the last caller        | lc$    |
 | £oh     | Time of the last call          | tc$    |
 | £oi     | Sysop availability status      | fg$    |
-| £oj     | Sysop's handle (username)      | vi$    |
+| £oj     | Sysop handle (username)        | vi$    |
 | £ok     | User's date of birth           | bd$    |
 | £ol     | Current system date            | da$    |
 | £om     | Current system time            | tm$    |
