@@ -1,6 +1,9 @@
 # Venv
 _environment
 
+# Internal and workflow documentation
+INTERNAL-INFORMATION.md
+
 # Claude
 .claude/
 
