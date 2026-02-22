@@ -8,29 +8,25 @@
 
 ### Optional
 
-- [BPP+ preprocessor](../../../development/bpp-plus-preprocessor/index.md) - Adds labels, scopes, and modular compilation to BASIC v2
-- [Node.js](https://nodejs.org/) v16.0 or later - Required only for building from source or contributing to development
-- [vsce](https://github.com/microsoft/vscode-vsce) package manager - Required for creating `.vsix` distribution packages from source
+- [BPP+ preprocessor](https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/) - Adds labels, scopes, and modular compilation to BASIC v2
+- [Node.js](https://nodejs.org/) v16.0 or later - Required only for building from source
+- [vsce](https://github.com/microsoft/vscode-vsce) - Required only for building from source
 
 ## Installation methods
 
-### Method 1: Install from .VSIX file
+### Method 1: Install pre-compiled extension
+
+The repository includes a pre-compiled `.vsix` file in the `dist/` folder.
 
 ```bash
 # Clone repository
 git clone https://github.com/cbase-larrymod/bpp-plus-syntax-highlighter.git
 cd bpp-plus-syntax-highlighter
-
-# Install vsce if needed
-npm install -g vsce
-
-# Build the extension package
-npm run package
 ```
 
-The package command creates `dist/bpp-plus-basic-v2-syntax-0.0.5.vsix`.
+Install the extension:
 
-In VS Code:
+**Via VS Code UI:**
 
 1. Open Extensions panel (`Ctrl+Shift+X` or `Cmd+Shift+X`)
 2. Click the `⋯` menu (top-right of Extensions panel)
@@ -38,7 +34,31 @@ In VS Code:
 4. Navigate to `dist/bpp-plus-basic-v2-syntax-0.0.5.vsix`
 5. Click **Install**
 
-### Method 2: Development installation
+**Via command line:**
+
+```bash
+code --install-extension dist/bpp-plus-basic-v2-syntax-0.0.5.vsix
+```
+
+### Method 2: Build and install from source
+
+```bash
+# Clone repository
+git clone https://github.com/cbase-larrymod/bpp-plus-syntax-highlighter.git
+cd bpp-plus-syntax-highlighter
+
+# Install vsce
+npm install -g @vscode/vsce
+
+# Build the extension package
+npm run package
+```
+
+The package command creates `dist/bpp-plus-basic-v2-syntax-0.0.5.vsix`.
+
+Install using VS Code UI or command line (see Method 1).
+
+### Method 3: Development installation
 
 For development and testing:
 
