@@ -9,6 +9,19 @@
 
 # Changelog [^1]
 
+## [0.2.3] - 2026-02-25
+
+### Changed
+
+- Development
+    - BPP+ Preprocessor
+        - Language specification
+            - [Lexical structure - C*Base extension symbols](../development/bpp-plus-preprocessor/language-specification/lexical-structure.md#petscii-character-conversion)
+    - BPP+ Syntax Highlighting
+        - Reference
+            - [BPP+ features - PETSCII character conversion](../development/bpp-plus-syntax-highlighting/reference/bpp-plus-features.md#petscii-character-conversion)
+            - [Extension symbols](../development/bpp-plus-syntax-highlighting/reference/extension-symbols.md)
+
 ## [0.2.2] - 2026-02-22
 
 ### Changed
