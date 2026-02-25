@@ -218,11 +218,11 @@ BPP+ automatically converts certain PETSCII characters to their ASCII equivalent
 
 ### Automatic conversions
 
-| PETSCII Character | Byte Value | ASCII Equivalent | Usage                       |
-| :---------------- | :--------- | :--------------- | :-------------------------- |
-| `£` (pound sign)  | 0x5C       | `\` (backslash)  | Line continuation character |
-| `←` (left arrow)  | 0x5F       | `_` (underscore) | Variable names, identifiers |
-| `↑` (up arrow)    | 0x5E       | `^` (caret)      | Exponentiation operator     |
+| PETSCII Character | Byte Value | ASCII Equivalent |
+| :---------------- | :--------- | :--------------- |
+| `£` (pound sign)  | 0x5C       | `\` (backslash)  |
+| `←` (left arrow)  | 0x5F       | `_` (underscore) |
+| `↑` (up arrow)    | 0x5E       | `^` (caret)      |
 
 ### Why this is needed
 
@@ -234,18 +234,18 @@ C64 editors and some modern PETSCII editors use different character codes for th
 
 ```cbmbas
 main:
-    x£5             rem £ is PETSCII backslash (continuation)
-    y←var           rem ← is PETSCII underscore (in identifier)
-    z=2↑3           rem ↑ is PETSCII caret (exponentiation)
+    x£5             rem £ is PETSCII
+    y←var           rem ← is PETSCII
+    z=2↑3           rem ↑ is PETSCII
 ```
 
 **After BPP+ preprocessing (automatic conversion):**
 
 ```cbmbas
 main:
-    x\5             rem Converted to ASCII backslash
-    y_var           rem Converted to ASCII underscore
-    z=2^3           rem Converted to ASCII caret
+    x\5             rem Converted to ASCII
+    y_var           rem Converted to ASCII
+    z=2^3           rem Converted to ASCII
 ```
 
 ### No configuration required
@@ -258,6 +258,39 @@ This conversion happens automatically during preprocessing. You don't need to:
 - Configure character set mappings
 
 BPP+ handles this transparently, allowing you to work with files from various sources without worrying about character encoding differences.
+
+### Not a C*Base extension
+
+`↑` (up arrow) is NOT a C*Base command or extension. It only provides PETSCII-to-ASCII conversion for the exponentiation operator (`^`).
+
+## C*Base extension symbols
+
+The characters `@`, `£`, and `←` have additional meanings in C*Base BBS context beyond their PETSCII conversion purposes.
+
+### MCI commands and Prof. Plum extensions
+
+| Symbol | MCI Command | Prof. Plum Extension | BASIC Extension |
+| :----- | :---------- | :------------------- | :-------------- |
+| `@`    | Yes         | `print:print#5`      | No              |
+| `←`    | Yes         | `print;:print#5;`    | Yes             |
+| `£`    | Yes         | No                   | Yes             |
+
+### Prof. Plum print shorthand
+
+These symbols send output to both screen and modem simultaneously in C*Base BBS source code:
+
+- `@` - Expands to `print:print#5` (statement separator with colon)
+- `←` - Expands to `print;:print#5;` (statement separator with semicolon)
+
+Both shortcuts eliminate the need to manually type the dual-output pattern.
+
+**Example:**
+
+```cbmbas
+@ "text"
+← "text"
+£ MCI Command
+```
 
 ## Statement separator: Single vs Double Colon
 
