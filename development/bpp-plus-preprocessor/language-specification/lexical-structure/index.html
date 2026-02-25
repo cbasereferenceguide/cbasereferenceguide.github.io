@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../../../../assets/favicon/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
     
     
       
@@ -2433,6 +2433,56 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#not-a-cbase-extension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Not a C*Base extension
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cbase-extension-symbols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        C*Base extension symbols
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="C*Base extension symbols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mci-commands-and-prof-plum-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MCI commands and Prof. Plum extensions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prof-plum-print-shorthand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prof. Plum print shorthand
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -4260,6 +4310,56 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#not-a-cbase-extension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Not a C*Base extension
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cbase-extension-symbols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        C*Base extension symbols
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="C*Base extension symbols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mci-commands-and-prof-plum-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MCI commands and Prof. Plum extensions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prof-plum-print-shorthand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prof. Plum print shorthand
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -4500,7 +4600,6 @@ chr$     left$    right$   mid$     ti$      ti       st       go
 <th style="text-align: left;">PETSCII Character</th>
 <th style="text-align: left;">Byte Value</th>
 <th style="text-align: left;">ASCII Equivalent</th>
-<th style="text-align: left;">Usage</th>
 </tr>
 </thead>
 <tbody>
@@ -4508,19 +4607,16 @@ chr$     left$    right$   mid$     ti$      ti       st       go
 <td style="text-align: left;"><code>£</code> (pound sign)</td>
 <td style="text-align: left;">0x5C</td>
 <td style="text-align: left;"><code>\</code> (backslash)</td>
-<td style="text-align: left;">Line continuation character</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>←</code> (left arrow)</td>
 <td style="text-align: left;">0x5F</td>
 <td style="text-align: left;"><code>_</code> (underscore)</td>
-<td style="text-align: left;">Variable names, identifiers</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>↑</code> (up arrow)</td>
 <td style="text-align: left;">0x5E</td>
 <td style="text-align: left;"><code>^</code> (caret)</td>
-<td style="text-align: left;">Exponentiation operator</td>
 </tr>
 </tbody>
 </table>
@@ -4529,15 +4625,15 @@ chr$     left$    right$   mid$     ti$      ti       st       go
 <h3 id="example">Example<a class="headerlink" href="#example" title="Anchor link to this section for reference">¶</a></h3>
 <p><strong>Source file created with PETSCII editor:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="n">main</span><span class="p">:</span>
-<span class="w">    </span><span class="n">x</span><span class="err">£</span><span class="mf">5</span><span class="w">             </span><span class="c1">rem £ is PETSCII backslash (continuation)</span>
-<span class="w">    </span><span class="n">y</span><span class="err">←</span><span class="n">var</span><span class="w">           </span><span class="c1">rem ← is PETSCII underscore (in identifier)</span>
-<span class="w">    </span><span class="n">z</span><span class="o">=</span><span class="mf">2</span><span class="err">↑</span><span class="mf">3</span><span class="w">           </span><span class="c1">rem ↑ is PETSCII caret (exponentiation)</span>
+<span class="w">    </span><span class="n">x</span><span class="err">£</span><span class="mf">5</span><span class="w">             </span><span class="c1">rem £ is PETSCII</span>
+<span class="w">    </span><span class="n">y</span><span class="err">←</span><span class="n">var</span><span class="w">           </span><span class="c1">rem ← is PETSCII</span>
+<span class="w">    </span><span class="n">z</span><span class="o">=</span><span class="mf">2</span><span class="err">↑</span><span class="mf">3</span><span class="w">           </span><span class="c1">rem ↑ is PETSCII</span>
 </code></pre></div>
 <p><strong>After BPP+ preprocessing (automatic conversion):</strong></p>
 <div class="highlight"><pre><span></span><code><span class="n">main</span><span class="p">:</span>
-<span class="w">    </span><span class="n">x</span><span class="err">\</span><span class="mf">5</span><span class="w">             </span><span class="c1">rem Converted to ASCII backslash</span>
-<span class="w">    </span><span class="n">y_var</span><span class="w">           </span><span class="c1">rem Converted to ASCII underscore</span>
-<span class="w">    </span><span class="n">z</span><span class="o">=</span><span class="mf">2</span><span class="o">^</span><span class="mf">3</span><span class="w">           </span><span class="c1">rem Converted to ASCII caret</span>
+<span class="w">    </span><span class="n">x</span><span class="err">\</span><span class="mf">5</span><span class="w">             </span><span class="c1">rem Converted to ASCII</span>
+<span class="w">    </span><span class="n">y_var</span><span class="w">           </span><span class="c1">rem Converted to ASCII</span>
+<span class="w">    </span><span class="n">z</span><span class="o">=</span><span class="mf">2</span><span class="o">^</span><span class="mf">3</span><span class="w">           </span><span class="c1">rem Converted to ASCII</span>
 </code></pre></div>
 <h3 id="no-configuration-required">No configuration required<a class="headerlink" href="#no-configuration-required" title="Anchor link to this section for reference">¶</a></h3>
 <p>This conversion happens automatically during preprocessing. You don't need to:</p>
@@ -4548,6 +4644,53 @@ chr$     left$    right$   mid$     ti$      ti       st       go
 <li>Configure character set mappings</li>
 </ul>
 <p>BPP+ handles this transparently, allowing you to work with files from various sources without worrying about character encoding differences.</p>
+<h3 id="not-a-cbase-extension">Not a C*Base extension<a class="headerlink" href="#not-a-cbase-extension" title="Anchor link to this section for reference">¶</a></h3>
+<p><code>↑</code> (up arrow) is NOT a C*Base command or extension. It only provides PETSCII-to-ASCII conversion for the exponentiation operator (<code>^</code>).</p>
+<h2 id="cbase-extension-symbols">C*Base extension symbols<a class="headerlink" href="#cbase-extension-symbols" title="Anchor link to this section for reference">¶</a></h2>
+<p>The characters <code>@</code>, <code>£</code>, and <code>←</code> have additional meanings in C*Base BBS context beyond their PETSCII conversion purposes.</p>
+<h3 id="mci-commands-and-prof-plum-extensions">MCI commands and Prof. Plum extensions<a class="headerlink" href="#mci-commands-and-prof-plum-extensions" title="Anchor link to this section for reference">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Symbol</th>
+<th style="text-align: left;">MCI Command</th>
+<th style="text-align: left;">Prof. Plum Extension</th>
+<th style="text-align: left;">BASIC Extension</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>@</code></td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;"><code>print:print#5</code></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>←</code></td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;"><code>print;:print#5;</code></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>£</code></td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="prof-plum-print-shorthand">Prof. Plum print shorthand<a class="headerlink" href="#prof-plum-print-shorthand" title="Anchor link to this section for reference">¶</a></h3>
+<p>These symbols send output to both screen and modem simultaneously in C*Base BBS source code:</p>
+<ul>
+<li><code>@</code> - Expands to <code>print:print#5</code> (statement separator with colon)</li>
+<li><code>←</code> - Expands to <code>print;:print#5;</code> (statement separator with semicolon)</li>
+</ul>
+<p>Both shortcuts eliminate the need to manually type the dual-output pattern.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight"><pre><span></span><code><span class="err">@</span><span class="w"> </span><span class="s">"text"</span>
+<span class="err">←</span><span class="w"> </span><span class="s">"text"</span>
+<span class="err">£</span><span class="w"> </span><span class="n">MCI</span><span class="w"> </span><span class="n">Command</span>
+</code></pre></div>
 <h2 id="statement-separator-single-vs-double-colon">Statement separator: Single vs Double Colon<a class="headerlink" href="#statement-separator-single-vs-double-colon" title="Anchor link to this section for reference">¶</a></h2>
 <h3 id="single-colon">Single colon (<code>:</code>)<a class="headerlink" href="#single-colon" title="Anchor link to this section for reference">¶</a></h3>
 <p>Used as a statement separator in BASIC:</p>
@@ -4598,7 +4741,7 @@ chr$     left$    right$   mid$     ti$      ti       st       go
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 22, 2026 19:10:47 UTC">February 22, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 25, 2026 20:32:21 UTC">February 25, 2026</span>
   </span>
 
     

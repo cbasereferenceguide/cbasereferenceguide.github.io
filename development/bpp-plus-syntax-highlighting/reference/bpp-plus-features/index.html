@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../../../../assets/favicon/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
     
     
       
@@ -3991,7 +3991,7 @@
 <p>BPP+ preprocessor features in <code>.bpp</code> files.</p>
 <h2 id="what-is-bpp">What is BPP+?<a class="headerlink" href="#what-is-bpp" title="Anchor link to this section for reference">¶</a></h2>
 <p>BPP+ is a preprocessor that extends BASIC v2 with labels, scopes, and includes.</p>
-<p>See <a href="../../../bpp-plus-preprocessor/">BPP+ preprocessor documentation</a> for language specification and compilation.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/">BPP+ Preprocessor documentation</a> for language specification and compilation.</p>
 <h2 id="labels">Labels<a class="headerlink" href="#labels" title="Anchor link to this section for reference">¶</a></h2>
 <p>Labels provide symbolic names for control flow targets, replacing numeric line references:</p>
 <div class="highlight"><pre><span></span><code><span class="n">main</span><span class="p">:</span>
@@ -4005,7 +4005,7 @@
 </code></pre></div>
 <p><strong>Label definitions:</strong> <code>main:</code>, <code>init:</code>
 <strong>Label references:</strong> <code>gosub init</code>, <code>goto loop</code></p>
-<p>See <a href="../../../bpp-plus-preprocessor/language-specification/symbol-resolution/">BPP+ symbol resolution</a>.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/language-specification/symbol-resolution/">BPP+ Preprocessor - Symbol resolution</a>.</p>
 <h2 id="scopes">Scopes<a class="headerlink" href="#scopes" title="Anchor link to this section for reference">¶</a></h2>
 <p>Scopes provide hierarchical namespaces for organizing related labels:</p>
 <div class="highlight"><pre><span></span><code><span class="n">screen</span><span class="p">:</span><span class="w"> </span><span class="err">{</span>
@@ -4025,7 +4025,7 @@
 <p><strong>Scope declarations:</strong> <code>screen: {</code>
 <strong>Scope delimiters:</strong> <code>{</code> and <code>}</code>
 <strong>Qualified references:</strong> <code>screen.init</code></p>
-<p>See <a href="../../../bpp-plus-preprocessor/language-specification/scope-hierarchies/">BPP+ scope hierarchies</a>.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/language-specification/scope-hierarchies/">BPP+ Preprocessor - Scope hierarchies</a>.</p>
 <h2 id="include-directives">Include directives<a class="headerlink" href="#include-directives" title="Anchor link to this section for reference">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="err">!</span><span class="n">include</span><span class="w"> </span><span class="n">source</span><span class="w"> </span><span class="s">"lib/screen.bpp"</span>
 <span class="err">!</span><span class="n">include</span><span class="w"> </span><span class="kd">data</span><span class="w"> </span><span class="s">"charset.bin"</span>
@@ -4035,7 +4035,7 @@
 <span class="err">}</span>
 </code></pre></div>
 <p>Highlights the <code>!include</code> keyword, type specifiers (<code>source</code>/<code>data</code>), and file paths.</p>
-<p>See <a href="../../../bpp-plus-preprocessor/language-specification/include-directives/">BPP+ include directives</a>.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/language-specification/include-directives/">BPP+ Preprocessor - Include directives</a>.</p>
 <h2 id="statement-chaining">Statement chaining<a class="headerlink" href="#statement-chaining" title="Anchor link to this section for reference">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="kr">print</span><span class="n">_header</span><span class="p">:</span>
 <span class="w">    </span><span class="kr">print</span><span class="w"> </span><span class="s">"{clr}"</span><span class="p">;</span><span class="err">\</span>
@@ -4044,25 +4044,25 @@
 <span class="w">    </span><span class="kr">return</span>
 </code></pre></div>
 <p>Highlights the backslash (<code>\</code>) continuation character.</p>
-<p>See <a href="../../../bpp-plus-preprocessor/language-specification/statement-chaining/">BPP+ statement chaining</a>.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/language-specification/statement-chaining/">BPP+ Preprocessor - Statement chaining</a>.</p>
 <h2 id="comments">Comments<a class="headerlink" href="#comments" title="Anchor link to this section for reference">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1">rem BASIC comment</span>
 <span class="p">;</span><span class="w"> </span><span class="n">BPP</span><span class="o">+</span><span class="w"> </span><span class="n">comment</span>
 </code></pre></div>
 <p>Highlights both <code>rem</code> and <code>;</code> comment styles.</p>
-<p>See <a href="../../../bpp-plus-preprocessor/language-specification/lexical-structure/">BPP+ lexical structure</a>.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/language-specification/lexical-structure/">BPP+ Preprocessor - Lexical structure</a>.</p>
 <h2 id="blitz-compiler-control">Blitz! compiler control<a class="headerlink" href="#blitz-compiler-control" title="Anchor link to this section for reference">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">::</span><span class="w"> </span><span class="kr">print</span><span class="w"> </span><span class="s">"This line will not be compiled by Blitz!"</span>
 </code></pre></div>
 <p>The <code>::</code> prefix prevents Blitz! compilation, forcing runtime interpretation.</p>
-<p>See <a href="../../../bpp-plus-preprocessor/language-specification/blitz-basic-compiler/">Blitz! BASIC Compiler</a>.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/language-specification/blitz-basic-compiler/">BPP+ Preprocessor - Blitz! compiler</a>.</p>
 <h2 id="string-tokens">String tokens<a class="headerlink" href="#string-tokens" title="Anchor link to this section for reference">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="kr">print</span><span class="w"> </span><span class="s">"{clr}{wht}Text"</span>
 <span class="kr">print</span><span class="w"> </span><span class="s">"{10 space}"</span>
 <span class="kr">print</span><span class="w"> </span><span class="s">"{a-z}"</span>
 </code></pre></div>
 <p>Highlights token delimiters, content, repetition syntax, and ranges.</p>
-<p>See <a href="../../../bpp-plus-preprocessor/language-specification/petscii-control-codes/">BPP+ PETSCII control characters</a>.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/language-specification/petscii-control-codes/">BPP+ Preprocessor - PETSCII control characters</a>.</p>
 <h2 id="petscii-character-conversion">PETSCII character conversion<a class="headerlink" href="#petscii-character-conversion" title="Anchor link to this section for reference">¶</a></h2>
 <p>BPP+ automatically converts PETSCII characters to ASCII equivalents during preprocessing:</p>
 <ul>
@@ -4070,9 +4070,11 @@
 <li><code>←</code> (left arrow, 0x5F) → <code>_</code> (underscore)</li>
 <li><code>↑</code> (up arrow, 0x5E) → <code>^</code> (caret)</li>
 </ul>
-<p>Both forms are highlighted. Files created with C64 editors are handled.</p>
-<p>Note: <code>£</code> and <code>←</code> also serve as MCI commands and BASIC extensions. See <a href="../extension-symbols/">Extension symbols</a>.</p>
-<p>See <a href="../../../bpp-plus-preprocessor/language-specification/lexical-structure/#petscii-character-conversion">PETSCII character conversion</a>.</p>
+<p>These conversions handle files created with C64 editors or PETSCII-aware editors.</p>
+<p><strong>C*Base extensions:</strong></p>
+<p><code>£</code> and <code>←</code> also serve as C*Base MCI commands and Prof. Plum extensions. The <code>↑</code> character is purely for PETSCII conversion - it is NOT a C*Base command.</p>
+<p>See <a href="../extension-symbols/">Extension symbols</a> for highlighting behavior and C*Base extension details.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/language-specification/lexical-structure/#petscii-character-conversion">BPP+ Preprocessor - PETSCII character conversion</a>.</p>
 <h2 id="code-snippets">Code snippets<a class="headerlink" href="#code-snippets" title="Anchor link to this section for reference">¶</a></h2>
 <p>See <a href="../../language-support/code-snippets/">Code snippets</a>.</p>
 <h2 id="file-types">File types<a class="headerlink" href="#file-types" title="Anchor link to this section for reference">¶</a></h2>
@@ -4083,7 +4085,7 @@
 <hr>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Anchor link to this section for reference">¶</a></h2>
 <ul>
-<li><a href="../../../bpp-plus-preprocessor/">BPP+ preprocessor documentation</a></li>
+<li><a href="../../../bpp-plus-preprocessor/">BPP+ Preprocessor documentation</a></li>
 <li><a href="../../language-support/syntax-highlighting/">Syntax highlighting</a></li>
 <li><a href="../basic-v2-language/">BASIC v2 language reference</a></li>
 <li><a href="../extension-symbols/">Extension symbols</a></li>
@@ -4110,7 +4112,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 22, 2026 18:45:04 UTC">February 22, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 25, 2026 20:33:15 UTC">February 25, 2026</span>
   </span>
 
     

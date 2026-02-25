@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../../../../assets/favicon/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
     
     
       
@@ -3208,10 +3208,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#symbol-reference" class="md-nav__link">
+  <a href="#symbols" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Symbol reference
+        Symbols
       
     </span>
   </a>
@@ -3219,10 +3219,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prof-plum-print-shorthand" class="md-nav__link">
+  <a href="#highlighting-behavior" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prof. Plum print shorthand
+        Highlighting behavior
       
     </span>
   </a>
@@ -3230,10 +3230,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#petscii-conversion-character" class="md-nav__link">
+  <a href="#cbase-extensions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        PETSCII conversion character
+        C*Base extensions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#petscii-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PETSCII conversion
       
     </span>
   </a>
@@ -3748,10 +3759,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#symbol-reference" class="md-nav__link">
+  <a href="#symbols" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Symbol reference
+        Symbols
       
     </span>
   </a>
@@ -3759,10 +3770,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prof-plum-print-shorthand" class="md-nav__link">
+  <a href="#highlighting-behavior" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prof. Plum print shorthand
+        Highlighting behavior
       
     </span>
   </a>
@@ -3770,10 +3781,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#petscii-conversion-character" class="md-nav__link">
+  <a href="#cbase-extensions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        PETSCII conversion character
+        C*Base extensions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#petscii-conversion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PETSCII conversion
       
     </span>
   </a>
@@ -3812,15 +3834,14 @@
 
 
 <div><h1 id="extension-symbols">Extension symbols<a class="headerlink" href="#extension-symbols" title="Anchor link to this section for reference">¶</a></h1>
-<p>MCI commands and Prof. Plum extensions for C*Base BBS.</p>
-<h2 id="symbol-reference">Symbol reference<a class="headerlink" href="#symbol-reference" title="Anchor link to this section for reference">¶</a></h2>
+<p>Extension symbols highlighted by the extension.</p>
+<h2 id="symbols">Symbols<a class="headerlink" href="#symbols" title="Anchor link to this section for reference">¶</a></h2>
 <table>
 <thead>
 <tr>
 <th style="text-align: left;">Symbol</th>
 <th style="text-align: left;">MCI Command</th>
 <th style="text-align: left;">Prof. Plum Extension</th>
-<th style="text-align: left;">BASIC Extension</th>
 </tr>
 </thead>
 <tbody>
@@ -3828,41 +3849,38 @@
 <td style="text-align: left;"><code>@</code></td>
 <td style="text-align: left;">Yes</td>
 <td style="text-align: left;"><code>print:print#5</code></td>
-<td style="text-align: left;">No</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>←</code></td>
 <td style="text-align: left;">Yes</td>
 <td style="text-align: left;"><code>print;:print#5;</code></td>
-<td style="text-align: left;">Yes</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>£</code></td>
 <td style="text-align: left;">Yes</td>
 <td style="text-align: left;">No</td>
-<td style="text-align: left;">Yes</td>
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre><span></span><code><span class="err">@</span><span class="w"> </span><span class="s">"text"</span>
-<span class="err">←</span><span class="w"> </span><span class="s">"text"</span>
-<span class="err">£</span><span class="w"> </span><span class="n">MCI</span><span class="w"> </span><span class="n">Command</span>
+<h2 id="highlighting-behavior">Highlighting behavior<a class="headerlink" href="#highlighting-behavior" title="Anchor link to this section for reference">¶</a></h2>
+<p>These symbols are highlighted when used outside print statements. Inside print statements, they are not highlighted.</p>
+<div class="highlight"><pre><span></span><code><span class="err">@</span><span class="w"> </span><span class="s">"text"</span><span class="w">            </span><span class="c1">rem Highlighted</span>
+<span class="err">←</span><span class="w"> </span><span class="s">"text"</span><span class="w">            </span><span class="c1">rem Highlighted</span>
+<span class="err">£</span><span class="w"> </span><span class="n">MCI</span><span class="w"> </span><span class="n">Command</span><span class="w">       </span><span class="c1">rem Highlighted</span>
+
+<span class="kr">print</span><span class="w"> </span><span class="s">"@←£"</span><span class="w">         </span><span class="c1">rem Not highlighted inside string</span>
 </code></pre></div>
-<h2 id="prof-plum-print-shorthand">Prof. Plum print shorthand<a class="headerlink" href="#prof-plum-print-shorthand" title="Anchor link to this section for reference">¶</a></h2>
-<p>These symbols send output to both screen and modem simultaneously:</p>
-<ul>
-<li><code>@</code> - Expands to <code>print:print#5</code> (statement separator with colon)</li>
-<li><code>←</code> - Expands to <code>print;:print#5;</code> (statement separator with semicolon)</li>
-</ul>
-<p>Both shortcuts eliminate the need to manually type the dual-output pattern in C*Base source code context.</p>
-<h2 id="petscii-conversion-character">PETSCII conversion character<a class="headerlink" href="#petscii-conversion-character" title="Anchor link to this section for reference">¶</a></h2>
-<p><code>↑</code> (up arrow) is a BPP+ PETSCII conversion character, not a C*Base extension. See <a href="../bpp-plus-features/#petscii-character-conversion">PETSCII character conversion</a>.</p>
+<h2 id="cbase-extensions">C*Base extensions<a class="headerlink" href="#cbase-extensions" title="Anchor link to this section for reference">¶</a></h2>
+<p><code>@</code> and <code>←</code> serve as Prof. Plum print shorthand in C*Base BBS context.</p>
+<p>See <a href="../../../bpp-plus-preprocessor/language-specification/lexical-structure/#cbase-extension-symbols">BPP+ Preprocessor - C*Base extension symbols</a> for complete documentation.</p>
+<h2 id="petscii-conversion">PETSCII conversion<a class="headerlink" href="#petscii-conversion" title="Anchor link to this section for reference">¶</a></h2>
+<p><code>↑</code> (up arrow) is NOT a C*Base extension.</p>
+<p>See <a href="../bpp-plus-features/#petscii-character-conversion">PETSCII character conversion</a>.</p>
 <hr>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Anchor link to this section for reference">¶</a></h2>
 <ul>
-<li><a href="../basic-v2-language/">BASIC v2 language reference</a></li>
 <li><a href="../bpp-plus-features/">BPP+ features</a></li>
-<li><a href="../../language-support/syntax-highlighting/">Syntax highlighting</a></li>
+<li><a href="../basic-v2-language/">BASIC v2 language reference</a></li>
 </ul></div>
 
 
@@ -3886,7 +3904,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 22, 2026 18:45:04 UTC">February 22, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 25, 2026 20:33:15 UTC">February 25, 2026</span>
   </span>
 
     
