@@ -1,38 +1,42 @@
 # Extension symbols
 
-MCI commands and Prof. Plum extensions for C*Base BBS.
+Extension symbols highlighted by the extension.
 
-## Symbol reference
+## Symbols
 
-| Symbol | MCI Command | Prof. Plum Extension | BASIC Extension |
-| :----- | :---------- | :------------------- | :-------------- |
-| `@`    | Yes         | `print:print#5`      | No              |
-| `←`    | Yes         | `print;:print#5;`     | Yes             |
-| `£`    | Yes         | No                   | Yes             |
+| Symbol | MCI Command | Prof. Plum Extension |
+| :----- | :---------- | :------------------- |
+| `@`    | Yes         | `print:print#5`      |
+| `←`    | Yes         | `print;:print#5;`    |
+| `£`    | Yes         | No                   |
+
+## Highlighting behavior
+
+These symbols are highlighted when used outside print statements. Inside print statements, they are not highlighted.
 
 ```cbmbas
-@ "text"
-← "text"
-£ MCI Command
+@ "text"            rem Highlighted
+← "text"            rem Highlighted
+£ MCI Command       rem Highlighted
+
+print "@←£"         rem Not highlighted inside string
 ```
 
-## Prof. Plum print shorthand
+## C*Base extensions
 
-These symbols send output to both screen and modem simultaneously:
+`@` and `←` serve as Prof. Plum print shorthand in C*Base BBS context.
 
-- `@` - Expands to `print:print#5` (statement separator with colon)
-- `←` - Expands to `print;:print#5;` (statement separator with semicolon)
+See [BPP+ Preprocessor - C*Base extension symbols](../../bpp-plus-preprocessor/language-specification/lexical-structure.md#cbase-extension-symbols) for complete documentation.
 
-Both shortcuts eliminate the need to manually type the dual-output pattern in C\*Base source code context.
+## PETSCII conversion
 
-## PETSCII conversion character
+`↑` (up arrow) is NOT a C*Base extension.
 
-`↑` (up arrow) is a BPP+ PETSCII conversion character, not a C*Base extension. See [PETSCII character conversion](bpp-plus-features.md#petscii-character-conversion).
+See [PETSCII character conversion](bpp-plus-features.md#petscii-character-conversion).
 
 ---
 
 ## See also
 
-- [BASIC v2 language reference](basic-v2-language.md)
 - [BPP+ features](bpp-plus-features.md)
-- [Syntax highlighting](../language-support/syntax-highlighting.md)
+- [BASIC v2 language reference](basic-v2-language.md)

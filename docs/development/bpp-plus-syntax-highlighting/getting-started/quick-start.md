@@ -67,7 +67,7 @@ BPP+ features highlighted:
 
 BPP+ is a preprocessor that extends BASIC v2 with labels, scopes, and includes.
 
-See [BPP+ preprocessor documentation](../../bpp-plus-preprocessor/index.md) for language specification and [BPP+ features reference](../reference/bpp-plus-features.md) for highlighting details.
+See [BPP+ Preprocessor documentation](../../bpp-plus-preprocessor/index.md) for language specification and [BPP+ features reference](../reference/bpp-plus-features.md) for highlighting details.
 
 ## Using code snippets
 

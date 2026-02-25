@@ -6,7 +6,7 @@ BPP+ preprocessor features in `.bpp` files.
 
 BPP+ is a preprocessor that extends BASIC v2 with labels, scopes, and includes.
 
-See [BPP+ preprocessor documentation](../../bpp-plus-preprocessor/index.md) for language specification and compilation.
+See [BPP+ Preprocessor documentation](../../bpp-plus-preprocessor/index.md) for language specification and compilation.
 
 ## Labels
 
@@ -26,7 +26,7 @@ init:
 **Label definitions:** `main:`, `init:`
 **Label references:** `gosub init`, `goto loop`
 
-See [BPP+ symbol resolution](../../bpp-plus-preprocessor/language-specification/symbol-resolution.md).
+See [BPP+ Preprocessor - Symbol resolution](../../bpp-plus-preprocessor/language-specification/symbol-resolution.md).
 
 ## Scopes
 
@@ -52,7 +52,7 @@ main:
 **Scope delimiters:** `{` and `}`
 **Qualified references:** `screen.init`
 
-See [BPP+ scope hierarchies](../../bpp-plus-preprocessor/language-specification/scope-hierarchies.md).
+See [BPP+ Preprocessor - Scope hierarchies](../../bpp-plus-preprocessor/language-specification/scope-hierarchies.md).
 
 ## Include directives
 
@@ -67,7 +67,7 @@ ui: {
 
 Highlights the `!include` keyword, type specifiers (`source`/`data`), and file paths.
 
-See [BPP+ include directives](../../bpp-plus-preprocessor/language-specification/include-directives.md).
+See [BPP+ Preprocessor - Include directives](../../bpp-plus-preprocessor/language-specification/include-directives.md).
 
 ## Statement chaining
 
@@ -81,7 +81,7 @@ print_header:
 
 Highlights the backslash (`\`) continuation character.
 
-See [BPP+ statement chaining](../../bpp-plus-preprocessor/language-specification/statement-chaining.md).
+See [BPP+ Preprocessor - Statement chaining](../../bpp-plus-preprocessor/language-specification/statement-chaining.md).
 
 ## Comments
 
@@ -92,7 +92,7 @@ rem BASIC comment
 
 Highlights both `rem` and `;` comment styles.
 
-See [BPP+ lexical structure](../../bpp-plus-preprocessor/language-specification/lexical-structure.md).
+See [BPP+ Preprocessor - Lexical structure](../../bpp-plus-preprocessor/language-specification/lexical-structure.md).
 
 ## Blitz! compiler control
 
@@ -102,7 +102,7 @@ See [BPP+ lexical structure](../../bpp-plus-preprocessor/language-specification/
 
 The `::` prefix prevents Blitz! compilation, forcing runtime interpretation.
 
-See [Blitz! BASIC Compiler](../../bpp-plus-preprocessor/language-specification/blitz-basic-compiler.md).
+See [BPP+ Preprocessor - Blitz! compiler](../../bpp-plus-preprocessor/language-specification/blitz-basic-compiler.md).
 
 ## String tokens
 
@@ -114,7 +114,7 @@ print "{a-z}"
 
 Highlights token delimiters, content, repetition syntax, and ranges.
 
-See [BPP+ PETSCII control characters](../../bpp-plus-preprocessor/language-specification/petscii-control-codes.md).
+See [BPP+ Preprocessor - PETSCII control characters](../../bpp-plus-preprocessor/language-specification/petscii-control-codes.md).
 
 ## PETSCII character conversion
 
@@ -124,11 +124,15 @@ BPP+ automatically converts PETSCII characters to ASCII equivalents during prepr
 - `←` (left arrow, 0x5F) → `_` (underscore)
 - `↑` (up arrow, 0x5E) → `^` (caret)
 
-Both forms are highlighted. Files created with C64 editors are handled.
+These conversions handle files created with C64 editors or PETSCII-aware editors.
 
-Note: `£` and `←` also serve as MCI commands and BASIC extensions. See [Extension symbols](extension-symbols.md).
+**C*Base extensions:**
 
-See [PETSCII character conversion](../../bpp-plus-preprocessor/language-specification/lexical-structure.md#petscii-character-conversion).
+`£` and `←` also serve as C\*Base MCI commands and Prof. Plum extensions. The `↑` character is purely for PETSCII conversion - it is NOT a C\*Base command.
+
+See [Extension symbols](extension-symbols.md) for highlighting behavior and C\*Base extension details.
+
+See [BPP+ Preprocessor - PETSCII character conversion](../../bpp-plus-preprocessor/language-specification/lexical-structure.md#petscii-character-conversion).
 
 ## Code snippets
 
@@ -143,7 +147,7 @@ See [Code snippets](../language-support/code-snippets.md).
 
 ## See also
 
-- [BPP+ preprocessor documentation](../../bpp-plus-preprocessor/index.md)
+- [BPP+ Preprocessor documentation](../../bpp-plus-preprocessor/index.md)
 - [Syntax highlighting](../language-support/syntax-highlighting.md)
 - [BASIC v2 language reference](basic-v2-language.md)
 - [Extension symbols](extension-symbols.md)

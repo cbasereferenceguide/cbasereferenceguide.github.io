@@ -8,7 +8,7 @@
 
 ### Optional
 
-- [BPP+ preprocessor](https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/) - Adds labels, scopes, and modular compilation to BASIC v2
+- [BPP+ Preprocessor](https://cbasereferenceguide.github.io/development/bpp-plus-preprocessor/) - Adds labels, scopes, and modular compilation to BASIC v2
 - [Node.js](https://nodejs.org/) v16.0 or later - Required only for building from source
 - [vsce](https://github.com/microsoft/vscode-vsce) - Required only for building from source
 
@@ -31,13 +31,13 @@ Install the extension:
 1. Open Extensions panel (`Ctrl+Shift+X` or `Cmd+Shift+X`)
 2. Click the `⋯` menu (top-right of Extensions panel)
 3. Select **Install from VSIX**
-4. Navigate to `dist/bpp-plus-basic-v2-syntax-0.0.6.vsix`
+4. Navigate to `dist/bpp-plus-basic-v2-syntax-0.0.7.vsix`
 5. Click **Install**
 
 **Via command line:**
 
 ```bash
-code --install-extension dist/bpp-plus-basic-v2-syntax-0.0.6.vsix
+code --install-extension dist/bpp-plus-basic-v2-syntax-0.0.7.vsix
 ```
 
 ### Method 2: Build and install from source
@@ -54,7 +54,7 @@ npm install -g @vscode/vsce
 npm run package
 ```
 
-The package command creates `dist/bpp-plus-basic-v2-syntax-0.0.6.vsix`.
+The package command creates `dist/bpp-plus-basic-v2-syntax-0.0.7.vsix`.
 
 Install using VS Code UI or command line (see Method 1).
 

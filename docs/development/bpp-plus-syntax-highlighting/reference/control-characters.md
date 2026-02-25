@@ -134,6 +134,6 @@ The preprocessor processes tokens left-to-right, converting each to its compiled
 
 ## See also
 
-- [BPP+ PETSCII control characters](../../bpp-plus-preprocessor/language-specification/petscii-control-codes.md)
+- [BPP+ Preprocessor - PETSCII control characters](../../bpp-plus-preprocessor/language-specification/petscii-control-codes.md)
 - [Code snippets](../language-support/code-snippets.md)
 - [BASIC v2 language reference](basic-v2-language.md)
