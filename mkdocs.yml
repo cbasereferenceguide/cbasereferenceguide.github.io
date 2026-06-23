@@ -168,6 +168,19 @@ nav:
     - Viewers: petscii/viewers.md
   - Development:
     - development/index.md
+    - C*Base PETSCII Viewer:
+      - development/cbase-petscii-viewer/index.md
+      - Installation: development/cbase-petscii-viewer/getting-started/installation.md
+      - Quick Start: development/cbase-petscii-viewer/getting-started/quick-start.md
+      - Viewer Controls:
+        - .seq Viewer: development/cbase-petscii-viewer/viewer-controls/seq-viewer.md
+        - .petmate Viewer: development/cbase-petscii-viewer/viewer-controls/petmate-viewer.md
+      - Reference:
+        - Color Palettes: development/cbase-petscii-viewer/reference/color-palettes.md
+        - PETSCII Control Codes: development/cbase-petscii-viewer/reference/petscii-control-codes.md
+      - Advanced Topics:
+        - Development: development/cbase-petscii-viewer/advanced-topics/development.md
+        - Rendering: development/cbase-petscii-viewer/advanced-topics/rendering.md
     - BPP+ Preprocessor:
       - development/bpp-plus-preprocessor/index.md
       - Installation: development/bpp-plus-preprocessor/getting-started/installation.md

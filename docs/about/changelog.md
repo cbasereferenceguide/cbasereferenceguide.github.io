@@ -9,6 +9,12 @@
 
 # Changelog [^1]
 
+## [0.2.4] - 2026-06-23
+
+### Added
+- Development
+    - [C*Base PETSCII Viewer](../development/cbase-petscii-viewer/index.md)
+
 ## [0.2.3] - 2026-02-25
 
 ### Changed
