@@ -4,7 +4,23 @@
 
 Tools for Commodore 64 BASIC v2 cross-development, part of the **C\*Base Larry Mod v3.1** package.
 
-## BPP+ Preprocessor [^1]
+## C\*Base PETSCII Viewer [^1]
+
+C\*Base PETSCII Viewer renders Commodore 64 BBS sequence files directly in VS Code. Uses the embedded C64 character ROM for pixel-accurate bitmap output — no font installation required. Activates automatically when opening `.seq` or `.petmate` files.
+
+### Features
+
+- C64 bitmap rendering via embedded character ROM (no anti-aliasing)
+- Full 16-color C64 palette with six presets (CGTerm, Colodore, PALette, Pepto, Petmate, VICE)
+- Charset auto-detection — `.seq` from file bytes; `.petmate` per page
+- MCI command display toggle (`£`-commands and `@:`-commands)
+- CLS (`$93`) break indicator — fluorescent green dotted line (`.seq` only)
+- Drag-to-resize column width, 20–200 columns (`.seq` only)
+- `.petmate` multi-page viewer with page navigation
+
+[C\*Base PETSCII Viewer documentation](cbase-petscii-viewer/overview.md) | [GitHub repository](https://github.com/cbase-larrymod/cbase-petscii-viewer)
+
+## BPP+ Preprocessor [^2]
 
 BPP+ adds labels, scopes, and file includes to Commodore 64 BASIC v2. Write code with symbolic names instead of line numbers, organize code in scoped blocks, and split projects into multiple files. The preprocessor converts this enhanced syntax into standard BASIC v2.
 
@@ -19,7 +35,7 @@ BPP+ adds labels, scopes, and file includes to Commodore 64 BASIC v2. Write code
 
 [BPP+ Preprocessor documentation](bpp-plus-preprocessor/index.md) | [GitHub repository](https://github.com/cbase-larrymod/bpp-plus)
 
-## BPP+ Syntax Highlighting [^2]
+## BPP+ Syntax Highlighting [^1]
 
 Syntax highlighting and code snippets for standard BASIC v2 and the BPP+ preprocessor.
 
@@ -32,5 +48,5 @@ Syntax highlighting and code snippets for standard BASIC v2 and the BPP+ preproc
 
 [BPP+ Syntax Highlighting documentation](bpp-plus-syntax-highlighting/index.md) | [GitHub repository](https://github.com/cbase-larrymod/bpp-plus-syntax-highlighting)
 
-[^1]: Extended from the [original BPP preprocessor](https://github.com/hbekel/bpp) by Henning Liebenau.
-[^2]: For [Visual Studio Code](https://code.visualstudio.com/)
+[^1]: For [Visual Studio Code](https://code.visualstudio.com/)
+[^2]: Extended from the [original BPP preprocessor](https://github.com/hbekel/bpp) by Henning Liebenau.
