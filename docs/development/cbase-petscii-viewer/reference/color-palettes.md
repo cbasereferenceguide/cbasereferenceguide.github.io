@@ -48,5 +48,4 @@ The selected palette is saved to VS Code workspace state and restored when you r
 
 ## See also
 
-- [.seq viewer controls](../viewer-controls/seq-viewer.md)
-- [.petmate viewer controls](../viewer-controls/petmate-viewer.md)
+- [Viewer controls](../viewer-controls/controls.md)

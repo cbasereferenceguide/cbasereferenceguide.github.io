@@ -1,6 +1,13 @@
-# .seq viewer controls
+# Viewer controls
 
-Toolbar controls for PETSCII sequence files.
+Toolbar controls for the `.seq` and `.petmate` viewers. Controls marked **(.seq only)** or **(.petmate only)** are file-type specific; the rest are shared.
+
+## Page navigation (.petmate only)
+
+**Buttons:** `‹` (previous) / `›` (next)  
+**Indicator:** `Page X/N`
+
+Navigate between pages in the `.petmate` file. Buttons are disabled at the first and last page respectively.
 
 ## Charset toggle
 
@@ -11,17 +18,19 @@ Switches between the two C64 character sets:
 - **Lowercase charset** — lowercase letters, uppercase via Shift. Common for mixed-case BBS text.
 - **Uppercase charset** — uppercase letters and graphics/symbol characters. Used for PETSCII art with block graphics.
 
-The charset is auto-detected from `$0E` (lowercase) or `$8E` (uppercase) if either byte appears in the first 10 bytes of the file. When no indicator is present the file opens in lowercase. The button reflects the detected state and can be toggled manually.
+**In `.seq` files:** the charset is auto-detected from `$0E` (lowercase) or `$8E` (uppercase) if either byte appears in the first 10 bytes of the file. When no indicator is present the file opens in lowercase.
+
+**In `.petmate` files:** the charset is auto-detected from each page's `charset` field in the JSON (`"upper"` or `"lower"`) and applied when navigating to that page. Manual toggles are tracked per page within the session — navigating away and back restores the manual override if one was set, otherwise the page's stored charset is reapplied.
 
 ## MCI Commands
 
 **Button:** `MCI Commands` (dimmed when hidden)
 
-Shows or hides inline MCI command tokens embedded in the sequence. When hidden, tokens are stripped from the display and the remaining characters reflow to fill the row.
+Shows or hides inline MCI command tokens. When hidden, tokens are stripped from the display and the remaining characters reflow to fill the row.
 
-See [MCI commands](../reference/mci-commands.md) for recognized syntax.
+In `.petmate` files, detection uses screen-code equivalents and is charset-independent.
 
-## Show CLS ($93)
+## Show CLS ($93) (.seq only)
 
 **Button:** `Show CLS ($93)` (dimmed when hidden)
 
@@ -39,9 +48,11 @@ Selects the color palette for all 16 C64 colors. See [Color palettes](../referen
 
 **16 colored squares** to the right of the palette selector.
 
-Click any swatch to set that color as the C64 background. The active swatch is highlighted with a white border. The default is Black (index 0).
+Click any swatch to set the background color. The active swatch is highlighted with a white border.
 
-## Column width controls
+In `.seq` files, the default is Black (index 0). In `.petmate` files, the click overrides the stored page background for the current session only — the file is not changed.
+
+## Column width controls (.seq only)
 
 The right side of the toolbar shows canvas dimensions, e.g. `40×120`.
 
@@ -55,6 +66,5 @@ The right side of the toolbar shows canvas dimensions, e.g. `40×120`.
 
 ## See also
 
-- [.petmate viewer controls](petmate-viewer.md)
-- [MCI commands](../reference/mci-commands.md)
 - [PETSCII control codes](../reference/petscii-control-codes.md)
+- [Color palettes](../reference/color-palettes.md)

@@ -172,9 +172,7 @@ nav:
       - development/cbase-petscii-viewer/index.md
       - Installation: development/cbase-petscii-viewer/getting-started/installation.md
       - Quick Start: development/cbase-petscii-viewer/getting-started/quick-start.md
-      - Viewer Controls:
-        - .seq Viewer: development/cbase-petscii-viewer/viewer-controls/seq-viewer.md
-        - .petmate Viewer: development/cbase-petscii-viewer/viewer-controls/petmate-viewer.md
+      - Viewer Controls: development/cbase-petscii-viewer/viewer-controls/controls.md
       - Reference:
         - Color Palettes: development/cbase-petscii-viewer/reference/color-palettes.md
         - PETSCII Control Codes: development/cbase-petscii-viewer/reference/petscii-control-codes.md

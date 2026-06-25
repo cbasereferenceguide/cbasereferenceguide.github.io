@@ -57,5 +57,4 @@ Any other byte in the control range (`< $20` or `$80`–`$9F`) not listed above 
 
 ## See also
 
-- [MCI commands](mci-commands.md)
-- [.seq viewer controls](../viewer-controls/seq-viewer.md)
+- [Viewer controls](../viewer-controls/controls.md)

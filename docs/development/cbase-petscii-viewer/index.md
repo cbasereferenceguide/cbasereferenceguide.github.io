@@ -32,11 +32,9 @@ Part of the **C\*Base Larry Mod v3.1** development package.
 
 ## Documentation
 
-- [.seq viewer controls](viewer-controls/seq-viewer.md)
-- [.petmate viewer controls](viewer-controls/petmate-viewer.md)
+- [Viewer controls](viewer-controls/controls.md)
 - [Color palettes](reference/color-palettes.md)
 - [PETSCII control codes](reference/petscii-control-codes.md)
-- [MCI commands](reference/mci-commands.md)
 - [Rendering](advanced-topics/rendering.md)
 - [Development and testing](advanced-topics/development.md)
 

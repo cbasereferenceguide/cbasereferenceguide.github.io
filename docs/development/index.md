@@ -52,4 +52,3 @@ Syntax highlighting and code snippets for standard BASIC v2 and the BPP+ preproc
 [^1]: For [Visual Studio Code](https://code.visualstudio.com/)
 [^2]: Read more about these [MCI commands and Prof. Plum extensions](bpp-plus-preprocessor/language-specification/lexical-structure/#cbase-extension-symbols) here.
 [^3]: Extended from the [original BPP preprocessor](https://github.com/hbekel/bpp) by Henning Liebenau.
-

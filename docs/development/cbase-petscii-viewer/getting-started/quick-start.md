@@ -35,6 +35,5 @@ To open files via Command Palette: `Ctrl+Shift+P` → **C\*Base: Open .petmate F
 
 ## Next steps
 
-- [.seq viewer controls](../viewer-controls/seq-viewer.md)
-- [.petmate viewer controls](../viewer-controls/petmate-viewer.md)
+- [Viewer controls](../viewer-controls/controls.md)
 - [Color palettes](../reference/color-palettes.md)

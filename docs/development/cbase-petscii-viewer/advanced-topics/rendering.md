@@ -57,4 +57,4 @@ The charset toggle selects which half of the ROM to read glyphs from. Re-renderi
 
 - [Color palettes](../reference/color-palettes.md)
 - [PETSCII control codes](../reference/petscii-control-codes.md)
-- [.seq viewer controls](../viewer-controls/seq-viewer.md)
+- [Viewer controls](../viewer-controls/controls.md)
