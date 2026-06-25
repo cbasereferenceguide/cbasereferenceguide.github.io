@@ -13,7 +13,8 @@ Part of the **C\*Base Larry Mod v3.1** development package.
 - C64 bitmap rendering via embedded character ROM — zero anti-aliasing, pixel-accurate output
 - Full 16-color palette with six presets sourced from authoritative references
 - Uppercase/graphics and lowercase charset toggle
-- MCI command display toggle (`£`-commands and `@:`-commands)
+- MCI command display toggle (`@`-commands and `←`-commands) [^1]
+- MCI command display toggle (`£`-commands) [^1]
 - CLS (`$93`) break indicator (`.seq` only)
 - Variable column width with drag-to-resize (`.seq` only)
 - VS Code theme-aware background
@@ -47,3 +48,5 @@ Part of the **C\*Base Larry Mod v3.1** development package.
 ## GitHub repository
 
 Source code, issue tracking, and releases: [GitHub](https://github.com/cbase-larrymod/cbase-petscii-viewer).
+
+[^1]: Read more about these [MCI commands and Prof. Plum extensions](bpp-plus-preprocessor/language-specification/lexical-structure/#cbase-extension-symbols) here.

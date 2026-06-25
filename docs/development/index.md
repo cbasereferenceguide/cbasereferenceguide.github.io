@@ -13,14 +13,15 @@ C\*Base PETSCII Viewer renders Commodore 64 BBS sequence files directly in VS Co
 - C64 bitmap rendering via embedded character ROM (no anti-aliasing)
 - Full 16-color C64 palette with six presets (CGTerm, Colodore, PALette, Pepto, Petmate, VICE)
 - Charset auto-detection — `.seq` from file bytes; `.petmate` per page
-- MCI command display toggle (`£`-commands and `@:`-commands)
+- MCI command display toggle (`@`-commands and `←`-commands) [^2]
+- MCI command display toggle (`£`-commands) [^2]
 - CLS (`$93`) break indicator — fluorescent green dotted line (`.seq` only)
 - Drag-to-resize column width, 20–200 columns (`.seq` only)
 - `.petmate` multi-page viewer with page navigation
 
 [C\*Base PETSCII Viewer documentation](cbase-petscii-viewer/overview.md) | [GitHub repository](https://github.com/cbase-larrymod/cbase-petscii-viewer)
 
-## BPP+ Preprocessor [^2]
+## BPP+ Preprocessor [^3]
 
 BPP+ adds labels, scopes, and file includes to Commodore 64 BASIC v2. Write code with symbolic names instead of line numbers, organize code in scoped blocks, and split projects into multiple files. The preprocessor converts this enhanced syntax into standard BASIC v2.
 
@@ -49,4 +50,6 @@ Syntax highlighting and code snippets for standard BASIC v2 and the BPP+ preproc
 [BPP+ Syntax Highlighting documentation](bpp-plus-syntax-highlighting/index.md) | [GitHub repository](https://github.com/cbase-larrymod/bpp-plus-syntax-highlighting)
 
 [^1]: For [Visual Studio Code](https://code.visualstudio.com/)
-[^2]: Extended from the [original BPP preprocessor](https://github.com/hbekel/bpp) by Henning Liebenau.
+[^2]: Read more about these [MCI commands and Prof. Plum extensions](bpp-plus-preprocessor/language-specification/lexical-structure/#cbase-extension-symbols) here.
+[^3]: Extended from the [original BPP preprocessor](https://github.com/hbekel/bpp) by Henning Liebenau.
+
