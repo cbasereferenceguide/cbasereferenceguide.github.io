@@ -96,6 +96,30 @@ See [BPP+ Preprocessor - Lexical structure](../../bpp-plus-preprocessor/language
 
 ## Blitz! compiler control
 
+Three forms of Blitz! compiler directives are supported, all highlighted as preprocessor directives:
+
+### rem ** form (native Blitz!)
+
+```cbmbas
+rem ** se
+rem ** ia
+rem ** sp 1234
+```
+
+The `rem **` prefix is the native Blitz! directive syntax. These are matched before regular `rem` comments so they are not treated as ordinary comments.
+
+### !blitz form (BPP+)
+
+```cbmbas
+!blitz se
+!blitz ia
+!blitz sp 1234
+```
+
+The `!blitz` form is the BPP+ alternative syntax. It converts to `rem **` during preprocessing and is highlighted identically.
+
+### :: extension marker
+
 ```cbmbas
 :: print "This line will not be compiled by Blitz!"
 ```

@@ -133,6 +133,37 @@ return
 
 See [BPP+ features](../reference/bpp-plus-features.md#statement-chaining).
 
+### System variables
+
+Reserved BASIC v2 system variables, distinguished from regular user variables:
+
+```cbmbas
+if st<>0 then print "i/o error"
+t = ti
+t$ = ti$
+```
+
+- **`st`** - I/O status word (updated after each I/O operation)
+- **`ti`** - Jiffy clock counter (increments 60 times per second)
+- **`ti$`** - Jiffy clock as six-digit time string (`HHMMSS`)
+
+### Blitz! directives
+
+Blitz! compiler control directives, all highlighted as preprocessor directives:
+
+```cbmbas
+rem ** se
+rem ** ia
+!blitz sp 1234
+:: print "runtime only"
+```
+
+- **`rem **`** - Native Blitz! directive (matched before regular comments)
+- **`!blitz`** - BPP+ alternative form, equivalent to `rem **`
+- **`::`** - Extension marker, forces runtime interpretation of the following statement
+
+See [BPP+ features](../reference/bpp-plus-features.md#blitz-compiler-control).
+
 ### Extension symbols
 
 See [Extension symbols](../reference/extension-symbols.md) for MCI commands and Prof. Plum extensions.
@@ -148,6 +179,7 @@ Semantic token types adapt to your VS Code color theme:
 - Strings
 - Comments
 - Variables
+- Preprocessor directives
 
 Choose your preferred color theme in VS Code settings.
 

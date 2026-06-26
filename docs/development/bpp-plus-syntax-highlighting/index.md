@@ -26,6 +26,8 @@ view_Opening:
 
 - Syntax highlighting for all BASIC v2 keywords, functions, and operators
 - BPP+ feature highlighting (labels, scopes, includes, statement chaining)
+- Blitz! compiler directive support (`rem **`, `!blitz`, `::`)
+- Extension symbols (MCI commands: `@`, `←`, `£`)
 - 100+ code snippets for commands, functions, and PETSCII control characters
 - Works with `.bas` and `.bpp` files
 

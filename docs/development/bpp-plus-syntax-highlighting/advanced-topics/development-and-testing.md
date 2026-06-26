@@ -129,12 +129,18 @@ Each pattern rule contains:
 
 VS Code uses hierarchical scope names that map to theme colors:
 
-- `keyword.control` - Control flow keywords
-- `entity.name.function` - Function declarations
-- `entity.name.label` - Labels and targets
+- `keyword.control` - Control flow keywords (`for`, `gosub`, `if`, etc.)
+- `keyword.other` - I/O and storage keywords (`print`, `data`, etc.)
+- `keyword.operator` - Operators and statement chaining (`+`, `\`)
+- `support.function` - Built-in functions (`abs`, `chr$`, etc.)
+- `storage.type` - Declaration keywords (`dim`, `def`)
+- `entity.name.function` - Labels (definitions and references)
+- `variable.language` - Reserved system variables (`st`, `ti`, `ti$`)
+- `variable.other` - User-defined variables
 - `string.quoted.double` - String literals
-- `comment.line` - Line comments
+- `comment.line` - Line comments (`rem`, `;`)
 - `constant.numeric` - Numeric literals
+- `meta.preprocessor` - BPP+ preprocessor directives (`!blitz`, `rem **`, `::`, `!include`)
 
 ### Testing grammar changes
 

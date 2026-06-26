@@ -53,11 +53,13 @@ BASIC v2 built-in functions categorized by purpose:
 
 ### System functions
 
-`fre`, `peek`, `pos`, `usr`
+`fre`, `peek`, `pos`, `spc`, `tab`, `usr`
 
 - **`fre(0)`** - Returns free BASIC memory in bytes
 - **`peek(addr)`** - Reads byte from memory address
 - **`pos(0)`** - Returns cursor column position (0-39)
+- **`spc(n)`** - Prints n spaces (used inside `print` statements)
+- **`tab(n)`** - Moves cursor to column n (used inside `print` statements)
 - **`usr(x)`** - Calls machine language routine
 
 ```cbmbas
@@ -79,7 +81,7 @@ a = fn sq(5)
 
 ## I/O and disk keywords
 
-`print`, `print#`, `input`, `input#`, `open`, `close`, `load`, `list`, `save`, `restore`, `read`, `get`, `get#`, `poke`, `peek`, `sys`, `run`, `verify`, `wait`
+`print`, `print#`, `input`, `input#`, `open`, `close`, `load`, `list`, `save`, `restore`, `read`, `get`, `get#`, `poke`, `sys`, `run`, `verify`, `wait`, `clr`, `cmd`, `cont`, `new`
 
 ```cbmbas
 print "Hello"
@@ -88,6 +90,8 @@ open 1,8,2,"file,s,w"
 load "program",8
 poke 53280,0
 sys 49152
+clr
+cmd 1,"output.txt"
 ```
 
 ## Storage keywords
@@ -99,6 +103,20 @@ dim array(10)
 data 1,2,3,4,5
 read a,b,c
 let x = 42
+```
+
+## System variables
+
+Reserved BASIC v2 variables maintained by the interpreter, highlighted differently from regular user variables:
+
+- **`st`** - I/O status word; updated after each I/O operation (0 = OK)
+- **`ti`** - Jiffy clock counter; increments 60 times per second; resets to 0 on `RUN`
+- **`ti$`** - Jiffy clock as a six-character string in `HHMMSS` format; writable to set the clock
+
+```cbmbas
+if st<>0 then print "i/o error"
+t = ti
+t$ = ti$
 ```
 
 ## Variables
