@@ -3469,6 +3469,28 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#system-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System variables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blitz-directives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blitz! directives
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#extension-symbols" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4395,6 +4417,28 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#system-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System variables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blitz-directives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blitz! directives
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#extension-symbols" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4534,6 +4578,30 @@
 <span class="kr">return</span>
 </code></pre></div>
 <p>See <a href="../../reference/bpp-plus-features/#statement-chaining">BPP+ features</a>.</p>
+<h3 id="system-variables">System variables<a class="headerlink" href="#system-variables" title="Anchor link to this section for reference">¶</a></h3>
+<p>Reserved BASIC v2 system variables, distinguished from regular user variables:</p>
+<div class="highlight"><pre><span></span><code><span class="kr">if</span><span class="w"> </span><span class="n">st</span><span class="o">&lt;&gt;</span><span class="mf">0</span><span class="w"> </span><span class="kr">then</span><span class="w"> </span><span class="kr">print</span><span class="w"> </span><span class="s">"i/o error"</span>
+<span class="n">t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ti</span>
+<span class="n">t$</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ti$</span>
+</code></pre></div>
+<ul>
+<li><strong><code>st</code></strong> - I/O status word (updated after each I/O operation)</li>
+<li><strong><code>ti</code></strong> - Jiffy clock counter (increments 60 times per second)</li>
+<li><strong><code>ti$</code></strong> - Jiffy clock as six-digit time string (<code>HHMMSS</code>)</li>
+</ul>
+<h3 id="blitz-directives">Blitz! directives<a class="headerlink" href="#blitz-directives" title="Anchor link to this section for reference">¶</a></h3>
+<p>Blitz! compiler control directives, all highlighted as preprocessor directives:</p>
+<div class="highlight"><pre><span></span><code><span class="c1">rem ** se</span>
+<span class="c1">rem ** ia</span>
+<span class="err">!</span><span class="n">blitz</span><span class="w"> </span><span class="n">sp</span><span class="w"> </span><span class="mf">1234</span>
+<span class="p">::</span><span class="w"> </span><span class="kr">print</span><span class="w"> </span><span class="s">"runtime only"</span>
+</code></pre></div>
+<ul>
+<li><strong><code>rem **</code></strong> - Native Blitz! directive (matched before regular comments)</li>
+<li><strong><code>!blitz</code></strong> - BPP+ alternative form, equivalent to <code>rem **</code></li>
+<li><strong><code>::</code></strong> - Extension marker, forces runtime interpretation of the following statement</li>
+</ul>
+<p>See <a href="../../reference/bpp-plus-features/#blitz-compiler-control">BPP+ features</a>.</p>
 <h3 id="extension-symbols">Extension symbols<a class="headerlink" href="#extension-symbols" title="Anchor link to this section for reference">¶</a></h3>
 <p>See <a href="../../reference/extension-symbols/">Extension symbols</a> for MCI commands and Prof. Plum extensions.</p>
 <h2 id="color-schemes">Color schemes<a class="headerlink" href="#color-schemes" title="Anchor link to this section for reference">¶</a></h2>
@@ -4546,6 +4614,7 @@
 <li>Strings</li>
 <li>Comments</li>
 <li>Variables</li>
+<li>Preprocessor directives</li>
 </ul>
 <p>Choose your preferred color theme in VS Code settings.</p>
 <hr>
@@ -4577,7 +4646,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 22, 2026 18:45:04 UTC">February 22, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 26, 2026 14:27:17 UTC">June 26, 2026</span>
   </span>
 
     

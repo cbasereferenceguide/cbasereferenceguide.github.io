@@ -3627,6 +3627,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#system-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System variables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#variables" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4395,6 +4406,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#system-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System variables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#variables" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4552,11 +4574,13 @@
 <li><strong><code>val(str$)</code></strong> - Converts string to number</li>
 </ul>
 <h3 id="system-functions">System functions<a class="headerlink" href="#system-functions" title="Anchor link to this section for reference">¶</a></h3>
-<p><code>fre</code>, <code>peek</code>, <code>pos</code>, <code>usr</code></p>
+<p><code>fre</code>, <code>peek</code>, <code>pos</code>, <code>spc</code>, <code>tab</code>, <code>usr</code></p>
 <ul>
 <li><strong><code>fre(0)</code></strong> - Returns free BASIC memory in bytes</li>
 <li><strong><code>peek(addr)</code></strong> - Reads byte from memory address</li>
 <li><strong><code>pos(0)</code></strong> - Returns cursor column position (0-39)</li>
+<li><strong><code>spc(n)</code></strong> - Prints n spaces (used inside <code>print</code> statements)</li>
+<li><strong><code>tab(n)</code></strong> - Moves cursor to column n (used inside <code>print</code> statements)</li>
 <li><strong><code>usr(x)</code></strong> - Calls machine language routine</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">abs</span><span class="p">(</span><span class="o">-</span><span class="mf">5</span><span class="p">)</span>
@@ -4571,13 +4595,15 @@
 <span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">fn</span><span class="w"> </span><span class="n">sq</span><span class="p">(</span><span class="mf">5</span><span class="p">)</span>
 </code></pre></div>
 <h2 id="io-and-disk-keywords">I/O and disk keywords<a class="headerlink" href="#io-and-disk-keywords" title="Anchor link to this section for reference">¶</a></h2>
-<p><code>print</code>, <code>print#</code>, <code>input</code>, <code>input#</code>, <code>open</code>, <code>close</code>, <code>load</code>, <code>list</code>, <code>save</code>, <code>restore</code>, <code>read</code>, <code>get</code>, <code>get#</code>, <code>poke</code>, <code>peek</code>, <code>sys</code>, <code>run</code>, <code>verify</code>, <code>wait</code></p>
+<p><code>print</code>, <code>print#</code>, <code>input</code>, <code>input#</code>, <code>open</code>, <code>close</code>, <code>load</code>, <code>list</code>, <code>save</code>, <code>restore</code>, <code>read</code>, <code>get</code>, <code>get#</code>, <code>poke</code>, <code>sys</code>, <code>run</code>, <code>verify</code>, <code>wait</code>, <code>clr</code>, <code>cmd</code>, <code>cont</code>, <code>new</code></p>
 <div class="highlight"><pre><span></span><code><span class="kr">print</span><span class="w"> </span><span class="s">"Hello"</span>
 <span class="kr">input</span><span class="w"> </span><span class="s">"Name"</span><span class="p">;</span><span class="n">n$</span>
 <span class="kr">open</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="mf">8</span><span class="p">,</span><span class="mf">2</span><span class="p">,</span><span class="s">"file,s,w"</span>
 <span class="kr">load</span><span class="w"> </span><span class="s">"program"</span><span class="p">,</span><span class="mf">8</span>
 <span class="kr">poke</span><span class="w"> </span><span class="mf">53280</span><span class="p">,</span><span class="mf">0</span>
 <span class="kr">sys</span><span class="w"> </span><span class="mf">49152</span>
+<span class="kr">clr</span>
+<span class="kr">cmd</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="s">"output.txt"</span>
 </code></pre></div>
 <h2 id="storage-keywords">Storage keywords<a class="headerlink" href="#storage-keywords" title="Anchor link to this section for reference">¶</a></h2>
 <p><code>dim</code>, <code>data</code>, <code>let</code>, <code>def</code></p>
@@ -4585,6 +4611,17 @@
 <span class="kd">data</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="mf">2</span><span class="p">,</span><span class="mf">3</span><span class="p">,</span><span class="mf">4</span><span class="p">,</span><span class="mf">5</span>
 <span class="kr">read</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span>
 <span class="kd">let</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">42</span>
+</code></pre></div>
+<h2 id="system-variables">System variables<a class="headerlink" href="#system-variables" title="Anchor link to this section for reference">¶</a></h2>
+<p>Reserved BASIC v2 variables maintained by the interpreter, highlighted differently from regular user variables:</p>
+<ul>
+<li><strong><code>st</code></strong> - I/O status word; updated after each I/O operation (0 = OK)</li>
+<li><strong><code>ti</code></strong> - Jiffy clock counter; increments 60 times per second; resets to 0 on <code>RUN</code></li>
+<li><strong><code>ti$</code></strong> - Jiffy clock as a six-character string in <code>HHMMSS</code> format; writable to set the clock</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kr">if</span><span class="w"> </span><span class="n">st</span><span class="o">&lt;&gt;</span><span class="mf">0</span><span class="w"> </span><span class="kr">then</span><span class="w"> </span><span class="kr">print</span><span class="w"> </span><span class="s">"i/o error"</span>
+<span class="n">t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ti</span>
+<span class="n">t$</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ti$</span>
 </code></pre></div>
 <h2 id="variables">Variables<a class="headerlink" href="#variables" title="Anchor link to this section for reference">¶</a></h2>
 <p>Variable names with optional type suffixes:</p>
@@ -4680,7 +4717,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 22, 2026 18:45:04 UTC">February 22, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 26, 2026 14:27:17 UTC">June 26, 2026</span>
   </span>
 
     
